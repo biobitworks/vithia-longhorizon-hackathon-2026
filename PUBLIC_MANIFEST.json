@@ -1,6 +1,6 @@
 {
-  "bundle_fco_id": "fco:02cf05212b890f1e4206e0c81d54f17b30f4fe5fe309d28fb7046ad978f79c77",
-  "bundle_fco_path": "publication/objects/02cf05212b890f1e4206e0c81d54f17b30f4fe5fe309d28fb7046ad978f79c77.json",
+  "bundle_fco_id": "fco:cae24faabd51e5e832ba518bdba82e59efd83379c76eab6058fd231110482a00",
+  "bundle_fco_path": "publication/objects/cae24faabd51e5e832ba518bdba82e59efd83379c76eab6058fd231110482a00.json",
   "files": [
     {
       "bytes": 80,
@@ -58,9 +58,9 @@
       "sha256": "cc3c5f0485c88e701b1c3d84c72fb8d3040d98113f4593f2c755faeadb2bb8a2"
     },
     {
-      "bytes": 2722155,
+      "bytes": 40565868,
       "path": "demo.mp4",
-      "sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db"
+      "sha256": "f88c29331642a26d8233d865a5ebba52c1c1c6bdaa19ee16455499d75521cecc"
     },
     {
       "bytes": 1961,
@@ -553,6 +553,11 @@
       "sha256": "ccb2fbfeaa86f6d583e1189c8b34daf4e512667507cba0f9f10dea5fc5565586"
     },
     {
+      "bytes": 3468,
+      "path": "evidence/media/FINAL_VIDEO_EDIT_RECEIPT.json",
+      "sha256": "77e27bd9bcaf6979076dbd460781a42913914aacb3243f62174d2e01aea9bae8"
+    },
+    {
       "bytes": 1422,
       "path": "evidence/media/MEDIA_PROVENANCE.json",
       "sha256": "595f74b1b422c978fe1656c650d11ab2e4a71268e376d232606f2287d860589b"
@@ -838,6 +843,16 @@
       "sha256": "b6b81c33ffa19596ccfec788c9b87cd787a6b8bbf768a20a97099ee3db55279d"
     },
     {
+      "bytes": 6384,
+      "path": "scripts/build_final_walkthrough.py",
+      "sha256": "394e39321f0219195367f39306875e07398d244ab4e859df47256254d075106f"
+    },
+    {
+      "bytes": 4783,
+      "path": "scripts/reseal_final_video.py",
+      "sha256": "7fa200d701aadc6d057a6ee3f53c8da7328d3c1349eac522f982565a44c1ca85"
+    },
+    {
       "bytes": 4760,
       "path": "scripts/reseal_publication.py",
       "sha256": "a954923725230ee6070d567e376e7627570b659cbc1e61060529be6e04223b40"
@@ -890,22 +905,22 @@
     {
       "bytes": 5969,
       "path": "vithia/integrity.py",
-      "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
+      "sha256": "82db6a85b424157d52010b44a939417aeda641ab4eba108166f3223ed6544acd"
     }
   ],
-  "manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
-  "manifest_version": 5,
+  "manifest_sha256": "cdf48cf894b452ba9c26454e66b8bc8e259fba65c534d6608151f8ab445a0b7d",
+  "manifest_version": 6,
   "payload_scope": "all repository files present at content sealing except publication/*, PUBLIC_MANIFEST.json, .git/*, __pycache__/*, *.pyc, .vercel/*, and post-seal carrier receipts under results/final_seal/*",
-  "predecessor_public_manifest_sha256": "043dd0017bf6de58b81691a521eab783db7f62a51be44b73b3de21084b9a3856",
-  "predecessor_publication_breakpoint_id": "fco:ab5b063cd772e55ff37def957d28ccdf441f1e643ecbecc67b379033e49e4ac2",
-  "predecessor_publication_merkle_root": "0e2dae21aac33eba9398938d0629112236e2919642ebcc131a00ed06f0534e81",
+  "predecessor_public_manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
+  "predecessor_publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
+  "predecessor_publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
   "project_golden_route_manifest_sha256": "b46c910cd761bf507985f0079e78159d8ad7f0b266b196064c49827534332e9b",
   "project_golden_route_mmr_root": "71ff5170d4f94b6f6bd33d7327d19e5c5f063739c08edec2cc35abac08b5d67b",
-  "publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
-  "publication_breakpoint_path": "publication/PUB4_FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL.json",
-  "publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
+  "publication_breakpoint_id": "fco:99f64920fb9bd2fade3c5b02ef5c52ee15bdaabb1d8148c51b32086b29d5c005",
+  "publication_breakpoint_path": "publication/PUB5_FINAL_VIDEO_PRESENTER_OVERLAY_SUCCESSOR.json",
+  "publication_merkle_root": "9cbd8acfeb8bd856bd41fed9051ed185a4906aa2e0b9fdd57f10ccc2848ea82a",
   "repository": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
   "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
   "schema": "vithia.public_manifest.v1",
-  "transition": "FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL"
+  "transition": "FINAL_VIDEO_PRESENTER_OVERLAY_SUCCESSOR"
 }

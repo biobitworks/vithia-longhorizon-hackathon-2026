@@ -23,7 +23,7 @@ def merkle_root_for_fcos(fcos: Iterable[dict[str, Any]]) -> tuple[str, list[str]
     ordered = list(fcos)
     for fco in ordered:
         if not validate_fco(fco):
-            raise ValueError(f"invalid FCO: {fco.get("object_id")}")
+            raise ValueError(f"invalid FCO: {fco.get('object_id')}")
     leaf_hashes = [merkle_leaf(fco_digest(fco)) for fco in ordered]
     if not leaf_hashes:
         return _hhex(b"VITHIA_BP_EMPTY_V1"), []

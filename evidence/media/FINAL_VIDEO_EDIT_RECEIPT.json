@@ -1,0 +1,112 @@
+{
+  "builder_script_basename": "build_vithia_final_walkthrough.py",
+  "builder_script_sha256": "394e39321f0219195367f39306875e07398d244ab4e859df47256254d075106f",
+  "claim_boundary": "This receipt establishes source/output byte identity and declared edit construction; it does not establish semantic truth or scientific validity.",
+  "created_at_utc": "2026-09-25T23:31:38.983922Z",
+  "editorial_target": "approximately three-minute hackathon walkthrough",
+  "output_basename": "demo.mp4",
+  "output_bytes": 40565868,
+  "output_duration_seconds": 176.821354,
+  "output_sha256": "f88c29331642a26d8233d865a5ebba52c1c1c6bdaa19ee16455499d75521cecc",
+  "schema": "vithia.final_video_edit_receipt.v1",
+  "sources": [
+    {
+      "basename": "longhorizon-cinematic-347111420.mp4",
+      "duration_seconds": 5.041667,
+      "role": "BFL_OPEN",
+      "sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c"
+    },
+    {
+      "basename": "IMG_3607.MOV",
+      "duration_seconds": 89.775,
+      "role": "IPHONE",
+      "sha256": "875d789dc6df698885fd0e7fdcb2cb10052901d37af5bd8e7cf76eb487338a66"
+    },
+    {
+      "basename": "Screen Recording 2026-09-25 at 3.09.31\u202fPM.mov",
+      "duration_seconds": 82.536209,
+      "role": "CORE_RESTART",
+      "sha256": "cfc5212fa809ad9b12c00341727996883e58c72101a6721ba16864d257ab6834"
+    },
+    {
+      "basename": "Screen Recording 2026-09-25 at 2.59.17\u202fPM.mov",
+      "duration_seconds": 90.809042,
+      "role": "NIMBLE",
+      "sha256": "d016d4aae4d397d34119add6178ebb872e536d97034af49fa59f577b5800d207"
+    },
+    {
+      "basename": "Screen Recording 2026-09-25 at 3.04.31\u202fPM.mov",
+      "duration_seconds": 34.105979,
+      "role": "RAWTREE",
+      "sha256": "9a9d1dbddbc07530c17b6489473b8065b89b4252318f2e38c2469a4aa400daa3"
+    },
+    {
+      "basename": "project-longhorizon-107730747.mp4",
+      "duration_seconds": 5.041667,
+      "role": "BFL_CLOSE",
+      "sha256": "1bb1dad2341ad46846aa811d42b1f92dfb518257db10305f7b17827d62f60d82"
+    }
+  ],
+  "timeline": [
+    {
+      "seconds": 5.0,
+      "segment": "01_open",
+      "source_role": "BFL_OPEN"
+    },
+    {
+      "seconds": 16.0,
+      "segment": "02_phone_intro",
+      "source_role": "IPHONE",
+      "source_start_seconds": 3.0
+    },
+    {
+      "audio_source": "IPHONE",
+      "iphone_source_start_seconds": 19.0,
+      "presenter_overlay": "lower-right 460px-wide white-border PiP",
+      "seconds": 70.0,
+      "segment": "03_core_with_presenter_overlay",
+      "source_roles": [
+        "CORE_RESTART",
+        "IPHONE"
+      ]
+    },
+    {
+      "seconds": 12.3,
+      "segment": "04_restart",
+      "source_role": "CORE_RESTART",
+      "source_start_seconds": 70.0
+    },
+    {
+      "seconds": 8.0,
+      "segment": "05_lme_card",
+      "source_role": "SYNTHETIC_CARD_FROM_DECLARED_TEXT"
+    },
+    {
+      "seconds": 32.5,
+      "segment": "06_nimble",
+      "source_role": "NIMBLE",
+      "source_start_seconds": 58.0
+    },
+    {
+      "seconds": 20.0,
+      "segment": "07_rawtree",
+      "source_role": "RAWTREE",
+      "source_start_seconds": 8.0
+    },
+    {
+      "seconds": 8.0,
+      "segment": "08_seal_card",
+      "source_role": "SYNTHETIC_CARD_FROM_DECLARED_TEXT"
+    },
+    {
+      "seconds": 5.0,
+      "segment": "09_close",
+      "source_role": "BFL_CLOSE"
+    }
+  ],
+  "verification": {
+    "closing_frame_visual_check": "PASS",
+    "overlay_frame_visual_check": "PASS",
+    "render_exit_code": 0
+  }
+}
