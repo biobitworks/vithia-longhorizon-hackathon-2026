@@ -1,0 +1,16 @@
+{
+  "object_id": "fco:d1ce738f3c4f6b2e23fdc17ddef8eed29f73a65f6f659a2d90e9838a0f82fc82",
+  "object_type": "VideoWalkthroughSuccessorFCO",
+  "payload": {
+    "claim_boundary": "Edited walkthrough presentation artifact. It summarizes and links to sealed evidence; the video itself does not establish semantic truth or benchmark superiority.",
+    "duration_seconds": 178.825456,
+    "permanent_url": "https://vithia-longhorizon-hackathon.vercel.app/demo.mp4",
+    "predecessor_demo_sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db",
+    "receipt_sha256": "907423fa40b14f9d12b8bc6d5d6688c987d320438d436155e5e414e3a538bb39",
+    "source_clip_count": 6,
+    "successor_demo_sha256": "b5d1226a5cd92bd4219f5358877b125d4b65618b6df1845d4c1281e1b576c634"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

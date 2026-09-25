@@ -1,0 +1,58 @@
+{
+  "breakpoint": {
+    "object_id": "fco:1839fd1365b43de7eb831b3786fa84dcfbf9cb3a365fd6b11f425951f57aeb24",
+    "object_type": "BreakpointFCO",
+    "payload": {
+      "claim_boundary": "Cryptographic identity/inclusion only; does not establish semantic truth, scientific validity, causal correctness, or policy authorization.",
+      "merkle_algorithm": "SHA256_DOMAIN_SEPARATED_BINARY_TREE_V1",
+      "merkle_leaf_hashes": [
+        "eecc53398c4f8d43b4d1a8fb5bf96d1e29915e7ef693618c5235494a041aa831",
+        "2f53ca0b3cc93a6b0d8c52cbedc07f48def42890c80a213642a80982f8afca61"
+      ],
+      "merkle_leaf_ordering": "declared_state_object_order",
+      "merkle_root_sha256": "c30827b26a0217e5d7f8ab90d5037a488ed39a2ba3b8d8e7d333f11b246ae741",
+      "predecessor_breakpoint_id": "fco:a2f31a2ab06cefae125496164bb4daf30124e3987483a4c360c8b6bb477e67b1",
+      "root_kind": "MERKLE_STATE_BREAKPOINT_WITH_CUMULATIVE_MMR",
+      "sequence": 16,
+      "stage": "DEMO_VIDEO_WALKTHROUGH_SUCCESSOR",
+      "state_object_count": 2,
+      "state_object_ids": [
+        "fco:d1ce738f3c4f6b2e23fdc17ddef8eed29f73a65f6f659a2d90e9838a0f82fc82",
+        "fco:72f5e064d9ae7e207b90b177c7147ca3a07dc5e53ae7f0f29e5c8da87e18209c"
+      ],
+      "state_version_id": "vithia:bp:0016:c30827b26a02"
+    },
+    "predecessor_ids": [
+      "fco:a2f31a2ab06cefae125496164bb4daf30124e3987483a4c360c8b6bb477e67b1"
+    ],
+    "schema": "vithia.fco.v1",
+    "source_ids": [
+      "fco:d1ce738f3c4f6b2e23fdc17ddef8eed29f73a65f6f659a2d90e9838a0f82fc82",
+      "fco:72f5e064d9ae7e207b90b177c7147ca3a07dc5e53ae7f0f29e5c8da87e18209c"
+    ]
+  },
+  "merkle_verified": true,
+  "mmr": {
+    "algorithm_id": "VITHIA_MMR_V1",
+    "committed": true,
+    "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+    "leaf_count": 17,
+    "leaf_encoding": "canonical_json_utf8",
+    "leaf_fields": [
+      "event_index",
+      "object_hash",
+      "state_version_id"
+    ],
+    "leaf_ordering": "breakpoint_sequence_ascending",
+    "peaks": [
+      "96deb9bb9d844d9ca0e28a25598d7dd42a7bf37ea14c16b62e37661279c92f7d",
+      "e696a9fff729595609403e0e5ed5339bcc98523fa4b613efa4eb71e5d5af249d"
+    ],
+    "receipt_hash": "a37ec21045b022b6ae904fa1f100b8013733911bb37d01b495d0ac25c0a5590d",
+    "root_sha256": "204aa5e0a23b4171f4e9204b507a3620967d46e10d0dcd4aa259437659688f17",
+    "schema": "vithia.mmr_verification.v1",
+    "verification_passed": true
+  },
+  "receipt_sha256": "efb15f3c5648b93ae087f03e457b5290e2a8f48a854c22f93273bd6dc491661d",
+  "schema": "vithia.breakpoint_receipt.v1"
+}

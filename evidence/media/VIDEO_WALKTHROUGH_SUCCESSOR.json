@@ -1,0 +1,58 @@
+{
+  "audio_codec": "AAC",
+  "claim_boundary": "Edited walkthrough presentation artifact. It summarizes and links to sealed evidence; the video itself does not establish semantic truth or benchmark superiority.",
+  "edit_structure": [
+    "BFL cinematic opening",
+    "Byron on-camera introduction",
+    "Vithia live agent and BP0-BP5 walkthrough",
+    "cold restart and context/MMR reconstruction",
+    "LongMemEval-V2 engineering evidence card",
+    "Nimble public-evidence red-team capture",
+    "RawTree/Tinybird telemetry readback capture",
+    "final seal card",
+    "BFL closing"
+  ],
+  "openai_evidence_overlay": "ORCHESTRATION: OpenAI Codex is shown throughout as tooling/orchestration; Liquid AI remains the demonstrated inference reader.",
+  "permanent_url": "https://vithia-longhorizon-hackathon.vercel.app/demo.mp4",
+  "predecessor_demo_sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db",
+  "receipt_sha256": "907423fa40b14f9d12b8bc6d5d6688c987d320438d436155e5e414e3a538bb39",
+  "resolution": "1920x1080",
+  "schema": "vithia.video_walkthrough_successor.v1",
+  "source_clips": [
+    {
+      "name": "longhorizon-cinematic-347111420.mp4",
+      "role": "BFL opening",
+      "sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c"
+    },
+    {
+      "name": "IMG_3607.MOV",
+      "role": "Byron intro",
+      "sha256": "875d789dc6df698885fd0e7fdcb2cb10052901d37af5bd8e7cf76eb487338a66"
+    },
+    {
+      "name": "Screen Recording 2026-09-25 at 3.09.31 PM.mov",
+      "role": "core Vithia walkthrough + restart",
+      "sha256": "cfc5212fa809ad9b12c00341727996883e58c72101a6721ba16864d257ab6834"
+    },
+    {
+      "name": "Screen Recording 2026-09-25 at 2.59.17 PM.mov",
+      "role": "Nimble live research",
+      "sha256": "d016d4aae4d397d34119add6178ebb872e536d97034af49fa59f577b5800d207"
+    },
+    {
+      "name": "Screen Recording 2026-09-25 at 3.04.31 PM.mov",
+      "role": "RawTree/Tinybird telemetry",
+      "sha256": "9a9d1dbddbc07530c17b6489473b8065b89b4252318f2e38c2469a4aa400daa3"
+    },
+    {
+      "name": "project-longhorizon-107730747.mp4",
+      "role": "BFL closing",
+      "sha256": "1bb1dad2341ad46846aa811d42b1f92dfb518257db10305f7b17827d62f60d82"
+    }
+  ],
+  "successor_demo_sha256": "b5d1226a5cd92bd4219f5358877b125d4b65618b6df1845d4c1281e1b576c634",
+  "successor_duration_seconds": 178.825456,
+  "successor_size_bytes": 33842351,
+  "transition": "REPLACE_OLDER_DEMO_WITH_EDITED_WALKTHROUGH",
+  "video_codec": "H.264"
+}

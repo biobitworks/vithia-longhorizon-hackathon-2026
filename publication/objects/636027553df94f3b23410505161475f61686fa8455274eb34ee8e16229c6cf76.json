@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:636027553df94f3b23410505161475f61686fa8455274eb34ee8e16229c6cf76",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2527,
+    "path": "evidence/golden_route/breakpoints/GR16_DEMO_VIDEO_WALKTHROUGH_SUCCESSOR.json",
+    "sha256": "b3eed30195556c953630dee541b5fd999637431fbc6c10aade8657323eddc00a"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

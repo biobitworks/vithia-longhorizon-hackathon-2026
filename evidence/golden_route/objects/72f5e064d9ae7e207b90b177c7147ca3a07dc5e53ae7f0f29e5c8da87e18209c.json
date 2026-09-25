@@ -1,0 +1,15 @@
+{
+  "object_id": "fco:72f5e064d9ae7e207b90b177c7147ca3a07dc5e53ae7f0f29e5c8da87e18209c",
+  "object_type": "PermanentDemoBindingFCO",
+  "payload": {
+    "binding_state": "CONTENT_FROZEN_PENDING_DEPLOYMENT",
+    "claim_boundary": "Binds permanent URL target bytes after deployment verification; URL availability itself is external state.",
+    "expected_duration_seconds": 178.825456,
+    "repository_path": "demo.mp4",
+    "sha256": "b5d1226a5cd92bd4219f5358877b125d4b65618b6df1845d4c1281e1b576c634",
+    "url": "https://vithia-longhorizon-hackathon.vercel.app/demo.mp4"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

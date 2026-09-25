@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:a23f25710f34e649b50c9ca42fd38d3c3ff389005e366aec04b330739c4ab9a4",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 650,
+    "path": "evidence/golden_route/objects/72f5e064d9ae7e207b90b177c7147ca3a07dc5e53ae7f0f29e5c8da87e18209c.json",
+    "sha256": "5d52fdcc57d61bb6c2fc10803c44d6c9cbc8f751810c37bc5cdef89f78f50135"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,6 +1,6 @@
 {
-  "bundle_fco_id": "fco:02cf05212b890f1e4206e0c81d54f17b30f4fe5fe309d28fb7046ad978f79c77",
-  "bundle_fco_path": "publication/objects/02cf05212b890f1e4206e0c81d54f17b30f4fe5fe309d28fb7046ad978f79c77.json",
+  "bundle_fco_id": "fco:38763ecbb4f1a9035a634fb760290a02ec5954c046815733fc04ac423e42dd59",
+  "bundle_fco_path": "publication/objects/38763ecbb4f1a9035a634fb760290a02ec5954c046815733fc04ac423e42dd59.json",
   "files": [
     {
       "bytes": 80,
@@ -58,9 +58,9 @@
       "sha256": "cc3c5f0485c88e701b1c3d84c72fb8d3040d98113f4593f2c755faeadb2bb8a2"
     },
     {
-      "bytes": 2722155,
+      "bytes": 33842351,
       "path": "demo.mp4",
-      "sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db"
+      "sha256": "b5d1226a5cd92bd4219f5358877b125d4b65618b6df1845d4c1281e1b576c634"
     },
     {
       "bytes": 1961,
@@ -208,6 +208,11 @@
       "sha256": "0dea5bcacf86d1a0df557fcf6598ebcb49c73f8f1ca5022034b9518b108a083a"
     },
     {
+      "bytes": 8871,
+      "path": "evidence/golden_route/GOLDEN_ROUTE_MANIFEST_V5.json",
+      "sha256": "0da462b08faa78079d042517bc5f0720dbce25f331581ac3d5c93c3862b5cac5"
+    },
+    {
       "bytes": 2071,
       "path": "evidence/golden_route/breakpoints/GR0_CORE.json",
       "sha256": "ff9abd9c69cd5bffecf12d9fb53c2356cc0a23f9bae2febfad30844babf86741"
@@ -241,6 +246,11 @@
       "bytes": 3866,
       "path": "evidence/golden_route/breakpoints/GR15_FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL.json",
       "sha256": "b97103b51ffd494c358d3860d6a7c1e3da71a0a5fcf55fcfea66a16500f78076"
+    },
+    {
+      "bytes": 2527,
+      "path": "evidence/golden_route/breakpoints/GR16_DEMO_VIDEO_WALKTHROUGH_SUCCESSOR.json",
+      "sha256": "b3eed30195556c953630dee541b5fd999637431fbc6c10aade8657323eddc00a"
     },
     {
       "bytes": 2677,
@@ -413,6 +423,11 @@
       "sha256": "3155248fac5655a15d657b4b974eef2d9ef35a2683b711a861bd845f96905afc"
     },
     {
+      "bytes": 650,
+      "path": "evidence/golden_route/objects/72f5e064d9ae7e207b90b177c7147ca3a07dc5e53ae7f0f29e5c8da87e18209c.json",
+      "sha256": "5d52fdcc57d61bb6c2fc10803c44d6c9cbc8f751810c37bc5cdef89f78f50135"
+    },
+    {
       "bytes": 1215,
       "path": "evidence/golden_route/objects/7aac89de476dbef88708a6462dba990c65140fca93a40755fcfbbaca21fb4eba.json",
       "sha256": "4b1cb1a390f1b01cdaf0e0f5a6776f34024dd56f32147987368996951940ac96"
@@ -461,6 +476,11 @@
       "bytes": 514,
       "path": "evidence/golden_route/objects/cc16bdffd42448008c7374d2979e8064b59d1a5647c89254bfbe7058d3d28419.json",
       "sha256": "4f1bed1a9a6b98c80ab84ddf54cc9950a4819cfe7c1bf09a538c5b48fb641ebc"
+    },
+    {
+      "bytes": 851,
+      "path": "evidence/golden_route/objects/d1ce738f3c4f6b2e23fdc17ddef8eed29f73a65f6f659a2d90e9838a0f82fc82.json",
+      "sha256": "2cf9e8da8a155bf55e5f7bca9c1909a6fce0c57050747b255ba219ae3525eeb2"
     },
     {
       "bytes": 725,
@@ -556,6 +576,11 @@
       "bytes": 1422,
       "path": "evidence/media/MEDIA_PROVENANCE.json",
       "sha256": "595f74b1b422c978fe1656c650d11ab2e4a71268e376d232606f2287d860589b"
+    },
+    {
+      "bytes": 2503,
+      "path": "evidence/media/VIDEO_WALKTHROUGH_SUCCESSOR.json",
+      "sha256": "dd15b5528222ca63f302564045c5af5a7ba816977b1ec3e51e61d7f00fec68c0"
     },
     {
       "bytes": 612,
@@ -838,6 +863,11 @@
       "sha256": "b6b81c33ffa19596ccfec788c9b87cd787a6b8bbf768a20a97099ee3db55279d"
     },
     {
+      "bytes": 8214,
+      "path": "scripts/build_video_successor.py",
+      "sha256": "81ac9168c3e1babfac92a014de408ba6831e0684d7e7b89624707624507fe646"
+    },
+    {
       "bytes": 4760,
       "path": "scripts/reseal_publication.py",
       "sha256": "a954923725230ee6070d567e376e7627570b659cbc1e61060529be6e04223b40"
@@ -893,19 +923,19 @@
       "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
     }
   ],
-  "manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
-  "manifest_version": 5,
+  "manifest_sha256": "e87b36053db1be7c79ea99063f32161bd49def8743309e2d824f0425f414bf1d",
+  "manifest_version": 6,
   "payload_scope": "all repository files present at content sealing except publication/*, PUBLIC_MANIFEST.json, .git/*, __pycache__/*, *.pyc, .vercel/*, and post-seal carrier receipts under results/final_seal/*",
-  "predecessor_public_manifest_sha256": "043dd0017bf6de58b81691a521eab783db7f62a51be44b73b3de21084b9a3856",
-  "predecessor_publication_breakpoint_id": "fco:ab5b063cd772e55ff37def957d28ccdf441f1e643ecbecc67b379033e49e4ac2",
-  "predecessor_publication_merkle_root": "0e2dae21aac33eba9398938d0629112236e2919642ebcc131a00ed06f0534e81",
-  "project_golden_route_manifest_sha256": "b46c910cd761bf507985f0079e78159d8ad7f0b266b196064c49827534332e9b",
-  "project_golden_route_mmr_root": "71ff5170d4f94b6f6bd33d7327d19e5c5f063739c08edec2cc35abac08b5d67b",
-  "publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
-  "publication_breakpoint_path": "publication/PUB4_FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL.json",
-  "publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
+  "predecessor_public_manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
+  "predecessor_publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
+  "predecessor_publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
+  "project_golden_route_manifest_sha256": "8ffa365ecfd3f646f83fb438ad34227bb0586438f127a083f0431777f0688312",
+  "project_golden_route_mmr_root": "204aa5e0a23b4171f4e9204b507a3620967d46e10d0dcd4aa259437659688f17",
+  "publication_breakpoint_id": "fco:740f91715d9cf4fcbeabd3679740f5b52407d6b973d6d6f09cca21e326ef299b",
+  "publication_breakpoint_path": "publication/PUB5_DEMO_VIDEO_WALKTHROUGH_SUCCESSOR.json",
+  "publication_merkle_root": "21472b3462213c2a057af95a75ea002f5a23341181d8571f5f616e7c675c89a4",
   "repository": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
   "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
   "schema": "vithia.public_manifest.v1",
-  "transition": "FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL"
+  "transition": "DEMO_VIDEO_WALKTHROUGH_SUCCESSOR"
 }

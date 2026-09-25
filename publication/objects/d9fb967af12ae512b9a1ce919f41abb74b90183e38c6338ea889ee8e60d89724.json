@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:d9fb967af12ae512b9a1ce919f41abb74b90183e38c6338ea889ee8e60d89724",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2503,
+    "path": "evidence/media/VIDEO_WALKTHROUGH_SUCCESSOR.json",
+    "sha256": "dd15b5528222ca63f302564045c5af5a7ba816977b1ec3e51e61d7f00fec68c0"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}
