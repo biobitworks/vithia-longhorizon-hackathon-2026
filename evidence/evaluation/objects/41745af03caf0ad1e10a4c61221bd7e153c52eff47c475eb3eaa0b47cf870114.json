@@ -1,0 +1,44 @@
+{
+  "object_id": "fco:41745af03caf0ad1e10a4c61221bd7e153c52eff47c475eb3eaa0b47cf870114",
+  "object_type": "EvaluationResultFCO",
+  "payload": {
+    "arm": "NO_RETRIEVAL",
+    "claim_ceiling": "15_DETERMINISTIC_CASES_ONLY",
+    "metrics": {
+      "accuracy": 0.0,
+      "avg_memory_context_tokens": 0.0,
+      "avg_memory_query_seconds": 4.297331906855107e-06,
+      "completion_tokens": 786,
+      "correct": 0,
+      "max_memory_context_tokens": 0,
+      "memory_context_tokens": 0,
+      "n": 15,
+      "prompt_tokens": 3159,
+      "question_ids": [
+        "00aa905a",
+        "05cce9b3",
+        "06a5a25f",
+        "06e965cf",
+        "0738c1ac",
+        "07ab3723",
+        "07b49858",
+        "07d86be1",
+        "07fff330",
+        "0a4a47e6",
+        "01307e07",
+        "025db8ef",
+        "057a2d4d",
+        "07ffeedf",
+        "080b0218"
+      ],
+      "unknown": 4
+    },
+    "status": "OBSERVED"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:03aebf28d12b69b6818f7f287687b53db232af1bd6ead6e3f499879efe46e39f",
+    "fco:ddca22c172805eefc68df5c6b3edaacd533dd0982f411bb42a8d2c1d6eaecd83"
+  ]
+}

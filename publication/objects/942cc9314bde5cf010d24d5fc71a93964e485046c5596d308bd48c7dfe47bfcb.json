@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:942cc9314bde5cf010d24d5fc71a93964e485046c5596d308bd48c7dfe47bfcb",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 5792,
+    "path": "evidence/runtime/breakpoints/BP4.json",
+    "sha256": "0f83ac9918e7c8ffe2ab36c50748cdd55caa638122b7a23f9a9ceadcc0b36f19"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

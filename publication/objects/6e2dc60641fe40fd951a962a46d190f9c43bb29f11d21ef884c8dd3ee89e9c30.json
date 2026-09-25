@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:6e2dc60641fe40fd951a962a46d190f9c43bb29f11d21ef884c8dd3ee89e9c30",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 615,
+    "path": "evidence/openai/CODEX_STUDIO_RECEIPT.json",
+    "sha256": "35920e090b3ab00007f243b55be6b2c7c68b59390b6bae7f9f8ef291a080c9e5"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

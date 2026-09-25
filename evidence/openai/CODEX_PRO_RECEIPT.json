@@ -1,0 +1,13 @@
+{
+  "claim_boundary": "OpenAI Codex orchestration/tooling registration evidence only; does not establish that OpenAI performed Liquid inference.",
+  "codex_binary": "/opt/homebrew/bin/codex",
+  "codex_version": "codex-cli 0.154.0",
+  "host": "magicPRObox.local",
+  "observed_at_utc": "2026-09-25T22:42:13.277806Z",
+  "receipt_sha256": "83bd1b372a56b0f771a9b03a6439e6a2aef06f985071e661727aa21e0e83c1e5",
+  "schema": "vithia.openai_codex_runtime_receipt.v1",
+  "secrets_in_receipt": false,
+  "tokensand_cli_package": "dev-adoption-cli-0.1.19",
+  "tokensand_mcp_enabled": true,
+  "tokensand_mcp_registered": true
+}

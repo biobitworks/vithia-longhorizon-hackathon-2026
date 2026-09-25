@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:fea72e423e76a2267a7806558d24e0bc92a26c0c4b6525ee96268c4cef91b3d9",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2164,
+    "path": "evidence/security/HYDRA_NOTRACE_RECEIPT.json",
+    "sha256": "f11c57114def925453bd1aae726e592c2d36038d8500f1949fe4c4190d7546f3"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

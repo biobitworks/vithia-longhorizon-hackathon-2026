@@ -1,0 +1,75 @@
+{
+  "breakpoint": {
+    "object_id": "fco:a2f31a2ab06cefae125496164bb4daf30124e3987483a4c360c8b6bb477e67b1",
+    "object_type": "BreakpointFCO",
+    "payload": {
+      "claim_boundary": "Cryptographic identity/inclusion only; does not establish semantic truth, scientific validity, causal correctness, or policy authorization.",
+      "merkle_algorithm": "SHA256_DOMAIN_SEPARATED_BINARY_TREE_V1",
+      "merkle_leaf_hashes": [
+        "b69ef316b4141e391f68655d8b9ce2525142d2f766433c4158af547e3321b2d6",
+        "967e892e4211197b4f7e0f99d7d5046ddedf2f79e1a050eb22470125fc74ffb0",
+        "40b33c8412670883324c149cf80a8a3e2498b21113668d46d3f77a022cc88bb5",
+        "d0cdb79f41e9e0616b7ad80b50cb9e71d479d65808893b91791e154ba5c718e3",
+        "b256bfd5572a2727f1510184b24c7d1ffd20d6c14c8b1eba236b0798362cc8d5",
+        "8649857f632100ef5bb724cb41a091d5a300d95cfbb046f7f954d87ec1cc8390",
+        "fd10a997f38a1e77a50bbd88c466dcbe5386132537314b735da7845e46d50122",
+        "abc04dd0972dab1935d1d0ec3964a5bd7c5bd0fee11d1796a72bbd09035dcbb8"
+      ],
+      "merkle_leaf_ordering": "declared_state_object_order",
+      "merkle_root_sha256": "d2941a4f27f03ad0190a26970818594d1aeb0304a2a46a11d44c4d622fbe0545",
+      "predecessor_breakpoint_id": "fco:930a503e9ecfa868dd9bb3ceea7a85a48e7a787a73eae5196607dcbc45fd5dd7",
+      "root_kind": "MERKLE_STATE_BREAKPOINT_WITH_CUMULATIVE_MMR",
+      "sequence": 15,
+      "stage": "FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL",
+      "state_object_count": 8,
+      "state_object_ids": [
+        "fco:7b795847619fd872a7dc0d313c93e1920866d41d204a3e14ac32d06e38574e23",
+        "fco:2a1c7074d142d2718363ee88e8952bede1188adc05ec2b07eab1e29de5e468d1",
+        "fco:cc16bdffd42448008c7374d2979e8064b59d1a5647c89254bfbe7058d3d28419",
+        "fco:23c9d4afea2555309403d57ae8b3f0cac8a335f3f082690b820f58a4ce415c40",
+        "fco:578fb9aba1e5811d5fa2b4b20308c5d8dd235772fbaa802f4ed34881445899e5",
+        "fco:81c2221d857ff6873e7f94210df58c921ed66e0a55d3bb2b2f8c06b790275171",
+        "fco:d379e9ba634c3d2ad3b07c0476836ba005f85e570c26950efcda2ab41a466b69",
+        "fco:f96025a216ba338bc1d078bea73506eefc7eb1352fe2451ad86f41339613c112"
+      ],
+      "state_version_id": "vithia:bp:0015:d2941a4f27f0"
+    },
+    "predecessor_ids": [
+      "fco:930a503e9ecfa868dd9bb3ceea7a85a48e7a787a73eae5196607dcbc45fd5dd7"
+    ],
+    "schema": "vithia.fco.v1",
+    "source_ids": [
+      "fco:7b795847619fd872a7dc0d313c93e1920866d41d204a3e14ac32d06e38574e23",
+      "fco:2a1c7074d142d2718363ee88e8952bede1188adc05ec2b07eab1e29de5e468d1",
+      "fco:cc16bdffd42448008c7374d2979e8064b59d1a5647c89254bfbe7058d3d28419",
+      "fco:23c9d4afea2555309403d57ae8b3f0cac8a335f3f082690b820f58a4ce415c40",
+      "fco:578fb9aba1e5811d5fa2b4b20308c5d8dd235772fbaa802f4ed34881445899e5",
+      "fco:81c2221d857ff6873e7f94210df58c921ed66e0a55d3bb2b2f8c06b790275171",
+      "fco:d379e9ba634c3d2ad3b07c0476836ba005f85e570c26950efcda2ab41a466b69",
+      "fco:f96025a216ba338bc1d078bea73506eefc7eb1352fe2451ad86f41339613c112"
+    ]
+  },
+  "merkle_verified": true,
+  "mmr": {
+    "algorithm_id": "VITHIA_MMR_V1",
+    "committed": true,
+    "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+    "leaf_count": 16,
+    "leaf_encoding": "canonical_json_utf8",
+    "leaf_fields": [
+      "event_index",
+      "object_hash",
+      "state_version_id"
+    ],
+    "leaf_ordering": "breakpoint_sequence_ascending",
+    "peaks": [
+      "96deb9bb9d844d9ca0e28a25598d7dd42a7bf37ea14c16b62e37661279c92f7d"
+    ],
+    "receipt_hash": "ee81f4b80d741ef51cdb573ab3d55c004584e4d176c76e7280ec8596369050ac",
+    "root_sha256": "71ff5170d4f94b6f6bd33d7327d19e5c5f063739c08edec2cc35abac08b5d67b",
+    "schema": "vithia.mmr_verification.v1",
+    "verification_passed": true
+  },
+  "receipt_sha256": "1e0fc6a0605c0123ee0b87399844d02899aa1bc2620cfbae1c5c5db5785e35a8",
+  "schema": "vithia.breakpoint_receipt.v1"
+}

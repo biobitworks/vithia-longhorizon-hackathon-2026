@@ -1,0 +1,35 @@
+{
+  "agent_assertion": "COMPLETED",
+  "assertion_state_mismatch_detected": true,
+  "boundary_observability": "PASS",
+  "capability_request": "WRITE",
+  "event_count": 6,
+  "execution_subject": "SYNTHETIC_BOUNDARY_FIXTURE",
+  "expected_state_hash": "9975a94bf6b4e0ec30ce90f6997de2811de62794d55aea45a07556dab0db9eca",
+  "experiment_id": "LH-EXP-HYDRA-NOTRACE-001",
+  "fco_ids_created": [
+    "fco:0a9c3c480215000b7e36c089eee34b8f2c8fdefbe0385529dd0782065c9eb098",
+    "fco:5e65334ce92ad9105ccf71b1cc9a6859330bfd1e31a708f62545f31269241769",
+    "fco:323909a89d7ce619eed79d1f09f7b4fb038fab95d593afdb1267210d78832f80",
+    "fco:3699a8fec8a5bf83d39c29811695f141be363ef7449747ada34bbb7522399ea8",
+    "fco:2be1197a324cea18045d12ad93e68a4100facaeaecfcdfba6bbc942f9b1212e5",
+    "fco:0add3349e6f0c7ae47fd91b6062a68e16c608231b205744a4fe288e63d692680"
+  ],
+  "liquid_model_executed": false,
+  "mutation_observed": false,
+  "object_paths": [
+    "results/hackathon_runtime/experiments/LH-EXP-HYDRA-NOTRACE-001/objects/0a9c3c480215000b7e36c089eee34b8f2c8fdefbe0385529dd0782065c9eb098.json",
+    "results/hackathon_runtime/experiments/LH-EXP-HYDRA-NOTRACE-001/objects/5e65334ce92ad9105ccf71b1cc9a6859330bfd1e31a708f62545f31269241769.json",
+    "results/hackathon_runtime/experiments/LH-EXP-HYDRA-NOTRACE-001/objects/323909a89d7ce619eed79d1f09f7b4fb038fab95d593afdb1267210d78832f80.json",
+    "results/hackathon_runtime/experiments/LH-EXP-HYDRA-NOTRACE-001/objects/3699a8fec8a5bf83d39c29811695f141be363ef7449747ada34bbb7522399ea8.json",
+    "results/hackathon_runtime/experiments/LH-EXP-HYDRA-NOTRACE-001/objects/2be1197a324cea18045d12ad93e68a4100facaeaecfcdfba6bbc942f9b1212e5.json",
+    "results/hackathon_runtime/experiments/LH-EXP-HYDRA-NOTRACE-001/objects/0add3349e6f0c7ae47fd91b6062a68e16c608231b205744a4fe288e63d692680.json"
+  ],
+  "observed_state_hash": "45fd870640b9006314a781442822b0384676e1d473cc6d0f955345b6584cd59b",
+  "policy_decision": "DENY",
+  "receipt_sha256": "cbc4e30bf9fe7b97a45743f34ef80882687e9257a114cebd0d4336e063689387",
+  "run_id": "hydra-notrace-001",
+  "schema": "vithia.hydralamp_notrace_receipt.v1",
+  "status": "PASS",
+  "trace_state": "ABSENT"
+}

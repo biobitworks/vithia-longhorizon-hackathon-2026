@@ -1,0 +1,27 @@
+{
+  "object_id": "fco:ddca22c172805eefc68df5c6b3edaacd533dd0982f411bb42a8d2c1d6eaecd83",
+  "object_type": "EvaluationInputFCO",
+  "payload": {
+    "abstention_questions_not_scored": 5,
+    "abstention_status": "NOT_COMPARABLE_EVALUATOR_UNAVAILABLE",
+    "baseline": "no_retrieval",
+    "candidate": "vithia_fcg deterministic_bm25_like",
+    "candidate_limit": 3,
+    "candidate_max_chars_per_item": 1600,
+    "claim_ceiling": "EVALUATION_CONFIGURATION_ONLY",
+    "deterministic_scored_questions": 15,
+    "fixed_subset_questions": 20,
+    "memory_context_max_tokens": 2048,
+    "preregistration_status": "PARTIAL_INPUT_FREEZE_NOT_FULL_PREREGISTRATION",
+    "reader": "qwen2.5:0.5b",
+    "reader_disable_thinking": true,
+    "selection_rule": "lexicographically_first_20_text_only_questions_present_in_lme_v2_small",
+    "temperature": 0,
+    "token_count_mode": "TEXT_ONLY_QWEN35_PLAIN_TOKENIZER_V2"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:03aebf28d12b69b6818f7f287687b53db232af1bd6ead6e3f499879efe46e39f"
+  ]
+}

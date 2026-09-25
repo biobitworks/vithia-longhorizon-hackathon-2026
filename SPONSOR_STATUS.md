@@ -14,3 +14,11 @@
 | OTEL | DEFERRED / app not installed in observed RawTree lane |
 
 The table records execution state; it is not an evaluation of sponsor products.
+
+## Final provenance roles
+
+- **OpenAI / Codex:** fresh CLI + Tokens& MCP registration evidence on magicSTUDIO and magicPRO; orchestration/tooling only, not the demonstrated Liquid inference.
+- **Liquid AI:** local GGUF inference and reader experiments; divergent/partial successor results remain visible.
+- **Nimble:** public web research evidence acquisition; retrieved sources are not promoted to truth automatically.
+- **RawTree:** external telemetry persistence/readback; not the cryptographic custody root.
+- **Black Forest Labs:** generated visual-media lineage; exact bytes are content-hashed, and any missing exact job binding remains explicit.

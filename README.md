@@ -70,3 +70,13 @@ python3 scripts/verify_public_repo.py
 ```
 
 See `SUBMISSION.md`, `SETUP.md`, and `SECURITY.md` for the remaining public handoff.
+
+## Final evidence successor
+
+The finalization successor keeps **system integrity** separate from **scientific performance inference**. The live BP0–BP5 runtime and EVBP0–EVBP5 evaluation chains independently replay their declared Merkle roots and cumulative MMR state. The 20-case LongMemEval-V2 result remains an engineering smoke: 15 deterministically scored cases, M0 0/15, bounded FCG memory 1/15 (+6.67 percentage points observed), with no generalization or leaderboard claim.
+
+A bounded-context successor reduced average memory-context tokens from 1,618.8 to 945.8 (41.6%) on the same 15 scored cases while the observed correct count remained 1/15. This is an observed compression result, not evidence of broad performance equivalence.
+
+The reader-capacity question is now explicit: **given the same cryptographically frozen evidence projection, how much reader capacity is required to preserve the task outcome?** A single shared-context Liquid 1.2B/2.6B case was executed and diverged; equivalence/noninferiority is therefore not established. Historical OLLARMA, Vithia replay, and ButterBase evidence is exposed separately as structural lineage, not as LongMemEval scores.
+
+The public evidence app exposes five views: Live Agent, Evaluation, Alignment + Security, Evidence + Sponsors, and Final Seal. OpenAI Codex is attributed as orchestration/tooling; Liquid AI is the demonstrated local inference reader.

@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:4d6ed7e530a5889de4846574f2481448d6984170b05dde89a149477cc28c3f28",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 3553,
+    "path": "evidence/evaluation/breakpoints/EVBP4_COMPARISON.json",
+    "sha256": "f7c75e404f704eb067a08dc3bfd6c46fa989e03f431e0a2db474e58b031a7dd6"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

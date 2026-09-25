@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:59f431401d52711179315d1d5440004d28319586be73898bea72a3cd7fc3ca8c",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1310,
+    "path": "scripts/secret_scan.py",
+    "sha256": "5f161a1e0f475c12824ea1fc0d1c38773bb5cabfc1577125f01780fee548aa6c"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

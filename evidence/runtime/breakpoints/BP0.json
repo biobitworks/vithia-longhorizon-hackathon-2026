@@ -1,0 +1,58 @@
+{
+  "breakpoint": {
+    "object_id": "fco:a964f6d381fcff60c14c54686aa0cb2200f28d0380348dbe358e69034d5c5938",
+    "object_type": "BreakpointFCO",
+    "payload": {
+      "claim_boundary": "Cryptographic identity/inclusion only; does not establish semantic truth, scientific validity, causal correctness, or policy authorization.",
+      "merkle_algorithm": "SHA256_DOMAIN_SEPARATED_BINARY_TREE_V1",
+      "merkle_leaf_hashes": [
+        "099e9cfce50e6e9cd2b276694104a60f9f05bf512f2566109ec105c142efe1dc",
+        "901dc548fe0b500e564a583ac61e578e7cf5634c0ec1e1de86f0a46072007900",
+        "ae8f66006e3746ebe7f1bebcd42b60b1989b26832209653d7e59bff624a64fc2"
+      ],
+      "merkle_leaf_ordering": "declared_state_object_order",
+      "merkle_root_sha256": "e3ae66f50bcc7901e4ba3b4a2df3829a2cbc68b875c3094e4351c1e01292ae95",
+      "predecessor_breakpoint_id": null,
+      "root_kind": "MERKLE_STATE_BREAKPOINT_WITH_CUMULATIVE_MMR",
+      "sequence": 0,
+      "stage": "BP0_INGEST_CUSTODY",
+      "state_object_count": 3,
+      "state_object_ids": [
+        "fco:382c74ce30724be252c555c2ac6770130cb957c342c508127354decd3b1aac26",
+        "fco:2ad15b3adcba70a4112e23cfbd83b8d02948f8d4f41635375db7b407171d89bf",
+        "fco:e4b339bf80cea8a704ac737339e2a74190c0a048a47e3f5fa40dd1deff6347d9"
+      ],
+      "state_version_id": "vithia:bp:0000:e3ae66f50bcc"
+    },
+    "predecessor_ids": [],
+    "schema": "vithia.fco.v1",
+    "source_ids": [
+      "fco:382c74ce30724be252c555c2ac6770130cb957c342c508127354decd3b1aac26",
+      "fco:2ad15b3adcba70a4112e23cfbd83b8d02948f8d4f41635375db7b407171d89bf",
+      "fco:e4b339bf80cea8a704ac737339e2a74190c0a048a47e3f5fa40dd1deff6347d9"
+    ]
+  },
+  "merkle_verified": true,
+  "mmr": {
+    "algorithm_id": "VITHIA_MMR_V1",
+    "committed": true,
+    "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+    "leaf_count": 1,
+    "leaf_encoding": "canonical_json_utf8",
+    "leaf_fields": [
+      "event_index",
+      "object_hash",
+      "state_version_id"
+    ],
+    "leaf_ordering": "breakpoint_sequence_ascending",
+    "peaks": [
+      "1674f7846b817e472696c4d937b0a03156e6a83c97e79dfc33a03b0cf9a389a9"
+    ],
+    "receipt_hash": "25dd7a05c51e103772f0e496125145afe66524e6d3b68a94640ecaf9e591a710",
+    "root_sha256": "398e0bb90d66efb0ec5eb324de816d57a9106aae3e9642f2708c8c3520e65a69",
+    "schema": "vithia.mmr_verification.v1",
+    "verification_passed": true
+  },
+  "receipt_sha256": "e7734ef55b6af40b436b870e32552f22f30e8b69c7705e785c34b10225ccb524",
+  "schema": "vithia.breakpoint_receipt.v1"
+}

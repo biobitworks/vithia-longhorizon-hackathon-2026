@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:71d1bd5758c4e84bcde059569807995a9d29da3f1411617974c851f8084e837e",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 3866,
+    "path": "evidence/golden_route/breakpoints/GR15_FINAL_APP_EVALUATION_AND_PUBLICATION_SEAL.json",
+    "sha256": "b97103b51ffd494c358d3860d6a7c1e3da71a0a5fcf55fcfea66a16500f78076"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

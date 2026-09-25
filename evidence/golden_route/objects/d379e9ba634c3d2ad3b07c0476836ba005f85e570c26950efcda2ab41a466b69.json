@@ -1,0 +1,15 @@
+{
+  "object_id": "fco:d379e9ba634c3d2ad3b07c0476836ba005f85e570c26950efcda2ab41a466b69",
+  "object_type": "AppCandidateFCO",
+  "payload": {
+    "cinematic_sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c",
+    "claim_boundary": "App source/media candidate identity prior to deployment.",
+    "demo_sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db",
+    "deployment_state": "PENDING_CONTENT_FREEZE_DEPLOYMENT",
+    "index_sha256": "5ed481084e9d8c8ca3142a7aea274aea644f665bdd8edcaddf2f854f5ef5edaf",
+    "vercel_config_sha256": "4fc1dfb42a7eb26a157d69d228be9408dc97dd7aefc6eb64f30142566e529510"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

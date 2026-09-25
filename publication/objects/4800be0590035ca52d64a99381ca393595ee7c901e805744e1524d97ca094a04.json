@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:4800be0590035ca52d64a99381ca393595ee7c901e805744e1524d97ca094a04",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 7065,
+    "path": "evidence/evaluation/CASE_07ab3723_1P2B_VS_2P6B.json",
+    "sha256": "99ae46a666dfa0d7d8259b563f24579c344acdd1d546f3d169d2b77a595d4da6"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

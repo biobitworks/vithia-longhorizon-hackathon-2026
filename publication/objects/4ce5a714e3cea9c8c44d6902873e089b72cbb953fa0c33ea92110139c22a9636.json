@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:4ce5a714e3cea9c8c44d6902873e089b72cbb953fa0c33ea92110139c22a9636",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 3796,
+    "path": "evidence/evaluation/breakpoints/EVBP5_BOUNDED_COMPRESSION.json",
+    "sha256": "20585a6b27c83f8d3ceaedfcc1b9ade4d248e2bf26812f01c8fe31d33ca35b01"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

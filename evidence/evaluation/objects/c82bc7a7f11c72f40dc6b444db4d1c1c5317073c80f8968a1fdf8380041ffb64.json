@@ -1,0 +1,22 @@
+{
+  "object_id": "fco:c82bc7a7f11c72f40dc6b444db4d1c1c5317073c80f8968a1fdf8380041ffb64",
+  "object_type": "ExternalEvalComparisonFCO",
+  "payload": {
+    "absolute_accuracy_delta": 0.06666666666666667,
+    "baseline_correct": 0,
+    "claim_ceiling": "COMPARATIVE_ENGINEERING_SMOKE_ONLY",
+    "inference": "UNDERPOWERED_NO_STATISTICAL_CLAIM",
+    "n": 15,
+    "next_repair": "increase evidence density and reduce retrieval latency before rerunning a fresh held-out or official configuration",
+    "path_disposition": "DARK_PATH_CANDIDATE_FOR_CURRENT_QWEN25_0.5B_ADAPTER_CONFIGURATION",
+    "promotion_decision": "NOT_PROMOTED",
+    "reason": "one additional correct response on 15 deterministic cases does not justify the added context and latency; abstention subset remains unscored and run is not leaderboard-comparable",
+    "vithia_correct": 1
+  },
+  "predecessor_ids": [
+    "fco:5d50eaaa9c068fb497da24a55fe46deb676dc6337d27ed968d6f9315bf80e860",
+    "fco:0a1a66f462b7b833432f7c29bbca2ddace348bc8044afc5fe8a48d57e47a2cb8"
+  ],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,0 +1,28 @@
+{
+  "object_id": "fco:14a32338d6723ae6c7e03e4ed041f69448373ecdb80b63620091a125aa8f4b57",
+  "object_type": "EvaluationFailureFCO",
+  "payload": {
+    "arm": "VITHIA_UNBOUNDED_COMPAT_PATCH_V0",
+    "claim_ceiling": "FAILURE_EVIDENCE_ONLY",
+    "completed_web_questions": 10,
+    "defect": "TEXT_ONLY_QWEN35_TOKENIZER_COMPAT_PATCH used multimodal chat-template content with AutoTokenizer and materially undercounted memory tokens.",
+    "enterprise_status": "ABORTED_AFTER_DEFECT_IDENTIFIED",
+    "evaluation": "LongMemEval-V2 fixed text-only smoke subset",
+    "leaderboard_comparable": false,
+    "observed_avg_prompt_tokens": 25399.1,
+    "observed_web_accuracy": 0.1,
+    "preserve_result": true,
+    "receipt_sha256": "db3bbe925824ae07f216e867245eda46fadff0af2f592f4c3ceebc0c0fbdae73",
+    "reported_avg_memory_context_tokens": 2.0,
+    "schema": "vithia.external_eval_failure.v1",
+    "scientific_disposition": "INVALID_FOR_BOUNDED_CONTEXT_CLAIM",
+    "status": "FAIL_TOKEN_ACCOUNTING",
+    "successor_plan": "cap each returned memory item; use plain-text Qwen3.5 token count; rerun same fixed deterministic cases"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:03aebf28d12b69b6818f7f287687b53db232af1bd6ead6e3f499879efe46e39f",
+    "fco:ddca22c172805eefc68df5c6b3edaacd533dd0982f411bb42a8d2c1d6eaecd83"
+  ]
+}

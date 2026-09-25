@@ -1,0 +1,24 @@
+{
+  "claim_ceiling": "CUSTODY_REPAIR_ONLY",
+  "expected_state_object_ids": [
+    "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5",
+    "fco:5d50eaaa9c068fb497da24a55fe46deb676dc6337d27ed968d6f9315bf80e860",
+    "fco:8052e3c5474378d9656d30c1beeeefe94d16a662b84a0c0a95519dbd186fa042",
+    "fco:0a1a66f462b7b833432f7c29bbca2ddace348bc8044afc5fe8a48d57e47a2cb8",
+    "fco:c82bc7a7f11c72f40dc6b444db4d1c1c5317073c80f8968a1fdf8380041ffb64"
+  ],
+  "id_match": true,
+  "reason": "EVBP receipts were committed before their referenced object blobs were materialized into the repository object directory.",
+  "receipt": "EVBP4_COMPARISON.json",
+  "receipt_sha256": "f2529e8f8904c6e0974c07af1706f2d92acb070540c84f6ecdc7cf1d0f4d68db",
+  "reconstructed_state_object_ids": [
+    "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5",
+    "fco:5d50eaaa9c068fb497da24a55fe46deb676dc6337d27ed968d6f9315bf80e860",
+    "fco:8052e3c5474378d9656d30c1beeeefe94d16a662b84a0c0a95519dbd186fa042",
+    "fco:0a1a66f462b7b833432f7c29bbca2ddace348bc8044afc5fe8a48d57e47a2cb8",
+    "fco:c82bc7a7f11c72f40dc6b444db4d1c1c5317073c80f8968a1fdf8380041ffb64"
+  ],
+  "schema": "vithia.eval_object_materialization_repair.v1",
+  "semantic_mutation": false,
+  "status": "PASS"
+}

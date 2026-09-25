@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:265ff31f519db4e6d2940d2381321a35586f1b047816b2e5e5c3ddd005ecdf69",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 7145436,
+    "path": "assets/vithia-cinematic-bfl.mp4",
+    "sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

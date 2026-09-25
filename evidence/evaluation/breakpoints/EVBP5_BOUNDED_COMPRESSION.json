@@ -1,0 +1,81 @@
+{
+  "breakpoint": {
+    "object_id": "fco:073ce648f8959fd6e7a4e1960713b5cd69f1271ad099ec3ce219e5cd39703305",
+    "object_type": "BreakpointFCO",
+    "payload": {
+      "claim_boundary": "Cryptographic identity/inclusion only; does not establish semantic truth, scientific validity, causal correctness, or policy authorization.",
+      "merkle_algorithm": "SHA256_DOMAIN_SEPARATED_BINARY_TREE_V1",
+      "merkle_leaf_hashes": [
+        "0dbac2d50082e15eaf8008506af5f18d3e39e8f3f9e841d15740f5b400b50950",
+        "3583fca5a537326975869f150619813580327980303607965e358da0283fcae0",
+        "624b91ec8a68f6adebeb19990abfa5186f514d9fceaa9cfcec3dd17984bb0e76",
+        "2a698a454ca6ec4687bb9af29b83e18bc9858c47fa7dde131f7acbdb5580018c",
+        "2577b89fe51125ade22913db59b7d882fd6bbbc91cd32b5804bbbc03ad541af0",
+        "8dd8f8a7171890bf277fbd2b209d5a44eb64d52839babcb028e8c3730dfd54bf"
+      ],
+      "merkle_leaf_ordering": "declared_state_object_order",
+      "merkle_root_sha256": "5834ee9e8ab22bcf99d379d30fba84bc3b95ec8cb073869e4ac8eee67ea04fb7",
+      "predecessor_breakpoint_id": "fco:ef6c3ff5d5eaf873e33aa2f1bb65ee2d5ec77d8ed79334e5737d72b989ba4bdf",
+      "root_kind": "MERKLE_STATE_BREAKPOINT_WITH_CUMULATIVE_MMR",
+      "sequence": 5,
+      "stage": "EVBP5_BOUNDED_COMPRESSION",
+      "state_object_count": 6,
+      "state_object_ids": [
+        "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5",
+        "fco:5d50eaaa9c068fb497da24a55fe46deb676dc6337d27ed968d6f9315bf80e860",
+        "fco:8052e3c5474378d9656d30c1beeeefe94d16a662b84a0c0a95519dbd186fa042",
+        "fco:0a1a66f462b7b833432f7c29bbca2ddace348bc8044afc5fe8a48d57e47a2cb8",
+        "fco:c82bc7a7f11c72f40dc6b444db4d1c1c5317073c80f8968a1fdf8380041ffb64",
+        "fco:55d66799ed7d734b10bdaa18308a25ee8160853abbf52ea95235acc1bd943dec"
+      ],
+      "state_version_id": "vithia:bp:0005:5834ee9e8ab2"
+    },
+    "predecessor_ids": [
+      "fco:ef6c3ff5d5eaf873e33aa2f1bb65ee2d5ec77d8ed79334e5737d72b989ba4bdf"
+    ],
+    "schema": "vithia.fco.v1",
+    "source_ids": [
+      "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5",
+      "fco:5d50eaaa9c068fb497da24a55fe46deb676dc6337d27ed968d6f9315bf80e860",
+      "fco:8052e3c5474378d9656d30c1beeeefe94d16a662b84a0c0a95519dbd186fa042",
+      "fco:0a1a66f462b7b833432f7c29bbca2ddace348bc8044afc5fe8a48d57e47a2cb8",
+      "fco:c82bc7a7f11c72f40dc6b444db4d1c1c5317073c80f8968a1fdf8380041ffb64",
+      "fco:55d66799ed7d734b10bdaa18308a25ee8160853abbf52ea95235acc1bd943dec"
+    ]
+  },
+  "independent_recompute": {
+    "checks": {
+      "breakpoint_fco_hash": true,
+      "merkle_leaf_hashes": true,
+      "merkle_root": true,
+      "state_object_count": true,
+      "state_object_ids": true
+    },
+    "passed": true,
+    "recomputed_merkle_root_sha256": "5834ee9e8ab22bcf99d379d30fba84bc3b95ec8cb073869e4ac8eee67ea04fb7"
+  },
+  "merkle_verified": true,
+  "mmr": {
+    "algorithm_id": "VITHIA_MMR_V1",
+    "committed": true,
+    "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+    "leaf_count": 6,
+    "leaf_encoding": "canonical_json_utf8",
+    "leaf_fields": [
+      "event_index",
+      "object_hash",
+      "state_version_id"
+    ],
+    "leaf_ordering": "breakpoint_sequence_ascending",
+    "peaks": [
+      "751bf317138621e45299729bdc49e57141822ec720f2a161762d107f3e904153",
+      "a8fdb8b041b8ed3c0a80ab8819adf2d5871c8d0cc16149acbcb2406a8b9f0e12"
+    ],
+    "receipt_hash": "45d236b9f6abd7d7338e5e95daf0010db7048dcb6eae4b94bf66efc028d83d17",
+    "root_sha256": "404339f484cdc60635513e3b46ddaa06c97f103674b2047d3a36549e1d50c706",
+    "schema": "vithia.mmr_verification.v1",
+    "verification_passed": true
+  },
+  "receipt_sha256": "edb0e57eeb12b40caff91d14c5ceff5430b764aa0259f914647837957c719c97",
+  "schema": "vithia.breakpoint_receipt.v1"
+}

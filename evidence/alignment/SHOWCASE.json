@@ -1,0 +1,140 @@
+{
+  "atoms": [
+    {
+      "anticube": {
+        "authorizes_access": false,
+        "claim_ceiling": "ANTICUBE_CLASSIFICATION_DIAGNOSTIC_ONLY",
+        "decision": "ADMIT",
+        "identity_class": "SELF",
+        "rule_id": "hydralamp-synthetic-state-mapping-v1",
+        "safety_class": "SAFE",
+        "schema": "vithia.anticube_classification.v1",
+        "state_id": "T0_REFERENCE",
+        "target_kind": "AtomFCO",
+        "target_object_id": "fco:e1eda5f10d23a67fd2f352d28cf70794dfb028d70f37f700680a3977f2304ed5"
+      },
+      "atom_id": "fco:e1eda5f10d23a67fd2f352d28cf70794dfb028d70f37f700680a3977f2304ed5",
+      "hydra": {
+        "G_star": -0.061230299,
+        "H": 0.639556365374,
+        "Hnorm": 0.40351514,
+        "delta_G_star": 0.0,
+        "state_id": "T0_REFERENCE",
+        "target_kind": "AtomFCO",
+        "target_object_id": "fco:e1eda5f10d23a67fd2f352d28cf70794dfb028d70f37f700680a3977f2304ed5"
+      },
+      "state_id": "T0_REFERENCE"
+    },
+    {
+      "anticube": {
+        "authorizes_access": false,
+        "claim_ceiling": "ANTICUBE_CLASSIFICATION_DIAGNOSTIC_ONLY",
+        "decision": "QUARANTINE",
+        "identity_class": "NONSELF",
+        "rule_id": "hydralamp-synthetic-state-mapping-v1",
+        "safety_class": "NONSAFE",
+        "schema": "vithia.anticube_classification.v1",
+        "state_id": "T1_MUTATION",
+        "target_kind": "AtomFCO",
+        "target_object_id": "fco:9a662869aa24306085f03a21c2c838ce85ed685e276f72221099d336b56f61dc"
+      },
+      "atom_id": "fco:9a662869aa24306085f03a21c2c838ce85ed685e276f72221099d336b56f61dc",
+      "hydra": {
+        "G_star": 0.572955790773,
+        "H": 1.118730878988,
+        "Hnorm": 0.705840597793,
+        "delta_G_star": 0.634186089773,
+        "state_id": "T1_MUTATION",
+        "target_kind": "AtomFCO",
+        "target_object_id": "fco:9a662869aa24306085f03a21c2c838ce85ed685e276f72221099d336b56f61dc"
+      },
+      "state_id": "T1_MUTATION"
+    },
+    {
+      "anticube": {
+        "authorizes_access": false,
+        "claim_ceiling": "ANTICUBE_CLASSIFICATION_DIAGNOSTIC_ONLY",
+        "decision": "ADMIT",
+        "identity_class": "SELF",
+        "rule_id": "hydralamp-synthetic-state-mapping-v1",
+        "safety_class": "RESTORED",
+        "schema": "vithia.anticube_classification.v1",
+        "state_id": "T2_RESTORATION",
+        "target_kind": "AtomFCO",
+        "target_object_id": "fco:4749f13323f6a0b75281a66f1a069dc4817659e5250cc66dba5604bba1a8f2a8"
+      },
+      "atom_id": "fco:4749f13323f6a0b75281a66f1a069dc4817659e5250cc66dba5604bba1a8f2a8",
+      "hydra": {
+        "G_star": -0.027496280309,
+        "H": 1.030208780981,
+        "Hnorm": 0.649989372311,
+        "delta_G_star": -0.600452071082,
+        "state_id": "T2_RESTORATION",
+        "target_kind": "AtomFCO",
+        "target_object_id": "fco:4749f13323f6a0b75281a66f1a069dc4817659e5250cc66dba5604bba1a8f2a8"
+      },
+      "state_id": "T2_RESTORATION"
+    }
+  ],
+  "breakpoints": [
+    {
+      "breakpoint_id": "fco:3b6521ff0b09665e8fa24ad19212b5ea406713ee7c2dd58e8f669a187beea8fd",
+      "merkle_root_sha256": "515f373f1138a4b1843fa62b8ba7a62c87b29457384250958e318138f730225d",
+      "mmr_leaf_count": 1,
+      "mmr_root_sha256": "b2775c524114fa41451af1882d9998f9556391131c791b98e48495b9a55e6593",
+      "stage": "BP0_PRE_ANTICUBE",
+      "state_object_count": 10
+    },
+    {
+      "breakpoint_id": "fco:14ce4df87849d995af103d0d85e48dbdd52fc0d0b93be4cc91fd088e7619ce4d",
+      "merkle_root_sha256": "9a38b693f85fbfbd2c6a20977421ea90807ed992a73750d242fc0ea6dfc31003",
+      "mmr_leaf_count": 2,
+      "mmr_root_sha256": "cedef122efbd2d9517085f3bb1a611d63e1d81b43381acd39c3d3ffc93f74524",
+      "stage": "BP1_POST_ANTICUBE",
+      "state_object_count": 15
+    },
+    {
+      "breakpoint_id": "fco:f8b6d1954796dad77052115a3c17a155de5301bb29428550040c84214f0cfb36",
+      "merkle_root_sha256": "7432637046f5c6b1c029c8841f49c477b0410fad526ccfa14ade2e3bc22ff600",
+      "mmr_leaf_count": 3,
+      "mmr_root_sha256": "8f1c8e27bd058d0c2b89004c36b3753eee59e819cdb02d08dafbc90c843bbb8d",
+      "stage": "BP2_POST_HYDRADG",
+      "state_object_count": 18
+    }
+  ],
+  "bridges": [
+    {
+      "anticube": {
+        "authorizes_access": false,
+        "claim_ceiling": "ANTICUBE_CLASSIFICATION_DIAGNOSTIC_ONLY",
+        "decision": "QUARANTINE",
+        "identity_class": "NONSELF",
+        "rule_id": "vithia-transition-inherits-destination-anticube-v0",
+        "safety_class": "NONSAFE",
+        "schema": "vithia.anticube_classification.v1",
+        "target_kind": "BridgeFCO",
+        "target_object_id": "fco:f8ac73d3bf47f1359d67ec23b5d99014bbc91ddecf88bc74552d7d491804f869"
+      },
+      "bridge_id": "fco:f8ac73d3bf47f1359d67ec23b5d99014bbc91ddecf88bc74552d7d491804f869",
+      "relation": "PERTURBS_TO"
+    },
+    {
+      "anticube": {
+        "authorizes_access": false,
+        "claim_ceiling": "ANTICUBE_CLASSIFICATION_DIAGNOSTIC_ONLY",
+        "decision": "ADMIT",
+        "identity_class": "SELF",
+        "rule_id": "vithia-transition-inherits-destination-anticube-v0",
+        "safety_class": "RESTORED",
+        "schema": "vithia.anticube_classification.v1",
+        "target_kind": "BridgeFCO",
+        "target_object_id": "fco:52d959d62dfaa301e50531a55904d0b5c107582cf638a5bb8a87073d77c6b8f7"
+      },
+      "bridge_id": "fco:52d959d62dfaa301e50531a55904d0b5c107582cf638a5bb8a87073d77c6b8f7",
+      "relation": "RESTORES_TO"
+    }
+  ],
+  "claim_boundary": "MVP validates deterministic fixture scoring, object identity, Merkle state roots, and MMR replay. It does not establish Golden-path correctness or benchmark superiority.",
+  "schema": "vithia.mvp_showcase.v1",
+  "showcase_sha256": "0b0860edd1b2bcaa8340ec51568569a3a158bac538910e886b120c01270be454"
+}

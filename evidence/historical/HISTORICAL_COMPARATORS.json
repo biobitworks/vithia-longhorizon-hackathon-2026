@@ -1,0 +1,76 @@
+{
+  "claim_boundary": "Historical comparators are classified from recovered evidence; none are exact LongMemEval protocol comparators.",
+  "comparators": [
+    {
+      "claim_boundary": "Measurement design/recomputation lineage only; not LongMemEval and not reader-capacity equivalence.",
+      "comparability_class": "STRUCTURAL_COMPARATOR",
+      "deterministic_or_statistical": "PROBABILISTIC_MODEL_OUTPUT_WITH_HASHED_RECEIPTS",
+      "experiment_id": "OLLARMA_MEASUREMENT_REVIEW_20260827",
+      "historical_root": "NOT_RECORDED_IN_RECOVERED_RECEIPTS",
+      "historical_root_status": "NOT_COMPUTED",
+      "input_sha256": "5ef32de8586c6ad6fa963264ff8a0516c42003e8f37a54a44edd35530ebcf1c8",
+      "metric_definition": "hashed model outputs plus FCG/hash-chain/G*/delta-G* engineering metrics",
+      "model": "qwen2.5:1.5b | phi4-mini:latest | qwen3:4b",
+      "model_sha256_if_available": "NOT_RECOVERED",
+      "output_sha256": [
+        "6a5af637c8e7b6b6b1522a406aaad86e83d46f0f4e9097cdf75319b49425ff07",
+        "a48df575d2ddc8f27a8aea1a7e430b7d1a47981738c1110180d0479361e896d1",
+        "21c116096f76e92b4cbb3165c9c5e6a319ea920f886f9637555986b2effeb267"
+      ],
+      "project": "HydraDG / OLLARMA measurement review",
+      "receipt_path": "evidence/historical/ollarma/",
+      "sample_n": 3,
+      "script_path": "evidence/historical/ollarma/reconcile_measurements.py",
+      "script_sha256": "67bbf8e1c1a09c971d7af58311df37c6715fe75501aae12863acf7e9f6a7fcbb",
+      "source_commit": "884503530da06b2780070b4e38ad939a8c6dbee0",
+      "source_repository": "https://github.com/biobitworks/hydradg.git"
+    },
+    {
+      "claim_boundary": "Predecessor deterministic-state evidence; successor was preregistered but not retrained/executed. Not LongMemEval.",
+      "comparability_class": "STRUCTURAL_COMPARATOR",
+      "deterministic_or_statistical": "DETERMINISTIC_REPLAY_PREDECESSOR_WITH_SUCCESSOR_NOT_EXECUTED",
+      "experiment_id": "VITAOLOGY_VITHIA_REPLAY_20260827_V2",
+      "historical_root": "NOT_COMMITTED",
+      "historical_root_status": "NOT_COMMITTED",
+      "input_sha256": "a61d535d1e6c65849e1b4caf85872d4a58a85f6c586ebe9a035c7a9bb0052cb3",
+      "metric_definition": "state_hash_divergence / final_state_exact",
+      "model": "local Pythia-scale Vithia fixture; exact model manifest retained",
+      "model_sha256_if_available": "NOT_RECOVERED",
+      "observed_result": {
+        "diverged": 1,
+        "state_exact": 7
+      },
+      "output_sha256": "f8d594af07147394325202bc702c0fc5c4d6696d0a66c105bfb9bc88e3e543a3",
+      "project": "Vitaology/Vithia deterministic replay",
+      "receipt_path": "evidence/historical/vithia_replay/",
+      "sample_n": 8,
+      "script_path": "CORE_SCRIPT_NOT_RECOVERED_IN_CURRENT_PUBLIC_SUCCESSOR",
+      "script_sha256": "NOT_RECOVERED",
+      "source_commit": "7d48f6fd14b003d040dd8df25424e46cd6fc84fc",
+      "source_repository": "https://github.com/biobitworks/hydradg.git"
+    },
+    {
+      "claim_boundary": "Prior hackathon deployment/provenance lineage only; no reader-capacity performance comparison.",
+      "comparability_class": "STRUCTURAL_COMPARATOR",
+      "deterministic_or_statistical": "DETERMINISTIC_RECEIPT",
+      "experiment_id": "HACKWITHBAY_FINAL_V9",
+      "historical_root": "NOT_RECORDED_IN_RECOVERED_RECEIPT",
+      "historical_root_status": "NOT_COMPUTED",
+      "input_sha256": "NOT_APPLICABLE",
+      "metric_definition": "deployment/submission custody receipt",
+      "model": "NOT_APPLICABLE",
+      "model_sha256_if_available": "NOT_APPLICABLE",
+      "output_sha256": "8ec843efab63b19876f07dfb658c5b00df3f89d484ef8abff3d4c54294dd8660",
+      "project": "ButterBase / Glasswork hackathon lineage",
+      "receipt_path": "evidence/historical/butterbase/FINAL_HACKATHON_SUBMISSION_RECEIPT.json",
+      "sample_n": 1,
+      "script_path": "NOT_APPLICABLE_SUBMISSION_RECEIPT",
+      "script_sha256": "NOT_APPLICABLE",
+      "source_commit": "62d76b1549cf5c6b9e64d695736315f9e32c8cfc",
+      "source_repository": "https://github.com/biobitworks/overwatch.git"
+    }
+  ],
+  "generated_at_utc": "2026-09-25T22:45:00Z",
+  "registry_sha256": "9b6162e01a8f5af56fe72f90bde1f1b1235ba568ba367eb5658a77b0cdbe6bfe",
+  "schema": "vithia.historical_comparator_registry.v1"
+}

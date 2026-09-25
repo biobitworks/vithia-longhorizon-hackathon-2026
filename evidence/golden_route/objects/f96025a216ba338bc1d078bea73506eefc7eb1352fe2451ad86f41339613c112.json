@@ -1,0 +1,15 @@
+{
+  "object_id": "fco:f96025a216ba338bc1d078bea73506eefc7eb1352fe2451ad86f41339613c112",
+  "object_type": "RightsSignatureStateFCO",
+  "payload": {
+    "claim_boundary": "No private key is distributed; unsigned state is explicit and does not invalidate hash/Merkle/MMR recomputation.",
+    "licenses_md_sha256": "d10100b0c739f83b6c857429b8584c6f9c780addf46a3b8cad27a407d16d4c99",
+    "private_key_distributed": false,
+    "public_key_fingerprint": "NOT_RECOVERED",
+    "rights_scope_state": "SCOPE_AWARE_POLICY_PRESENT",
+    "signature_state": "NOT_SIGNED"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

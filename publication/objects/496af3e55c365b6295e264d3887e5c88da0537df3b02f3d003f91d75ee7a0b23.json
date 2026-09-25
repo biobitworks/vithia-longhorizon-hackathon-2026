@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:496af3e55c365b6295e264d3887e5c88da0537df3b02f3d003f91d75ee7a0b23",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 12292,
+    "path": "scripts/build_final_successor.py",
+    "sha256": "b6b81c33ffa19596ccfec788c9b87cd787a6b8bbf768a20a97099ee3db55279d"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

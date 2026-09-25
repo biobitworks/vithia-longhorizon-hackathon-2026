@@ -1,0 +1,15 @@
+{
+  "object_id": "fco:7b795847619fd872a7dc0d313c93e1920866d41d204a3e14ac32d06e38574e23",
+  "object_type": "SystemVerificationFCO",
+  "payload": {
+    "breakpoint_verification_sha256": "b44aba6bd64045646c105ce9ccc8a8babce8f1149bccad2624223389cc29da81",
+    "claim_boundary": "Deterministic custody/integrity verification only.",
+    "evaluation_evbp0_evbp5": "PASS",
+    "golden_route_predecessor_gr0_gr14": "PASS",
+    "runtime_bp0_bp5": "PASS",
+    "sigkill_restart": "PASS"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

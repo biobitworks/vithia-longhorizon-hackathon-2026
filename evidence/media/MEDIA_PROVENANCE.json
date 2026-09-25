@@ -1,0 +1,33 @@
+{
+  "artifacts": [
+    {
+      "bytes": 195461,
+      "claim_boundary": "Generated visual media only; not scientific validation.",
+      "generation_receipt": "evidence/sponsors/BFL_USAGE_RECEIPT_V2.json",
+      "path": "assets/BFL_FLUX2_KLEIN4B_OUTPUT_V2.png",
+      "provider": "Black Forest Labs",
+      "receipt_binding": "EXACT_MEDIA_HASH_MATCH",
+      "sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c"
+    },
+    {
+      "bytes": 7145436,
+      "claim_boundary": "Project cinematic attributed to BFL in project workflow; exact generation-job binding was not recovered for this byte sequence.",
+      "generation_receipt": "NOT_BOUND_FOR_THIS_EXACT_ASSET",
+      "job_id": "NOT_RECOVERED",
+      "path": "assets/vithia-cinematic-bfl.mp4",
+      "provider": "Black Forest Labs",
+      "receipt_binding": "USER_SUPPLIED_PROJECT_ASSET_HASHED_AT_FINALIZATION",
+      "sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c"
+    },
+    {
+      "bytes": 2722155,
+      "claim_boundary": "Submission video identity only.",
+      "generation_receipt": "PUBLIC_DEPLOYED_VIDEO_BYTES",
+      "path": "demo.mp4",
+      "provider": "Vithia submission edit",
+      "sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db"
+    }
+  ],
+  "receipt_sha256": "2115d66ecf01841533403427c311c25c91a13eed1db6d2b3c3c3030f2b7c9848",
+  "schema": "vithia.media_provenance.v1"
+}

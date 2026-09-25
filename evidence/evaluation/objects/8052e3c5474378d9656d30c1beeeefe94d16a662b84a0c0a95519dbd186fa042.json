@@ -1,0 +1,20 @@
+{
+  "object_id": "fco:8052e3c5474378d9656d30c1beeeefe94d16a662b84a0c0a95519dbd186fa042",
+  "object_type": "ExternalEvalFailureFCO",
+  "payload": {
+    "arm": "VITHIA_UNBOUNDED_COMPAT_PATCH_V0",
+    "claim_ceiling": "FAILURE_EVIDENCE_ONLY",
+    "observed_avg_prompt_tokens": 25399.1,
+    "observed_web_accuracy": 0.1,
+    "preserved": true,
+    "receipt_sha256": "db3bbe925824ae07f216e867245eda46fadff0af2f592f4c3ceebc0c0fbdae73",
+    "reported_avg_memory_context_tokens": 2.0,
+    "scientific_disposition": "INVALID_FOR_BOUNDED_CONTEXT_CLAIM",
+    "status": "FAIL_TOKEN_ACCOUNTING"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5"
+  ]
+}

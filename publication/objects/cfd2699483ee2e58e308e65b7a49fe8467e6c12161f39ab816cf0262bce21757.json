@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:cfd2699483ee2e58e308e65b7a49fe8467e6c12161f39ab816cf0262bce21757",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 136,
+    "path": "vercel.json",
+    "sha256": "4fc1dfb42a7eb26a157d69d228be9408dc97dd7aefc6eb64f30142566e529510"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

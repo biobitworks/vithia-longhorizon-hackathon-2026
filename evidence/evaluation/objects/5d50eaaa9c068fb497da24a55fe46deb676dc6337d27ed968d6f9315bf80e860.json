@@ -1,0 +1,25 @@
+{
+  "object_id": "fco:5d50eaaa9c068fb497da24a55fe46deb676dc6337d27ed968d6f9315bf80e860",
+  "object_type": "ExternalEvalResultFCO",
+  "payload": {
+    "accuracy": 0.0,
+    "arm": "NO_RETRIEVAL",
+    "avg_prompt_tokens": 210.6,
+    "claim_ceiling": "HACKATHON_ENGINEERING_SMOKE_ONLY",
+    "correct": 0,
+    "enterprise_correct": 0,
+    "enterprise_n": 5,
+    "n": 15,
+    "source_hashes": {
+      "enterprise_metrics_sha256": "340357bae2c7cdca0e4bec77da5f90757418fb00e54bff44a76ebd2bcf9b061d",
+      "web_metrics_sha256": "cdaca05af560cb37b46c88585bdbfcb5c5d88d4d512445f53fc4b5eb87c9b9e7"
+    },
+    "web_correct": 0,
+    "web_n": 10
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5"
+  ]
+}

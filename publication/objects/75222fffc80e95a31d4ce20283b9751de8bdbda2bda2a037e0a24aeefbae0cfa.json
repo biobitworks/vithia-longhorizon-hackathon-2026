@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:75222fffc80e95a31d4ce20283b9751de8bdbda2bda2a037e0a24aeefbae0cfa",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1048,
+    "path": "evidence/evaluation/LME20_BOUNDED_V2_COMPRESSION_RESULT.json",
+    "sha256": "558231cafb43758df1cbf95a1537da2df4554916c5b62a4434e6aad51f0bb09c"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

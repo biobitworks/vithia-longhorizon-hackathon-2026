@@ -1,0 +1,16 @@
+{
+  "object_id": "fco:578fb9aba1e5811d5fa2b4b20308c5d8dd235772fbaa802f4ed34881445899e5",
+  "object_type": "AlignmentSecurityEvidenceFCO",
+  "payload": {
+    "anticube_state": "SYNTHETIC_DIAGNOSTIC",
+    "biological_rejuvenation_validation": "NOT_TESTED",
+    "boundary_security_status": "PASS",
+    "claim_boundary": "Synthetic alignment/security diagnostics; no biological validation.",
+    "gstar_state": "DIMENSIONLESS_INFORMATION_STATE_DIAGNOSTIC",
+    "security_receipt_sha256": "cbc4e30bf9fe7b97a45743f34ef80882687e9257a114cebd0d4336e063689387",
+    "showcase_sha256": "0b0860edd1b2bcaa8340ec51568569a3a158bac538910e886b120c01270be454"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:e1e8eda92c23e4b21db984c6a00bb8098319f0f8130d22a6b87ef463353037cd",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 393,
+    "path": "evidence/historical/ollarma/MODEL_B_RECEIPT.json",
+    "sha256": "213fcbdc936e5cdf2bee438b92d6bdbd2a67b82826fabb867299c6b07fba6c26"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

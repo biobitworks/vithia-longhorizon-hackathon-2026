@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:1cbe5a157abd49aa1bb6f5f1a5e409682881f11ccbbbd1284c92f1b4950b0dd1",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 969,
+    "path": "evidence/historical/butterbase/FINAL_HACKATHON_SUBMISSION_RECEIPT.json",
+    "sha256": "8ec843efab63b19876f07dfb658c5b00df3f89d484ef8abff3d4c54294dd8660"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

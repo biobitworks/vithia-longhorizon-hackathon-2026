@@ -1,0 +1,15 @@
+{
+  "object_id": "fco:cc16bdffd42448008c7374d2979e8064b59d1a5647c89254bfbe7058d3d28419",
+  "object_type": "HistoricalComparatorRegistryFCO",
+  "payload": {
+    "claim_boundary": "Recovered internal lineage only; none are exact LongMemEval protocol comparators.",
+    "classes": [
+      "STRUCTURAL_COMPARATOR"
+    ],
+    "comparator_count": 3,
+    "registry_sha256": "9b6162e01a8f5af56fe72f90bde1f1b1235ba568ba367eb5658a77b0cdbe6bfe"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

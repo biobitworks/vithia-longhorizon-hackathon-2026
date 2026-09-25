@@ -1,0 +1,20 @@
+{
+  "app_id": "app_kjnqcukp84py",
+  "created_at": "2026-07-11T00:26:55.490Z",
+  "deployed_project_url": "https://glasswork.butterbase.dev",
+  "final": true,
+  "github_repo": "https://github.com/biobitworks/glasswork",
+  "hackathon_name": "HackwithBay 3.0",
+  "hackathon_slug": "HackwithBay-0707",
+  "id": "receipt-hackwithbay-FINAL-v9",
+  "note": "Definitive final submission captured directly from the MCP submit response. app_id attached for full feature scoring; all 9 fields present; RocketRide bullet references the downloadable glasswork.pipe + CLI. No secrets in this receipt.",
+  "participant_created": false,
+  "source": "butterbase_mcp:prep_and_submit_hackathon_entry(action=submit)",
+  "status": "FINAL_FILED",
+  "submission_deadline": "2026-07-11T07:23:00.000Z",
+  "submission_id": "a1fa53a5-e975-4741-a769-a8b6190f842b",
+  "ts": "2026-07-11T03:56:50Z",
+  "type": "hackathon_submission_receipt",
+  "updated_at": "2026-07-11T03:56:30.327Z",
+  "version": 9
+}

@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:8a5484707edbbea2d5fbb1f8c6e83d96e12a51b2313b0ee63a6a4c688d1d43a1",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1678,
+    "path": "evidence/runtime/LIVE_UI_SMOKE.json",
+    "sha256": "56d245de17371a6f5db76c16ff55f4dc03997cd1342ccd06480772bbcf1b4dfc"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

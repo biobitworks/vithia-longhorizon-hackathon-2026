@@ -1,0 +1,20 @@
+{
+  "object_id": "fco:9ef30e55798fd0de90168c50acba4735119b18a02fdf2053aa1c9e902a9fcb9b",
+  "object_type": "EvaluationComparisonFCO",
+  "payload": {
+    "accuracy_delta": 0.06666666666666667,
+    "context_efficiency_claim_supported_against_no_retrieval": false,
+    "improved_pairs": 1,
+    "interpretation": "DIRECTIONALLY_POSITIVE_UNDERPOWERED",
+    "mcnemar_exact_two_sided_p": 1.0,
+    "reason": "No-retrieval has zero evidence context and is not an adequate context-efficiency comparator; bounded Vithia improves 1/15 but adds context/retrieval cost.",
+    "superiority_supported": false,
+    "worsened_pairs": 0
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:41745af03caf0ad1e10a4c61221bd7e153c52eff47c475eb3eaa0b47cf870114",
+    "fco:919a213a417b37c20950695909d9e61c4e17714c4837f5f94a5be53ff5722276"
+  ]
+}

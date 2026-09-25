@@ -1,0 +1,59 @@
+{
+  "absolute_accuracy_delta": 0.06666666666666667,
+  "abstention_not_scored": 5,
+  "baseline": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "n": 15
+  },
+  "benchmark": "LongMemEval-V2",
+  "claim_ceiling": "HACKATHON_ENGINEERING_SMOKE_ONLY",
+  "deterministic_scored": 15,
+  "final_eval_mmr_root": "9c0e470ff7a791b38d7424a8585ebbcd345a6a555f480bc24a8f321e4658180b",
+  "fixed_subset_questions": 20,
+  "inference": "UNDERPOWERED_NO_STATISTICAL_CLAIM",
+  "leaderboard_comparable": false,
+  "promotion_decision": "NOT_PROMOTED",
+  "reader": "qwen2.5:0.5b",
+  "receipts": [
+    {
+      "merkle_root": "0dbac2d50082e15eaf8008506af5f18d3e39e8f3f9e841d15740f5b400b50950",
+      "mmr_root": "40f20973a26498bba2d81ecd6f712e0d642db4bb7d5ef0412650735fd42d4f80",
+      "stage": "EVBP0_PROTOCOL",
+      "verified": true
+    },
+    {
+      "merkle_root": "57235ac6e158357081a668c31f8338c96f93ba334cf28e2942b30f0a396450c2",
+      "mmr_root": "77172f6a81ad2788183fad1cb0e308b997cf3cfacc245c4300509b6679f045a6",
+      "stage": "EVBP1_BASELINE",
+      "verified": true
+    },
+    {
+      "merkle_root": "e2eb4129f9af640f377cea0d18a7cdc923dfc60419d96219c2b8ffe015d46454",
+      "mmr_root": "5326fdfd9986ac1cb95c0354e2c9d241dca477867be331e531e0f97668424d2b",
+      "stage": "EVBP2_FAILURE_PRESERVED",
+      "verified": true
+    },
+    {
+      "merkle_root": "8593a07b96949d1cf0ff2a5e56b830489aa0fbf0daee6b5f7bcdabcde8e0dd99",
+      "mmr_root": "f275bbcbecf8b089f48907a117e7d092ca78820709f5560d35af396b1b232dc4",
+      "stage": "EVBP3_BOUNDED_SUCCESSOR",
+      "verified": true
+    },
+    {
+      "merkle_root": "4a29b3029875e552dbbf8253a524f4ec80f0e3d3f6bb14e3fb55399a10587e21",
+      "mmr_root": "9c0e470ff7a791b38d7424a8585ebbcd345a6a555f480bc24a8f321e4658180b",
+      "stage": "EVBP4_COMPARISON",
+      "verified": true
+    }
+  ],
+  "schema": "vithia.lme20_external_eval_summary.v1",
+  "v0_failure_preserved": "FAIL_TOKEN_ACCOUNTING",
+  "vithia_bounded_v2": {
+    "accuracy": 0.06666666666666667,
+    "avg_memory_context_tokens": 945.8,
+    "avg_memory_query_seconds": 3.1920940388653736,
+    "correct": 1,
+    "n": 15
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "claim_boundary": "SINGLE_CASE_LIVE_ENGINEERING_EVALUATION_NOT_LEADERBOARD_COMPARABLE",
+  "context_chars": 8213,
+  "context_sha256": "5b02ba673b0bbfc7fe92584ca286a8f819f7203fd1aefcaec78fd921f9aa83b3",
+  "first_attempt_failure": "ModuleNotFoundError:httpx in official harness import chain",
+  "prompt_sha256": "d9089e009624a273333b3851a5258255788be07108382a33b81cffbbddc0a757",
+  "question": "I am using our magento-based custom shopping admin website. I would like to notify a user to reorder for a recend pending order. I have pinpointed that order and entered its detail page. According to our usual workflow, with the action space below, how many more actions do I need to perform to conclude this task?\n\nAction Space:\nscroll(delta_x: float, delta_y: float), keyboard_press(key: str), click(bid: str, button='left', modifiers=[]), fill(bid: str, value: str, enable_autocomplete_menu: bool = False), hover(bid: str), tab_focus(index: int), new_tab(), go_back(), go_forward(), tab_close(), select_option(bid: str, options: str | list[str])\n\nYour final answer should be an English number (e.g., one, two, three, ...) wrapped in \\boxed{}.",
+  "question_id": "07ab3723",
+  "receipt_sha256": "133b069c5ec1f49474aa384ca448828df71c08e60f7d6e1d50d1887227692b28",
+  "reference_answer": "three",
+  "results": [
+    {
+      "correct": false,
+      "done_reason": "stop",
+      "eval_count": 12,
+      "latency_s": 0.879,
+      "model": "longhorizon-liquid-230m-edge:latest",
+      "response": "The number of additional actions needed is **2**.",
+      "response_sha256": "04fa76e2caf542f259eeb76be9d1c273077e3b25700dea0aeb30e491340f1681"
+    },
+    {
+      "correct": false,
+      "done_reason": "stop",
+      "eval_count": 2,
+      "latency_s": 2.068,
+      "model": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m",
+      "response": "3",
+      "response_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "correct": false,
+      "done_reason": "length",
+      "eval_count": 96,
+      "latency_s": 5.964,
+      "model": "longhorizon-liquid-26b:latest",
+      "response": "The user is asking about a specific scenario in a Magento-based custom shopping admin website. They want to know how many more actions are needed to conclude the task of notifying a user to reorder for a recent pending order, given a specific action space.\n\nThe action space includes: scroll, keyboard_press, click, fill, hover, tab_focus, new_tab, go_back, go_forward, tab_close, select_option.\n\nThe task: \"I have",
+      "response_sha256": "c3c20d6dea96288c76c0502883f74f4faf3fada72e260b795f04a3c6fbb91ff1"
+    }
+  ],
+  "schema": "vithia.lme_liquid_same_context.v1",
+  "selected": [
+    {
+      "atom_id": "lme:518d6fea:0",
+      "original_chars": 20504,
+      "returned_chars": 1600,
+      "score": 0.8799756623052757,
+      "state_index": 0,
+      "trajectory_id": "518d6fea",
+      "truncated": true
+    },
+    {
+      "atom_id": "lme:868ad4c0:6",
+      "original_chars": 13546,
+      "returned_chars": 1600,
+      "score": 0.8081575147143373,
+      "state_index": 6,
+      "trajectory_id": "868ad4c0",
+      "truncated": true
+    },
+    {
+      "atom_id": "lme:53f7b75e:9",
+      "original_chars": 21606,
+      "returned_chars": 1600,
+      "score": 0.8081575147143373,
+      "state_index": 9,
+      "trajectory_id": "53f7b75e",
+      "truncated": true
+    },
+    {
+      "atom_id": "lme:53f7b75e:8",
+      "original_chars": 21606,
+      "returned_chars": 1600,
+      "score": 0.8081575147143373,
+      "state_index": 8,
+      "trajectory_id": "53f7b75e",
+      "truncated": true
+    },
+    {
+      "atom_id": "lme:53f7b75e:7",
+      "original_chars": 21606,
+      "returned_chars": 1600,
+      "score": 0.8081575147143373,
+      "state_index": 7,
+      "trajectory_id": "53f7b75e",
+      "truncated": true
+    }
+  ],
+  "selector_gate_receipt_sha256": "d633677bed69da55c27438d2b519a49e1367deb64a4c5b885b59bba384c9e5ce",
+  "selector_mode": "learned_hashing_perceptron"
+}

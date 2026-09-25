@@ -1,0 +1,17 @@
+{
+  "object_id": "fco:03aebf28d12b69b6818f7f287687b53db232af1bd6ead6e3f499879efe46e39f",
+  "object_type": "ExternalBenchmarkSourceFCO",
+  "payload": {
+    "benchmark": "LongMemEval-V2",
+    "claim_ceiling": "EXTERNAL_PUBLIC_BENCHMARK_SMOKE_ONLY",
+    "code_commit": "2cc8c540bdb87fe6761629b585e727e1c4704520",
+    "haystack_source_sha256": "9b5301defb23a088a5f06e45ff8d5f35e569d78305a66d492046a9fff9b46593",
+    "leaderboard_comparable": false,
+    "questions_source_sha256": "0a3ae5ebea938c24d7800e1e0b0828e08ae1646f939a53853b2b8cdc08e292b7",
+    "subset_manifest_sha256": "c2b01aa2b8b69c94da334651a920f2edce1dad9dfdcbe14aa9738e17bf808152",
+    "trajectories_source_sha256": "363cec9a8e87aa8d9101ce4e600aadbf7031d674056ebe4f969e8424abc5f3c6"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

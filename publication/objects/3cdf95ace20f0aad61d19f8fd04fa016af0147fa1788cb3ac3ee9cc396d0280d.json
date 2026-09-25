@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:3cdf95ace20f0aad61d19f8fd04fa016af0147fa1788cb3ac3ee9cc396d0280d",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2106,
+    "path": "evidence/evaluation/LME20_EXTERNAL_EVAL_SUMMARY.json",
+    "sha256": "7bf1414d5ecc87be01067e3e70cc646e7c9da0e0135d22701f351d36148c2051"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

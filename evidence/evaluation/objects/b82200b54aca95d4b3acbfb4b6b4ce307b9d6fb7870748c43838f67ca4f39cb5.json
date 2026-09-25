@@ -1,0 +1,22 @@
+{
+  "object_id": "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5",
+  "object_type": "ExternalEvalProtocolFCO",
+  "payload": {
+    "abstention_questions_not_scored": 5,
+    "benchmark": "LongMemEval-V2",
+    "claim_ceiling": "HACKATHON_ENGINEERING_SMOKE_ONLY",
+    "deterministic_scored_questions": 15,
+    "leaderboard_comparable": false,
+    "questions_total": 20,
+    "reader": "qwen2.5:0.5b Q4_K_M via Ollama",
+    "reader_fixed_across_compared_arms": true,
+    "selection_frozen_before_outputs": true,
+    "selection_manifest_sha256": "5412caf79178b72bc299a4a1e6e4a6065a804aedbb94f5d9c2685262b133debd",
+    "subset": "fixed_text_smoke_20",
+    "successor_configuration_adapted_after_failure_observation": true,
+    "token_count_mode": "Qwen3.5 plain text tokenizer compatibility patch"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

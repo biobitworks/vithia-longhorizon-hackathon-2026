@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:4a9f72696952aedc1bb4e697d3f71ce74b924ce3cb4af3915dee646d9635e38f",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1277,
+    "path": "evidence/evaluation/breakpoints/EVBP_OBJECT_MATERIALIZATION_REPAIR.json",
+    "sha256": "aa2a57f371614f3d524d41c465d30da3208644f37e9f2606a0d11b9bc52a1b86"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

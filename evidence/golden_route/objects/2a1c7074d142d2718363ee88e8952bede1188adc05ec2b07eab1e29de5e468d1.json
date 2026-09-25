@@ -1,0 +1,20 @@
+{
+  "object_id": "fco:2a1c7074d142d2718363ee88e8952bede1188adc05ec2b07eab1e29de5e468d1",
+  "object_type": "EvaluationEvidenceFCO",
+  "payload": {
+    "claim_boundary": "Engineering smoke and single-case reader comparison only; no generalization or model-equivalence claim.",
+    "context_reduction_fraction": 0.4157400543612553,
+    "deterministically_scored": 15,
+    "leaderboard_comparable": false,
+    "lme_fixed_questions": 20,
+    "m0_correct": 0,
+    "observed_delta_percentage_points": 6.666666666666667,
+    "performance_generalization": "INSUFFICIENT_SAMPLE",
+    "reader_capacity_state": "PARTIAL_SINGLE_CASE_DIVERGENCE_NOT_EQUIVALENCE",
+    "summary_sha256": "95e6d85bd4cea80f415da84cd96d7b6c797752cf179a7577f2c660f07aeb528d",
+    "vithia_correct": 1
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

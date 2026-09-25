@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:c18dc6b9d9312a0b5c62c48c992047f671c357fa5976d0707d600a98467b9929",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 80,
+    "path": ".gitignore",
+    "sha256": "9fd469a45796bb1d6d391c25a31dea25ce9c489d62d53a7f78d0051d8c08718e"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,0 +1,57 @@
+{
+  "context_compression": {
+    "claim": "Observed context reduction with no observed accuracy change on the 15-case smoke; effect on general performance unresolved.",
+    "correct_v1": 1,
+    "correct_v2": 1,
+    "memory_context_reduction_fraction": 0.4157400543612553,
+    "memory_context_tokens_v1": 1618.8,
+    "memory_context_tokens_v2": 945.8,
+    "prompt_reduction_fraction": 0.3645934807043837,
+    "prompt_tokens_v1": 1779.3333333333333,
+    "prompt_tokens_v2": 1130.6,
+    "same_fixed_cases": 15
+  },
+  "memory_performance": {
+    "abstentions_not_scored": 5,
+    "benchmark": "LongMemEval-V2",
+    "deterministically_scored": 15,
+    "fixed_questions": 20,
+    "leaderboard_comparable": false,
+    "m0_correct": 0,
+    "observed_absolute_delta_percentage_points": 6.666666666666667,
+    "official_leaderboard_submission": false,
+    "performance_generalization": "INSUFFICIENT_SAMPLE",
+    "vithia_m3_correct": 1
+  },
+  "north_star_question": "Given the same cryptographically frozen evidence projection, how much reader capacity is required to preserve the task outcome?",
+  "reader_capacity": {
+    "claim_boundary": "One same-context case diverged; model equivalence/noninferiority is not established.",
+    "full_text_only_eval": "NOT_EXECUTED",
+    "large_model_result": {
+      "canonical_answer": null,
+      "correct": false,
+      "latency_s": 12.942,
+      "model": "longhorizon-liquid-26b:latest"
+    },
+    "question_id": "07ab3723",
+    "same_canonical_outcome": false,
+    "shared_context_sha256": "5b02ba673b0bbfc7fe92584ca286a8f819f7203fd1aefcaec78fd921f9aa83b3",
+    "small_model_result": {
+      "canonical_answer": "three",
+      "correct": true,
+      "latency_s": 1.382,
+      "model": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m"
+    },
+    "state": "PARTIAL_SINGLE_CASE_DIVERGENCE_NOT_EQUIVALENCE"
+  },
+  "schema": "vithia.final_evaluation_summary.v1",
+  "summary_sha256": "95e6d85bd4cea80f415da84cd96d7b6c797752cf179a7577f2c660f07aeb528d",
+  "system_integrity": {
+    "bounded_context_hash": "PASS",
+    "fcg_construction": "PASS",
+    "fco_atomization": "PASS",
+    "merkle_replay": "PASS",
+    "mmr_replay": "PASS",
+    "sigkill_reconstruction": "PASS"
+  }
+}

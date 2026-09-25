@@ -69,3 +69,11 @@ The public repository itself is resealed whenever its public bytes change; see `
 - Public repository: https://github.com/biobitworks/vithia-longhorizon-hackathon-2026
 - Vithia model card: https://huggingface.co/biobitworks/fco-vithia-fmo-076
 - Published FCO DOI: https://doi.org/10.5281/zenodo.21829929
+
+## Final evaluation framing
+
+The final app deliberately separates deterministic system verification from performance inference. BP0–BP5 execution custody, EVBP0–EVBP5 evaluation custody, Merkle/MMR replay, and SIGKILL reconstruction are independently checkable system properties.
+
+The current LongMemEval-V2 result is a fixed 20-case engineering smoke (15 deterministically scored, 5 abstentions): M0 no-memory 0/15 versus Vithia bounded FCG memory 1/15, an observed +6.67 percentage-point difference. A bounded-context successor reduced average memory-context tokens by 41.6% on those same scored cases with the observed correct count unchanged at 1/15. These results are not official leaderboard results and do not support a population-level performance claim.
+
+The reader-capacity experiment freezes one BP4 context before branching to different Liquid readers. The current single-case 1.2B/2.6B run diverged, so small/large-model equivalence is explicitly not claimed.

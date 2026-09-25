@@ -1,0 +1,37 @@
+{
+  "object_id": "fco:0a1a66f462b7b833432f7c29bbca2ddace348bc8044afc5fe8a48d57e47a2cb8",
+  "object_type": "ExternalEvalResultFCO",
+  "payload": {
+    "accuracy": 0.06666666666666667,
+    "arm": "VITHIA_BOUNDED_V2_DETERMINISTIC",
+    "avg_memory_context_tokens": 945.8,
+    "avg_memory_query_seconds": 3.1920940388653736,
+    "avg_prompt_tokens": 1130.6,
+    "claim_ceiling": "HACKATHON_ENGINEERING_SMOKE_ONLY",
+    "correct": 1,
+    "enterprise_avg_memory_context_tokens": 776.2,
+    "enterprise_correct": 0,
+    "enterprise_n": 5,
+    "leaderboard_comparable": false,
+    "n": 15,
+    "projection": {
+      "limit": 3,
+      "max_chars_per_item": 900,
+      "memory_context_max_tokens": 1600
+    },
+    "source_hashes": {
+      "enterprise_metrics_sha256": "0b5d37961113820600d2c7b730edd572535302fbaa98bc6d4331b4a86c7da205",
+      "web_metrics_sha256": "bbe38693c604f20c519e88114c3b727808f1e8d019a0933478516aad9596846c"
+    },
+    "web_avg_memory_context_tokens": 1030.6,
+    "web_correct": 1,
+    "web_n": 10
+  },
+  "predecessor_ids": [
+    "fco:8052e3c5474378d9656d30c1beeeefe94d16a662b84a0c0a95519dbd186fa042"
+  ],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:b82200b54aca95d4b3acbfb4b6b4ce307b9d6fb7870748c43838f67ca4f39cb5"
+  ]
+}

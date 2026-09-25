@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:da98f8b72b06bba1782b653815cb56557377c6aac2208388817281f3f1902f1d",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 391,
+    "path": "evidence/historical/ollarma/ENGINEERING_METRICS.json",
+    "sha256": "5ef32de8586c6ad6fa963264ff8a0516c42003e8f37a54a44edd35530ebcf1c8"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

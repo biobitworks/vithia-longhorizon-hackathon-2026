@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:9bcda8fc4e346560f3a89ffc68a896f38b398bb56764fd8bd6d96df38745705c",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 36189,
+    "path": "evidence/historical/ollarma/reconcile_measurements.py",
+    "sha256": "67bbf8e1c1a09c971d7af58311df37c6715fe75501aae12863acf7e9f6a7fcbb"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

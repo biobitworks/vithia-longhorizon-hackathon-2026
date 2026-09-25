@@ -1,0 +1,48 @@
+{
+  "object_id": "fco:919a213a417b37c20950695909d9e61c4e17714c4837f5f94a5be53ff5722276",
+  "object_type": "EvaluationResultFCO",
+  "payload": {
+    "adapter_sha256": "2dd4369f43f0395c5b8b134d778a66f5775773bbb45e781004cbef83264ac7ed",
+    "arm": "VITHIA_BOUNDED_V1",
+    "claim_ceiling": "15_DETERMINISTIC_CASES_ONLY_NOT_LEADERBOARD_COMPARABLE",
+    "harness_wrapper_sha256": "5a790d1fffd9c2c0f4e12fb70ad98975907217af6cd9b93a8a8dbaee40f03a15",
+    "implementation_base_commit": "178b3e6c",
+    "implementation_worktree_state": "UNCOMMITTED_SUCCESSOR_BYTES_AT_EXECUTION",
+    "metrics": {
+      "accuracy": 0.06666666666666667,
+      "avg_memory_context_tokens": 1618.8,
+      "avg_memory_query_seconds": 3.2156878971417124,
+      "completion_tokens": 294,
+      "correct": 1,
+      "max_memory_context_tokens": 1820,
+      "memory_context_tokens": 24282,
+      "n": 15,
+      "prompt_tokens": 26690,
+      "question_ids": [
+        "00aa905a",
+        "05cce9b3",
+        "06a5a25f",
+        "06e965cf",
+        "0738c1ac",
+        "07ab3723",
+        "07b49858",
+        "07d86be1",
+        "07fff330",
+        "0a4a47e6",
+        "01307e07",
+        "025db8ef",
+        "057a2d4d",
+        "07ffeedf",
+        "080b0218"
+      ],
+      "unknown": 3
+    },
+    "status": "OBSERVED"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:03aebf28d12b69b6818f7f287687b53db232af1bd6ead6e3f499879efe46e39f",
+    "fco:ddca22c172805eefc68df5c6b3edaacd533dd0982f411bb42a8d2c1d6eaecd83"
+  ]
+}

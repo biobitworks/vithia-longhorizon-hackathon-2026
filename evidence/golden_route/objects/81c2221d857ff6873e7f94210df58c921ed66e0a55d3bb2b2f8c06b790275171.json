@@ -1,0 +1,14 @@
+{
+  "object_id": "fco:81c2221d857ff6873e7f94210df58c921ed66e0a55d3bb2b2f8c06b790275171",
+  "object_type": "MediaProvenanceFCO",
+  "payload": {
+    "cinematic_sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c",
+    "claim_boundary": "Byte identity/provenance only; the cinematic exact generation-job binding is not recovered.",
+    "demo_video_sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db",
+    "media_receipt_sha256": "2115d66ecf01841533403427c311c25c91a13eed1db6d2b3c3c3030f2b7c9848",
+    "sealed_bfl_image_sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}
