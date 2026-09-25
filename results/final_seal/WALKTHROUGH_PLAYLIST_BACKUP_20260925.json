@@ -1,0 +1,24 @@
+{
+  "schema": "vithia.walkthrough_playlist_backup.v1",
+  "project": "Vithia — Verifiable Long-Horizon Agents",
+  "repository": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
+  "predecessor_public_head": "f5c3b0736d3b79cd83198e9dd6b00a9d2d33ab0a",
+  "recorded_at": "2026-09-25T16:28:00-07:00",
+  "source_kind": "USER_SUPPLIED_EXTERNAL_MEDIA",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLQK0PH971TIo",
+  "purpose": "Backup evidence that the project author created walkthrough content for the final presentation when the in-chat implementation did not fully complete.",
+  "claim_state": {
+    "playlist_url_supplied_by_project_author": "OBSERVED_IN_CONVERSATION",
+    "walkthrough_content_authorship": "USER_ASSERTED",
+    "playlist_contents_independently_retrieved": "FAILED",
+    "runtime_completion": "NOT_SUPPORTED_BY_THIS_RECORD",
+    "submission_completion": "NOT_SUPPORTED_BY_THIS_RECORD"
+  },
+  "external_retrieval": {
+    "state": "FAILED",
+    "detail": "Direct YouTube fetch returned a cache-miss error and exact playlist search returned no indexed result in this session. This does not establish that the playlist is unavailable."
+  },
+  "custody_note": "This carrier receipt is intentionally stored under results/final_seal/, which the current public-repo verifier excludes from the sealed payload. It preserves the predecessor public seal instead of mutating historical sealed files.",
+  "root_state": "NOT_COMPUTED",
+  "merkle_state": "NOT_COMPUTED"
+}
