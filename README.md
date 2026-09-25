@@ -74,10 +74,18 @@ For exact state rather than presentation copy:
 - `PUBLIC_MANIFEST.json` — sealed public repository payload
 - `results/final_seal/VITHIA_FINAL_SEAL.json` — machine-readable final system seal
 
-Run:
+Verify the final seal and Golden Route on current `main`:
 
 ```bash
+python3 scripts/verify_final_seal.py
 python3 scripts/verify_golden_route.py
+```
+
+`verify_public_repo.py` is an exact sealed-payload verifier. Because the README and judge-fallback documents were intentionally added **after** the submission deadline, run it against the sealed content commit rather than current `main`:
+
+```bash
+git worktree add /tmp/vithia-sealed c7d84876266f8cd5a1e6a1ea882e58cdb53fcefc
+cd /tmp/vithia-sealed
 python3 scripts/verify_public_repo.py
 ```
 
