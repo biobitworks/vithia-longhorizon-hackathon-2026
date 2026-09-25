@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:6a854252e04b3ab7c3f9e90cfb7865e0c4bd2584159fb8dbab273084ae17ed86",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2228,
+    "path": "scripts/verify_final_seal.py",
+    "sha256": "e2275af29d89b3d0ccd3beb15f01b4180c3d8565cf35639fda6b757f3e14aa1b"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

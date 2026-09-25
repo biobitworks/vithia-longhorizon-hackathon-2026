@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:7851fb61e91b72ecc8b13ac967f6dfd8cdb84bb989cd9f63d16c0458ff678f4f",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 8103,
+    "path": "scripts/build_seal_tooling_successor.py",
+    "sha256": "2b8b45775f00e34322fb7cfb80712532f6d990ea028471bde37f2a8031bc52ca"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

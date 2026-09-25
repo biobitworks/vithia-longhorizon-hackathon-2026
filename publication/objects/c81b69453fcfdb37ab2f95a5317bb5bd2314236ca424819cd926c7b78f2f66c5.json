@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:c81b69453fcfdb37ab2f95a5317bb5bd2314236ca424819cd926c7b78f2f66c5",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 916,
+    "path": "evidence/finalization/FINAL_SEAL_TOOLING_SUCCESSOR.json",
+    "sha256": "7bd88872e9f15b09bb0cc2ec3268167df6591ae73fbfcd3188cce5bb0429e705"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

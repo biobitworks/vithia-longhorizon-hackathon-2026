@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:2f7aa5425a00f334af2df5d49d45f315ecab856e2681fa60642585c74f637ad0",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2289,
+    "path": "evidence/golden_route/breakpoints/GR17_FINAL_SEAL_TOOLING_SUCCESSOR.json",
+    "sha256": "8cbc698105756f398956ebebc00a1b42215566d9484d104f1f0304ed0da97f49"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

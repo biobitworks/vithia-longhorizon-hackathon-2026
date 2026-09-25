@@ -1,0 +1,55 @@
+{
+  "breakpoint": {
+    "object_id": "fco:97576b983a0459dcb85a1833f406f478ce01b837bfd02a932d24a658d3774d3f",
+    "object_type": "BreakpointFCO",
+    "payload": {
+      "claim_boundary": "Cryptographic identity/inclusion only; does not establish semantic truth, scientific validity, causal correctness, or policy authorization.",
+      "merkle_algorithm": "SHA256_DOMAIN_SEPARATED_BINARY_TREE_V1",
+      "merkle_leaf_hashes": [
+        "c4d81fd5fc4de7bc06483a439d3399336b960218f2eba1b104d342ce03e9a139"
+      ],
+      "merkle_leaf_ordering": "declared_state_object_order",
+      "merkle_root_sha256": "c4d81fd5fc4de7bc06483a439d3399336b960218f2eba1b104d342ce03e9a139",
+      "predecessor_breakpoint_id": "fco:1839fd1365b43de7eb831b3786fa84dcfbf9cb3a365fd6b11f425951f57aeb24",
+      "root_kind": "MERKLE_STATE_BREAKPOINT_WITH_CUMULATIVE_MMR",
+      "sequence": 17,
+      "stage": "FINAL_SEAL_TOOLING_SUCCESSOR",
+      "state_object_count": 1,
+      "state_object_ids": [
+        "fco:6428a98560f3d2ba002ca81026d93fd1b86586bf6db7ef664349086e395bde7b"
+      ],
+      "state_version_id": "vithia:bp:0017:c4d81fd5fc4d"
+    },
+    "predecessor_ids": [
+      "fco:1839fd1365b43de7eb831b3786fa84dcfbf9cb3a365fd6b11f425951f57aeb24"
+    ],
+    "schema": "vithia.fco.v1",
+    "source_ids": [
+      "fco:6428a98560f3d2ba002ca81026d93fd1b86586bf6db7ef664349086e395bde7b"
+    ]
+  },
+  "merkle_verified": true,
+  "mmr": {
+    "algorithm_id": "VITHIA_MMR_V1",
+    "committed": true,
+    "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+    "leaf_count": 18,
+    "leaf_encoding": "canonical_json_utf8",
+    "leaf_fields": [
+      "event_index",
+      "object_hash",
+      "state_version_id"
+    ],
+    "leaf_ordering": "breakpoint_sequence_ascending",
+    "peaks": [
+      "96deb9bb9d844d9ca0e28a25598d7dd42a7bf37ea14c16b62e37661279c92f7d",
+      "ec9ba82039527cb6315d1548e99cd30206c51ac0b15450c86a41264dea52ad42"
+    ],
+    "receipt_hash": "9a0cbe30b78aa267c522058cd1d0cb75e9f37cc1880f6f17120f3844baea3a03",
+    "root_sha256": "5360f98721ecab951c1a0d397acaed910456e5f6405af612948b07db9aead729",
+    "schema": "vithia.mmr_verification.v1",
+    "verification_passed": true
+  },
+  "receipt_sha256": "56ba471dff1a66e83464e5d9aa3d8803f7d26f6d697d0af3d6f2682cc2b62345",
+  "schema": "vithia.breakpoint_receipt.v1"
+}

@@ -10,7 +10,10 @@ def load(p):return json.loads((ROOT/p).read_text())
 def fsha(p):return hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--sealed-content-commit',required=True);ap.add_argument('--deployment-id',required=True);ap.add_argument('--deployment-url',required=True);ap.add_argument('--deployment-created-at',default='NOT_RECORDED');ap.add_argument('--app-smoke-status',default='PASS');a=ap.parse_args()
-    pub=load('PUBLIC_MANIFEST.json');gr=load('evidence/golden_route/GOLDEN_ROUTE_MANIFEST_V4.json');bv=load('evidence/verification/BREAKPOINT_VERIFICATION.json');ev=load('evidence/evaluation/FINAL_EVALUATION_SUMMARY.json');hist=load('evidence/historical/HISTORICAL_COMPARATORS.json');media=load('evidence/media/MEDIA_PROVENANCE.json');live=load('evidence/runtime/LIVE_UI_SMOKE.json')
+    pub=load('PUBLIC_MANIFEST.json')
+    manifests=sorted((ROOT/'evidence/golden_route').glob('GOLDEN_ROUTE_MANIFEST_V*.json'), key=lambda p:int(p.stem.rsplit('_V',1)[1]))
+    gr=json.loads(manifests[-1].read_text())
+    bv=load('evidence/verification/BREAKPOINT_VERIFICATION.json');ev=load('evidence/evaluation/FINAL_EVALUATION_SUMMARY.json');hist=load('evidence/historical/HISTORICAL_COMPARATORS.json');media=load('evidence/media/MEDIA_PROVENANCE.json');live=load('evidence/runtime/LIVE_UI_SMOKE.json')
     body={
       'schema':'vithia.final_seal.v1','project':'VITHIA_LONGHORIZON_HACKATHON','timestamp_utc':datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z'),
       'local_repo':'vithia-longhorizon-hackathon-2026','local_commit_sha':a.sealed_content_commit,
@@ -21,7 +24,7 @@ def main():
       'public_manifest_sha256':pub['manifest_sha256'],'publication_merkle_root':pub['publication_merkle_root'],'publication_breakpoint_id':pub['publication_breakpoint_id'],
       'bp0_status':'PASS','bp1_status':'PASS','bp2_status':'PASS','bp3_status':'PASS','bp4_status':'PASS','bp5_status':'PASS','ebp0_status':'PASS','ebp1_status':'PASS',
       'evaluation_breakpoint_mapping':'EVBP0_PROTOCOL through EVBP5_BOUNDED_COMPRESSION independently replay PASS; invalid v0 predecessor preserved',
-      'golden_route_first':'GR0','golden_route_last':'GR15','golden_route_all_verified':True,
+      'golden_route_first':'GR0','golden_route_last':f"GR{len(gr['route'])-1}",'golden_route_all_verified':True,
       'historical_comparator_count':len(hist['comparators']),'historical_comparator_classes':sorted(set(x['comparability_class'] for x in hist['comparators'])),
       'lme_fixed_question_count':20,'lme_deterministically_scored':15,'lme_abstentions':5,'lme_m0_correct':0,'lme_vithia_correct':1,'lme_observed_delta':0.06666666666666667,
       'performance_generalization_state':'INSUFFICIENT_SAMPLE','official_leaderboard_state':'NOT_SUBMITTED_NOT_COMPARABLE','reader_capacity_eval_state':ev['reader_capacity']['state'],

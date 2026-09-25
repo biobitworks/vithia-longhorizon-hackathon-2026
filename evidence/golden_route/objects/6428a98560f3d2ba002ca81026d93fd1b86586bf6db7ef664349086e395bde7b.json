@@ -1,0 +1,18 @@
+{
+  "object_id": "fco:6428a98560f3d2ba002ca81026d93fd1b86586bf6db7ef664349086e395bde7b",
+  "object_type": "FinalSealToolingSuccessorFCO",
+  "payload": {
+    "claim_boundary": "Tooling repair makes final-seal generation and verification resolve the latest Golden Route manifest dynamically; it does not alter prior roots.",
+    "predecessor_build_final_seal_sha256": "471227d1228c6094a1a648e9718feb91ccb2ed61bd54f80c9d94a7bc3e01e5ad",
+    "predecessor_verify_final_seal_sha256": "884a452ea9d3a6513898593f97bc84a98dc2a17565850798ea5c5379da3a9c53",
+    "receipt_sha256": "d2807cb0a72c6b6c73ffa25dba7e0c047ef07b2bb1755f02189aef4a05a3584a",
+    "schema": "vithia.final_seal_tooling_successor.v1",
+    "successor_build_final_seal_sha256": "82aa71ac1272e0f630eba0dd12d7427eeac02dca0be16ef424e63f33429d4af4",
+    "successor_verify_final_seal_sha256": "e2275af29d89b3d0ccd3beb15f01b4180c3d8565cf35639fda6b757f3e14aa1b",
+    "transition": "MAKE_FINAL_SEAL_TOOLS_LATEST_MANIFEST_AWARE",
+    "video_walkthrough_receipt_sha256": "907423fa40b14f9d12b8bc6d5d6688c987d320438d436155e5e414e3a538bb39"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

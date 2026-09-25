@@ -1,6 +1,6 @@
 {
-  "bundle_fco_id": "fco:38763ecbb4f1a9035a634fb760290a02ec5954c046815733fc04ac423e42dd59",
-  "bundle_fco_path": "publication/objects/38763ecbb4f1a9035a634fb760290a02ec5954c046815733fc04ac423e42dd59.json",
+  "bundle_fco_id": "fco:75333870d175f590b435131d90f05b52db030465d000823fcaf9ab88ed2ad593",
+  "bundle_fco_path": "publication/objects/75333870d175f590b435131d90f05b52db030465d000823fcaf9ab88ed2ad593.json",
   "files": [
     {
       "bytes": 80,
@@ -198,6 +198,11 @@
       "sha256": "39a1cf4fdd50de804816e5a9094714e52b9d04adf331b93b17e17195c5b1f252"
     },
     {
+      "bytes": 916,
+      "path": "evidence/finalization/FINAL_SEAL_TOOLING_SUCCESSOR.json",
+      "sha256": "7bd88872e9f15b09bb0cc2ec3268167df6591ae73fbfcd3188cce5bb0429e705"
+    },
+    {
       "bytes": 7978,
       "path": "evidence/golden_route/GOLDEN_ROUTE_MANIFEST_V3.json",
       "sha256": "3f189bed75d99f0255ed518a46301f5cb3060a4f9abb085b32d8b5552635f4a4"
@@ -211,6 +216,11 @@
       "bytes": 8871,
       "path": "evidence/golden_route/GOLDEN_ROUTE_MANIFEST_V5.json",
       "sha256": "0da462b08faa78079d042517bc5f0720dbce25f331581ac3d5c93c3862b5cac5"
+    },
+    {
+      "bytes": 9287,
+      "path": "evidence/golden_route/GOLDEN_ROUTE_MANIFEST_V6.json",
+      "sha256": "5288843126bf0d69d9b5402f58227d73d8cb8f1f37dd72c5e78fffac08842827"
     },
     {
       "bytes": 2071,
@@ -251,6 +261,11 @@
       "bytes": 2527,
       "path": "evidence/golden_route/breakpoints/GR16_DEMO_VIDEO_WALKTHROUGH_SUCCESSOR.json",
       "sha256": "b3eed30195556c953630dee541b5fd999637431fbc6c10aade8657323eddc00a"
+    },
+    {
+      "bytes": 2289,
+      "path": "evidence/golden_route/breakpoints/GR17_FINAL_SEAL_TOOLING_SUCCESSOR.json",
+      "sha256": "8cbc698105756f398956ebebc00a1b42215566d9484d104f1f0304ed0da97f49"
     },
     {
       "bytes": 2677,
@@ -411,6 +426,11 @@
       "bytes": 2125,
       "path": "evidence/golden_route/objects/5a7bd11417e807237a3b383ac25cf0f3e6711f2c4635064fb2d21b4f2027fe61.json",
       "sha256": "4dbec1bcfc9bf0fc77c717654b46702a3999725144922341828ee75cf9167d7b"
+    },
+    {
+      "bytes": 1163,
+      "path": "evidence/golden_route/objects/6428a98560f3d2ba002ca81026d93fd1b86586bf6db7ef664349086e395bde7b.json",
+      "sha256": "0f041cf0db25e48cb60bf79e6abd8872162024737013dae31ee10512f096ae7e"
     },
     {
       "bytes": 781,
@@ -853,14 +873,19 @@
       "sha256": "5ed481084e9d8c8ca3142a7aea274aea644f665bdd8edcaddf2f854f5ef5edaf"
     },
     {
-      "bytes": 7168,
+      "bytes": 7308,
       "path": "scripts/build_final_seal.py",
-      "sha256": "471227d1228c6094a1a648e9718feb91ccb2ed61bd54f80c9d94a7bc3e01e5ad"
+      "sha256": "82aa71ac1272e0f630eba0dd12d7427eeac02dca0be16ef424e63f33429d4af4"
     },
     {
       "bytes": 12292,
       "path": "scripts/build_final_successor.py",
       "sha256": "b6b81c33ffa19596ccfec788c9b87cd787a6b8bbf768a20a97099ee3db55279d"
+    },
+    {
+      "bytes": 8103,
+      "path": "scripts/build_seal_tooling_successor.py",
+      "sha256": "2b8b45775f00e34322fb7cfb80712532f6d990ea028471bde37f2a8031bc52ca"
     },
     {
       "bytes": 8214,
@@ -878,9 +903,9 @@
       "sha256": "5f161a1e0f475c12824ea1fc0d1c38773bb5cabfc1577125f01780fee548aa6c"
     },
     {
-      "bytes": 2145,
+      "bytes": 2228,
       "path": "scripts/verify_final_seal.py",
-      "sha256": "884a452ea9d3a6513898593f97bc84a98dc2a17565850798ea5c5379da3a9c53"
+      "sha256": "e2275af29d89b3d0ccd3beb15f01b4180c3d8565cf35639fda6b757f3e14aa1b"
     },
     {
       "bytes": 2933,
@@ -923,19 +948,19 @@
       "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
     }
   ],
-  "manifest_sha256": "e87b36053db1be7c79ea99063f32161bd49def8743309e2d824f0425f414bf1d",
-  "manifest_version": 6,
+  "manifest_sha256": "ca1dcf89bdac9bb7a54096c4d0ad53fa4b6049628d48f642a6d4de8bbdf9bcdb",
+  "manifest_version": 7,
   "payload_scope": "all repository files present at content sealing except publication/*, PUBLIC_MANIFEST.json, .git/*, __pycache__/*, *.pyc, .vercel/*, and post-seal carrier receipts under results/final_seal/*",
-  "predecessor_public_manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
-  "predecessor_publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
-  "predecessor_publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
-  "project_golden_route_manifest_sha256": "8ffa365ecfd3f646f83fb438ad34227bb0586438f127a083f0431777f0688312",
-  "project_golden_route_mmr_root": "204aa5e0a23b4171f4e9204b507a3620967d46e10d0dcd4aa259437659688f17",
-  "publication_breakpoint_id": "fco:740f91715d9cf4fcbeabd3679740f5b52407d6b973d6d6f09cca21e326ef299b",
-  "publication_breakpoint_path": "publication/PUB5_DEMO_VIDEO_WALKTHROUGH_SUCCESSOR.json",
-  "publication_merkle_root": "21472b3462213c2a057af95a75ea002f5a23341181d8571f5f616e7c675c89a4",
+  "predecessor_public_manifest_sha256": "e87b36053db1be7c79ea99063f32161bd49def8743309e2d824f0425f414bf1d",
+  "predecessor_publication_breakpoint_id": "fco:740f91715d9cf4fcbeabd3679740f5b52407d6b973d6d6f09cca21e326ef299b",
+  "predecessor_publication_merkle_root": "21472b3462213c2a057af95a75ea002f5a23341181d8571f5f616e7c675c89a4",
+  "project_golden_route_manifest_sha256": "d606673a33ab18ba10ae629140703ae16f555b388959666d3b18e65394babb37",
+  "project_golden_route_mmr_root": "5360f98721ecab951c1a0d397acaed910456e5f6405af612948b07db9aead729",
+  "publication_breakpoint_id": "fco:69271160ff8ca7384bb1e223e043ba77e108fdb55113c6362dfdeb070cb8819d",
+  "publication_breakpoint_path": "publication/PUB6_FINAL_SEAL_TOOLING_SUCCESSOR.json",
+  "publication_merkle_root": "e44349d9abe46dc2f4a261a412d3bd69b72c2d851994585acb212d339f893dab",
   "repository": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
   "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
   "schema": "vithia.public_manifest.v1",
-  "transition": "DEMO_VIDEO_WALKTHROUGH_SUCCESSOR"
+  "transition": "FINAL_SEAL_TOOLING_SUCCESSOR"
 }
