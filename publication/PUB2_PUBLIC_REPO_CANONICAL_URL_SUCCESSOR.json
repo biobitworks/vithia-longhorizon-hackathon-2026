@@ -1,6 +1,6 @@
 {
   "breakpoint": {
-    "object_id": "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6",
+    "object_id": "fco:a5bb6772a50796a32fd73d46a43af9e9276ff0e408d33df2f92f3565cf76d004",
     "object_type": "BreakpointFCO",
     "payload": {
       "claim_boundary": "This publication Merkle root seals declared public payload identities. It is separate from the project cumulative MMR.",
@@ -9,11 +9,11 @@
         "1b99b7afc8c845488c9f6308bace63c0914bb3a184fe58d9b9a98e5eb6704d8b",
         "db14564ef10b945372f444c1f4b3af0dcf5102860e1a1bd626fa1a5782c62da1",
         "53e8c3107b663f449f6a53197270da916c9d6087663a6c831276e53234ee5631",
-        "3441e4d893df10d501c4e13ebc447af70f2f7d46ad11bc55ba3c49ca776df379",
+        "2575b2e0d53bc4842fab1c66947ffda65b5950935b0b1880847b8199dafaeabf",
         "1bccd05d422733ff66342427238c8901ffd6c7e922a57446924abb22e4d64b1d",
-        "5fe54f35d3d75dbb4640983e4a67717c691f63f1d2db8ab74ecad73d9636ce7c",
+        "d9e088ffd750177c03dbd5fd3a8b981bf969ac17f053442e8f4124322025ad97",
         "b6974476ea37817d799183c3ba46203f547b88c3a3b87deed7feeae6f7c97e01",
-        "0b6761b6b33e396f1cef7e5610efaabe115f5781286e209444e69c9dc51acea2",
+        "843421da4b748236a8e777348eeaed703ddfeb4fe34fb9130f41998883a922d0",
         "6c3bff6ffdaf564759bf4cd5a8d76f9fecdb26ca48fe771d48ea7a38aef156e2",
         "29de1fdffdfb535ff16698de41f78f82fc4dbc494bf64a409fcd5556002e0c0d",
         "7ac26bf8b494043b7bbaa8b7fb4e7f5fbf32edadd95f3c575e74a49b0a10f761",
@@ -89,25 +89,25 @@
         "17ac72153fa7f1b3a06f0e4b934bf127a2729407bfd4806ed7eb31cb6edd2ba9",
         "e12dd87e0ee86e1266b44d528a6f1ac0f7b9dc0c16077bc3c918d4c05ff91e5c",
         "7b5d478960fde7bae0389c83256d0b8367db304d6456ffbfa14bc8035413d0be",
-        "8c8f620732eeb00e6be4447214f4cc4514033e02c9157e7a75a5489a0ffe63b7"
+        "236be678dedccda33e2e50445e6e9634bfc5c9725ea0301ae5659fd0c64daa01"
       ],
       "merkle_leaf_ordering": "declared_state_object_order",
-      "merkle_root_sha256": "ff81d03f94ad7271e3c867cffc19f58ffcfc0f7e0bf86fc59f13ffb9a91cc32d",
-      "predecessor_public_commit": "969f8975ac54d16236241bd0950005eb9f3d6f62",
+      "merkle_root_sha256": "82c77db196eebe8c5a4ea39c435324b32d335c10ffe2e6dd3df18c1ca72f7fd6",
+      "predecessor_publication_breakpoint_id": "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6",
       "project_golden_route_mmr_root": "3a86b49ea3a148ed9abd66009179f17ad4d63457e4dca74463e82ebe2ae05287",
       "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
-      "sequence": 1,
-      "stage": "PUBLIC_REPOSITORY_PREPUBLICATION_SEAL_SUCCESSOR",
+      "sequence": 2,
+      "stage": "PUBLIC_REPOSITORY_CANONICAL_URL_SUCCESSOR",
       "state_object_count": 84,
       "state_object_ids": [
         "fco:47f8cb8e799290d24b1f0f60c36e80cd6ed7b270aa55d9a3a30f0a982227fe52",
         "fco:a9638a39e61fc6362cd7cc761366640f2aa689d5dfeb0f9411f81c2291f07599",
         "fco:378dde32ee686b685de8cedb217e0a9dddb0722bf3c2ff4288a1136ab00ef983",
-        "fco:97315c8e158ea2221838c68c25b697d77a67761ee38fc24040ab4187ffafea8b",
+        "fco:27b9170da7fbdf7c3c171f775d36b11313c4698bfa79e517cc15a93b68c04de6",
         "fco:3da9d7c1233bf73cb972789ac073ac5e510a230438769e652f1c5dc7793b851c",
-        "fco:8e2b90cf1342e1d052b196fa6cdf869ff5785f855470177d94765039bc7b07ca",
+        "fco:6e17eac3bbc0e6eddd764e246335ff4b515983c7f8a8e4a55e4476f78f1ac6b0",
         "fco:075a622d44aa811e9e4ea1b99fc649d0eb74bfa4cdc0e6331dedc5fbc5917358",
-        "fco:4962ffe5c778e57cff49516f2e059e559b479c63eb3d38d470fef9c86a39ecbf",
+        "fco:f5fe33c3328c2a8acc7919708d348823cba5e3c5378aea0241fd20bd70dded47",
         "fco:f9c4a103b49e750aa1f423748b6f4bca9675a1e27b8c708b8968ad18e33042d3",
         "fco:1f1dcf6845b23a85984a3686c84fbb8c1aab112a5fad5886a8b879bca43c4b2d",
         "fco:85058692080c705d8ddc061b565be8cc5812566943fd1acd49cd8c5631cde0bf",
@@ -183,20 +183,22 @@
         "fco:6fa29461386210b57084251248902eae6f660b807c92f12301f9540fb2dd3a47",
         "fco:c4b1a2c86987aac24ff38b6db35798dc31a74625277b4212cb4a7e670a072dfa",
         "fco:f4c1d6fa8a32ebda5f05c78f407074f6ee6c2e2f054446097ee65af68bf746ef",
-        "fco:e9a3e371ede67af02b3afa5563d37641afb42a2d6ff248cedec924c1159c7a33"
+        "fco:89ee608fb9e8e98f7cb059cc102323c4d85b96db9bd122aec890e8c7a65d4788"
       ]
     },
-    "predecessor_ids": [],
+    "predecessor_ids": [
+      "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6"
+    ],
     "schema": "vithia.fco.v1",
     "source_ids": [
       "fco:47f8cb8e799290d24b1f0f60c36e80cd6ed7b270aa55d9a3a30f0a982227fe52",
       "fco:a9638a39e61fc6362cd7cc761366640f2aa689d5dfeb0f9411f81c2291f07599",
       "fco:378dde32ee686b685de8cedb217e0a9dddb0722bf3c2ff4288a1136ab00ef983",
-      "fco:97315c8e158ea2221838c68c25b697d77a67761ee38fc24040ab4187ffafea8b",
+      "fco:27b9170da7fbdf7c3c171f775d36b11313c4698bfa79e517cc15a93b68c04de6",
       "fco:3da9d7c1233bf73cb972789ac073ac5e510a230438769e652f1c5dc7793b851c",
-      "fco:8e2b90cf1342e1d052b196fa6cdf869ff5785f855470177d94765039bc7b07ca",
+      "fco:6e17eac3bbc0e6eddd764e246335ff4b515983c7f8a8e4a55e4476f78f1ac6b0",
       "fco:075a622d44aa811e9e4ea1b99fc649d0eb74bfa4cdc0e6331dedc5fbc5917358",
-      "fco:4962ffe5c778e57cff49516f2e059e559b479c63eb3d38d470fef9c86a39ecbf",
+      "fco:f5fe33c3328c2a8acc7919708d348823cba5e3c5378aea0241fd20bd70dded47",
       "fco:f9c4a103b49e750aa1f423748b6f4bca9675a1e27b8c708b8968ad18e33042d3",
       "fco:1f1dcf6845b23a85984a3686c84fbb8c1aab112a5fad5886a8b879bca43c4b2d",
       "fco:85058692080c705d8ddc061b565be8cc5812566943fd1acd49cd8c5631cde0bf",
@@ -272,7 +274,7 @@
       "fco:6fa29461386210b57084251248902eae6f660b807c92f12301f9540fb2dd3a47",
       "fco:c4b1a2c86987aac24ff38b6db35798dc31a74625277b4212cb4a7e670a072dfa",
       "fco:f4c1d6fa8a32ebda5f05c78f407074f6ee6c2e2f054446097ee65af68bf746ef",
-      "fco:e9a3e371ede67af02b3afa5563d37641afb42a2d6ff248cedec924c1159c7a33"
+      "fco:89ee608fb9e8e98f7cb059cc102323c4d85b96db9bd122aec890e8c7a65d4788"
     ]
   },
   "merkle_verified": true,

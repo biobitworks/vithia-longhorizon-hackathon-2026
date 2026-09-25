@@ -27,6 +27,6 @@ Long-horizon reliability improves when evidence, scoring, selection, context, ac
 https://tokensand.com/p/vithia-verifiable-long-horizon-agents?mode=developer
 https://vithia-longhorizon-hackathon.vercel.app/
 https://vithia-longhorizon-hackathon.vercel.app/demo.mp4
-https://github.com/biobitworks/vithia-longhorizon-agents-hackathon-2026
+https://github.com/biobitworks/vithia-longhorizon-hackathon-2026
 https://huggingface.co/biobitworks/fco-vithia-fmo-076
 https://doi.org/10.5281/zenodo.21829929

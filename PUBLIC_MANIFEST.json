@@ -1,6 +1,6 @@
 {
-  "bundle_fco_id": "fco:e9a3e371ede67af02b3afa5563d37641afb42a2d6ff248cedec924c1159c7a33",
-  "bundle_fco_path": "publication/objects/e9a3e371ede67af02b3afa5563d37641afb42a2d6ff248cedec924c1159c7a33.json",
+  "bundle_fco_id": "fco:89ee608fb9e8e98f7cb059cc102323c4d85b96db9bd122aec890e8c7a65d4788",
+  "bundle_fco_path": "publication/objects/89ee608fb9e8e98f7cb059cc102323c4d85b96db9bd122aec890e8c7a65d4788.json",
   "files": [
     {
       "bytes": 71,
@@ -18,9 +18,9 @@
       "sha256": "ad2b3f72deeea3a631859df81bb811e9f3a3968c516471ee5f1bc713f39b2a2b"
     },
     {
-      "bytes": 1844,
+      "bytes": 1837,
       "path": "README.md",
-      "sha256": "11d459da642a8ef0d7a5ec56d27bb54a558acfc3ac8c82de335d0f36787f1c4c"
+      "sha256": "4d95beb9e24825c6cd0daddd5dd68b9bfb8b9f6851219eb2b2501989567c69ec"
     },
     {
       "bytes": 506,
@@ -28,9 +28,9 @@
       "sha256": "1452642ca73e5020db0447037a767cf7e5554b9ba4cd58ddc027009eb91c9ad2"
     },
     {
-      "bytes": 916,
+      "bytes": 902,
       "path": "SETUP.md",
-      "sha256": "2b7e13029834f6367c6600962aff7f9faa75f56c7a6863496d1b8c89ac9ab8c0"
+      "sha256": "d7e748c04ac28097c210c357c58c36cb4861302a973b56b4cbb005674994ae49"
     },
     {
       "bytes": 798,
@@ -38,9 +38,9 @@
       "sha256": "15fa68a498ae4f5080f4df44f4ba8be86d576517a4f0a5f657456870f10175ef"
     },
     {
-      "bytes": 2725,
+      "bytes": 2718,
       "path": "SUBMISSION.md",
-      "sha256": "04b176dabc5ac77891b4235e15dec52751ae2d222c3a732397ecfbf99c8fe1f0"
+      "sha256": "13b00230138bb3eaa4c8815eb95717bde59db88d62e1eb79c27fcadab29318a8"
     },
     {
       "bytes": 195461,
@@ -418,16 +418,19 @@
       "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
     }
   ],
-  "manifest_sha256": "0f614d4477be8bbc9eabfbda4cad83f29479d113e8cf2d6caea3b4bff737e04b",
-  "manifest_version": 2,
+  "manifest_sha256": "7e019be763ee0a39f20c312e8bcb2ddd909fd59fa027a54754a940169f5b992d",
+  "manifest_version": 3,
   "payload_scope": "all repository files present at sealing except publication/*, PUBLIC_MANIFEST.json, .git/*, __pycache__/*, and *.pyc",
-  "predecessor_public_commit": "969f8975ac54d16236241bd0950005eb9f3d6f62",
+  "predecessor_public_manifest_sha256": "0f614d4477be8bbc9eabfbda4cad83f29479d113e8cf2d6caea3b4bff737e04b",
+  "predecessor_publication_breakpoint_id": "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6",
+  "predecessor_publication_merkle_root": "ff81d03f94ad7271e3c867cffc19f58ffcfc0f7e0bf86fc59f13ffb9a91cc32d",
   "project_golden_route_manifest_sha256": "ce71b6cfbc903f49e397109b04f3381aa523a1e717682d2ef9894056aef9420a",
   "project_golden_route_mmr_root": "3a86b49ea3a148ed9abd66009179f17ad4d63457e4dca74463e82ebe2ae05287",
-  "publication_breakpoint_id": "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6",
-  "publication_breakpoint_path": "publication/PUB1_PUBLIC_REPO_PREP_SUCCESSOR.json",
-  "publication_merkle_root": "ff81d03f94ad7271e3c867cffc19f58ffcfc0f7e0bf86fc59f13ffb9a91cc32d",
-  "repository": "https://github.com/biobitworks/vithia-longhorizon-agents-hackathon-2026",
+  "publication_breakpoint_id": "fco:a5bb6772a50796a32fd73d46a43af9e9276ff0e408d33df2f92f3565cf76d004",
+  "publication_breakpoint_path": "publication/PUB2_PUBLIC_REPO_CANONICAL_URL_SUCCESSOR.json",
+  "publication_merkle_root": "82c77db196eebe8c5a4ea39c435324b32d335c10ffe2e6dd3df18c1ca72f7fd6",
+  "repository": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
   "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
-  "schema": "vithia.public_manifest.v1"
+  "schema": "vithia.public_manifest.v1",
+  "transition": "CANONICAL_REPOSITORY_URL_RENAME"
 }

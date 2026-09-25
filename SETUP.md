@@ -7,8 +7,8 @@ Demo video: https://vithia-longhorizon-hackathon.vercel.app/demo.mp4
 Prerequisite: Python 3.
 
 ```bash
-git clone https://github.com/biobitworks/vithia-longhorizon-agents-hackathon-2026.git
-cd vithia-longhorizon-agents-hackathon-2026
+git clone https://github.com/biobitworks/vithia-longhorizon-hackathon-2026.git
+cd vithia-longhorizon-hackathon-2026
 python3 scripts/verify_golden_route.py
 python3 scripts/verify_public_repo.py
 ```

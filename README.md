@@ -7,7 +7,7 @@ Long Horizon Agents Hack 2026
 - Tokens& project: https://tokensand.com/p/vithia-verifiable-long-horizon-agents?mode=developer
 - Working demo: https://vithia-longhorizon-hackathon.vercel.app/
 - Demo video: https://vithia-longhorizon-hackathon.vercel.app/demo.mp4
-- Public repository: https://github.com/biobitworks/vithia-longhorizon-agents-hackathon-2026
+- Public repository: https://github.com/biobitworks/vithia-longhorizon-hackathon-2026
 
 ## What was built
 
