@@ -1,0 +1,113 @@
+{
+  "object_id": "fco:988d165d2fbc7cada9793b1c466efee6f829b7a9f91be6ffe0b5f0465a2247d8",
+  "object_type": "FinalSealFCO",
+  "payload": {
+    "app_build_identity": {
+      "created_at": "2026-09-25T22:59:11.427Z",
+      "deployment_id": "dpl_7v59vJvXzbhFgVSNmEm2sfNvEL2J",
+      "deployment_url": "https://vithia-longhorizon-hackathon-2h6ezdxb3-biobitworks.vercel.app",
+      "source_commit": "ebccb05d95880d71738abad164fa18b9cb0711df"
+    },
+    "app_smoke_status": "PASS",
+    "app_url": "https://vithia-longhorizon-hackathon.vercel.app/",
+    "bfl_state": "PASS_SEALED_MEDIA_WITH_CINEMATIC_JOB_BINDING_NOT_RECOVERED",
+    "bp0_status": "PASS",
+    "bp1_status": "PASS",
+    "bp2_status": "PASS",
+    "bp3_status": "PASS",
+    "bp4_status": "PASS",
+    "bp5_status": "PASS",
+    "breakpoint_verification_bundle_sha256": "b44aba6bd64045646c105ce9ccc8a8babce8f1149bccad2624223389cc29da81",
+    "claim_boundaries": [
+      "Hash establishes byte identity, not truth.",
+      "Merkle inclusion establishes declared integrity, not truth.",
+      "MMR establishes append-only custody history, not causality.",
+      "FCO/FCG retrieval is structured memory, not Liquid weight training.",
+      "One matched or divergent reader case is not model equivalence.",
+      "20-case LME smoke is not leaderboard superiority.",
+      "Anticube classification is not authorization.",
+      "G*/DeltaG* is not physical Gibbs free energy.",
+      "Synthetic restoration is not biological rejuvenation.",
+      "Nimble retrieval is not truth.",
+      "RawTree persistence is not the cryptographic custody root.",
+      "OpenAI Codex orchestration is not demonstrated Liquid inference.",
+      "BFL visual generation is not scientific validation."
+    ],
+    "ebp0_status": "PASS",
+    "ebp1_status": "PASS",
+    "evaluation_breakpoint_mapping": "EVBP0_PROTOCOL through EVBP5_BOUNDED_COMPRESSION independently replay PASS; invalid v0 predecessor preserved",
+    "evaluation_summary_sha256": "95e6d85bd4cea80f415da84cd96d7b6c797752cf179a7577f2c660f07aeb528d",
+    "failures": [
+      "LongMemEval-V2 official Small validator: missing required question screenshot assets",
+      "Historical LME v0 token-accounting failure preserved",
+      "Single-case 2.6B reader exhausted tested generation budget without canonical final answer"
+    ],
+    "golden_route_all_verified": true,
+    "golden_route_first": "GR0",
+    "golden_route_last": "GR15",
+    "historical_comparator_classes": [
+      "STRUCTURAL_COMPARATOR"
+    ],
+    "historical_comparator_count": 3,
+    "historical_registry_sha256": "9b6162e01a8f5af56fe72f90bde1f1b1235ba568ba367eb5658a77b0cdbe6bfe",
+    "liquid_state": "MIXED_PASS_AND_PARTIAL_RUNS_PRESERVED",
+    "lme_abstentions": 5,
+    "lme_deterministically_scored": 15,
+    "lme_fixed_question_count": 20,
+    "lme_m0_correct": 0,
+    "lme_observed_delta": 0.06666666666666667,
+    "lme_vithia_correct": 1,
+    "local_commit_sha": "ebccb05d95880d71738abad164fa18b9cb0711df",
+    "local_repo": "vithia-longhorizon-hackathon-2026",
+    "media_provenance_receipt_sha256": "2115d66ecf01841533403427c311c25c91a13eed1db6d2b3c3c3030f2b7c9848",
+    "media_sha256": {
+      "bfl_cinematic": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c",
+      "bfl_sealed_image": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c"
+    },
+    "nimble_state": "PASS_3_RESULTS_3_URLS",
+    "not_tested": [
+      "Full 422 text-only paired 1.2B vs 2.6B reader-capacity evaluation",
+      "Official LongMemEval-V2 leaderboard submission",
+      "Biological rejuvenation validation",
+      "Direct Tinybird ingest"
+    ],
+    "official_leaderboard_state": "NOT_SUBMITTED_NOT_COMPARABLE",
+    "openai_codex_state": "PASS_ORCHESTRATION_REGISTRATION_OBSERVED_BOTH_HOSTS",
+    "origin_parity": "SEALED_CONTENT_BRANCH_REMOTE_MATCH",
+    "partial": [
+      "Liquid 2.6B fresh bounded-classifier successor remains PARTIAL",
+      "Reader-capacity evaluation is single-case divergent evidence, not equivalence"
+    ],
+    "performance_generalization_state": "INSUFFICIENT_SAMPLE",
+    "project": "VITHIA_LONGHORIZON_HACKATHON",
+    "project_golden_route_manifest_sha256": "b46c910cd761bf507985f0079e78159d8ad7f0b266b196064c49827534332e9b",
+    "project_mmr_root": "71ff5170d4f94b6f6bd33d7327d19e5c5f063739c08edec2cc35abac08b5d67b",
+    "public_commit_sha": "ebccb05d95880d71738abad164fa18b9cb0711df",
+    "public_key_fingerprint": "NOT_RECOVERED",
+    "public_manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
+    "public_repo": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
+    "publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
+    "publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
+    "rawtree_state": "PASS_200_200_READBACK_MATCH",
+    "reader_capacity_eval_state": "PARTIAL_SINGLE_CASE_DIVERGENCE_NOT_EQUIVALENCE",
+    "rights_scope_state": "PASS_SCOPE_AWARE_POLICY_PRESENT_UNSIGNED",
+    "schema": "vithia.final_seal.v1",
+    "scientific_performance_state": "ENGINEERING_SMOKE_EXECUTED_GENERALIZATION_NOT_ESTABLISHED",
+    "seal_carrier_binding_tag": "vithia-final-seal-20260925",
+    "sealed_content_commit_sha": "ebccb05d95880d71738abad164fa18b9cb0711df",
+    "secret_scan_status": "PASS",
+    "sigkill_restart_status": "PASS",
+    "signature_state": "NOT_SIGNED",
+    "system_seal_state": "PASS",
+    "timestamp_utc": "2026-09-25T23:00:56.849575Z",
+    "tinybird_state": "NOT_TESTED_PARTIAL_DIRECT_INGEST",
+    "unknown": [
+      "Exact generation-job binding for assets/vithia-cinematic-bfl.mp4",
+      "Public-key fingerprint"
+    ],
+    "video_sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}
