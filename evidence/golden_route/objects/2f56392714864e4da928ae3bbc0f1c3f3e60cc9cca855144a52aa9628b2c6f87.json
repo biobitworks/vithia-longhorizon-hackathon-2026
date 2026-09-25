@@ -1,0 +1,28 @@
+{
+  "object_id": "fco:2f56392714864e4da928ae3bbc0f1c3f3e60cc9cca855144a52aa9628b2c6f87",
+  "object_type": "SponsorValidationFCO",
+  "payload": {
+    "claim_boundary": "Execution/transport validation only; does not establish truth, causality, or general model quality.",
+    "lane": "LIVE_SEARCH",
+    "provider": "NIMBLE",
+    "receipt": {
+      "provider": "NIMBLE",
+      "raw_response_persisted_private": true,
+      "raw_response_sha256": "cd9e9dc1939cc7e55dd3966559d78b66cdd07977671e94d8e63905c3bf45c2b0",
+      "receipt_sha256": "30084fcda77052b4ba11b9fca662f7d7bb388d9e5376262d141c3bd189e49109",
+      "result_count": 3,
+      "schema": "longhorizon.publication_validation.nimble.v1",
+      "secrets_persisted": false,
+      "source_domains": [
+        "arxiv.org",
+        "github.com"
+      ],
+      "source_url_count": 3,
+      "status": "PASS"
+    },
+    "validation_status": "PASS"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

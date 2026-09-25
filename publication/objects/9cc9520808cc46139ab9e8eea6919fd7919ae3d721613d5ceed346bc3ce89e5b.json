@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:9cc9520808cc46139ab9e8eea6919fd7919ae3d721613d5ceed346bc3ce89e5b",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 978,
+    "path": "evidence/sponsors/LIQUID_26B_DOWNLOAD_RECEIPT.json",
+    "sha256": "c32e4387d5c83f871bc863808dfc29aca1e9948ac98c11a051080c8c032e32d3"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

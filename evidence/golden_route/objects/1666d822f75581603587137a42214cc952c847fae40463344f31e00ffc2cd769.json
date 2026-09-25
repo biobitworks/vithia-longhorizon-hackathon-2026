@@ -1,0 +1,29 @@
+{
+  "object_id": "fco:1666d822f75581603587137a42214cc952c847fae40463344f31e00ffc2cd769",
+  "object_type": "PublicationReadinessFCO",
+  "payload": {
+    "claim_boundary": "Public release readiness reflects reproducibility/integrity checks, not scientific truth or universal sponsor performance.",
+    "fresh_positive_controls": [
+      "Liquid 1.2B tool-selection health PASS",
+      "Nimble live search PASS",
+      "RawTree insert/query readback PASS"
+    ],
+    "fresh_validation_states": {
+      "LIQUID_AI:BOUNDED_CLASSIFIER": "PARTIAL",
+      "LIQUID_AI:TOOL_SELECTION_HEALTH": "PASS",
+      "NIMBLE:LIVE_SEARCH": "PASS",
+      "RAWTREE:INSERT_QUERY_READBACK": "PASS"
+    },
+    "preserved_negative": "Liquid 2.6B bounded-classifier validation was PARTIAL 0/6 in the fresh publication run; prior Liquid evidence is not overwritten.",
+    "release_blocking_failures": [],
+    "state": "READY_WITH_BOUNDED_NEGATIVE"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:2f7244d71d60a9913c1902d51a941bbe6be0f352dc0aa669ac80214c4b3aff9a",
+    "fco:7aac89de476dbef88708a6462dba990c65140fca93a40755fcfbbaca21fb4eba",
+    "fco:2f56392714864e4da928ae3bbc0f1c3f3e60cc9cca855144a52aa9628b2c6f87",
+    "fco:fd537ebd24476019f9502eedc46e81c7b48cbd0bce331eb2e17453c7a69c2159"
+  ]
+}

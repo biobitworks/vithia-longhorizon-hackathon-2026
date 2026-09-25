@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:f9c4a103b49e750aa1f423748b6f4bca9675a1e27b8c708b8968ad18e33042d3",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 195461,
+    "path": "assets/BFL_FLUX2_KLEIN4B_OUTPUT_V2.png",
+    "sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

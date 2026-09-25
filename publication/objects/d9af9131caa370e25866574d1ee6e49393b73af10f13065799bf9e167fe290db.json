@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:d9af9131caa370e25866574d1ee6e49393b73af10f13065799bf9e167fe290db",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 798,
+    "path": "evidence/sponsors/BFL_FINETUNE_READINESS.json",
+    "sha256": "34f8fb3e5ec2a1e9bbccd09c621aff98089bb094f9c1debde8f6fa755096e224"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

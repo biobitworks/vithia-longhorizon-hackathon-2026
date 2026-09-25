@@ -1,0 +1,29 @@
+{
+  "object_id": "fco:fd537ebd24476019f9502eedc46e81c7b48cbd0bce331eb2e17453c7a69c2159",
+  "object_type": "SponsorValidationFCO",
+  "payload": {
+    "claim_boundary": "Execution/transport validation only; does not establish truth, causality, or general model quality.",
+    "lane": "INSERT_QUERY_READBACK",
+    "provider": "RAWTREE",
+    "receipt": {
+      "insert_elapsed_seconds": 0.763,
+      "insert_http_status": 200,
+      "insert_response_sha256": "ae7517535c6685126c6e8c45afb5d595769e8cf81484eb8c3ee7d1831bc73364",
+      "provider": "RAWTREE",
+      "query_elapsed_seconds": 0.196,
+      "query_http_status": 200,
+      "query_response_sha256": "fb02321cc9ed283b72b6044c4229f3619cbbdef218371dd4d2461cc66ee22cdf",
+      "raw_response_persisted_private": true,
+      "readback_match": true,
+      "receipt_sha256": "026dfe296e3b1cb92458b09f65a8d2680d0843f2de95bd36fe1b6a5071435368",
+      "run_id": "lh-publication-20260925T210604Z-b4159d8f",
+      "schema": "longhorizon.publication_validation.rawtree.v1",
+      "secrets_persisted": false,
+      "status": "PASS"
+    },
+    "validation_status": "PASS"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

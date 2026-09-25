@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:92f93a6fd57d84936ec6136fe523d4630d523c71d8243c3315a86603a277a5c8",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 5684,
+    "path": "evidence/golden_route/breakpoints/GR11_BFL_FINETUNE_BLOCKED.json",
+    "sha256": "31703cf4787b67da6bb602e8df48404cc8330f4fdc60d1d7bbeeda4fa405e505"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

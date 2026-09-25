@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:e65279b54c6a007f4bdbf66861349393ef113a74e393f1598d510c2244db8374",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 667,
+    "path": "evidence/sponsors/publication_validation/LIQUID_26B.json",
+    "sha256": "0ba8ad6f47321f548494db38b79555e1fc09fb989ee279626af01bbf04e17fb7"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

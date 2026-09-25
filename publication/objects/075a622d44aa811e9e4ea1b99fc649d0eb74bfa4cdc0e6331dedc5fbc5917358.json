@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:075a622d44aa811e9e4ea1b99fc649d0eb74bfa4cdc0e6331dedc5fbc5917358",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 798,
+    "path": "SPONSOR_STATUS.md",
+    "sha256": "15fa68a498ae4f5080f4df44f4ba8be86d576517a4f0a5f657456870f10175ef"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

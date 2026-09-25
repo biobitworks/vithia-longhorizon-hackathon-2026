@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:e49ec2b2dc3aa1510feebcc571e2ad0822771890109a7baa27ccb4b08c2b98ca",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 897,
+    "path": "evidence/sponsors/RAWTREE_USAGE_RECEIPT_V2.json",
+    "sha256": "e5e54660f799d6c30de14bbf9dae62c6e8e1ffb2bb0d4ad5ca4ab03741e1d954"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

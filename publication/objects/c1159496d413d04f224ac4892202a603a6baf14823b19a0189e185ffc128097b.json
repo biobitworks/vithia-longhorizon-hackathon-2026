@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:c1159496d413d04f224ac4892202a603a6baf14823b19a0189e185ffc128097b",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 512,
+    "path": "evidence/sponsors/NIMBLE_USAGE_RECEIPT.json",
+    "sha256": "00b9181114ac44c1d75abe47d3cae076f117cd4cf23696709683f7c674744b75"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

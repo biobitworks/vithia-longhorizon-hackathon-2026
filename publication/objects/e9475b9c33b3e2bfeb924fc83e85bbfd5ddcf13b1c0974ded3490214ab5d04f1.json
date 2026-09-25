@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:e9475b9c33b3e2bfeb924fc83e85bbfd5ddcf13b1c0974ded3490214ab5d04f1",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 4342,
+    "path": "evidence/golden_route/breakpoints/GR6_NIMBLE_FAIL.json",
+    "sha256": "9e4800a87dba3fe40a6031d1a27285a925448ee2021123d49ff15efbdc17ce9e"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

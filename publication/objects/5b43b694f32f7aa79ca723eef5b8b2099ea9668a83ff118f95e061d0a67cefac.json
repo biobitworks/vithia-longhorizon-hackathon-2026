@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:5b43b694f32f7aa79ca723eef5b8b2099ea9668a83ff118f95e061d0a67cefac",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 4030,
+    "path": "evidence/golden_route/breakpoints/GR5_RAWTREE_PASS.json",
+    "sha256": "c0408447d2a2aa0fc30e3bc36316b5336822c335171343e6266de3c63539bec1"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

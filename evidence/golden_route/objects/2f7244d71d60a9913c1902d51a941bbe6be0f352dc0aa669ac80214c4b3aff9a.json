@@ -1,0 +1,40 @@
+{
+  "object_id": "fco:2f7244d71d60a9913c1902d51a941bbe6be0f352dc0aa669ac80214c4b3aff9a",
+  "object_type": "SponsorValidationFCO",
+  "payload": {
+    "claim_boundary": "Execution/transport validation only; does not establish truth, causality, or general model quality.",
+    "lane": "TOOL_SELECTION_HEALTH",
+    "provider": "LIQUID_AI",
+    "receipt": {
+      "details": {
+        "context_length": 128000,
+        "embedding_length": 2048,
+        "families": [
+          "lfm2"
+        ],
+        "family": "lfm2",
+        "format": "gguf",
+        "parameter_size": "1.2B",
+        "parent_model": "/Users/maxime/.ollama/models/blobs/sha256-b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5",
+        "quantization_level": "Q4_K_M"
+      },
+      "elapsed_seconds": 1.258189,
+      "eval_count": 22,
+      "model": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m",
+      "model_authority": "PROPOSAL_ONLY",
+      "model_digest": "120c341e628189e9968d6e081b7dc2f94580a17a0d7f5c9f259f237d9ddd11c9",
+      "model_size_bytes": 730896036,
+      "receipt_sha256": "adbfa4c212f05187600f0263e29e9c325c18b97534f80547ebeeebbfbbd1cfb6",
+      "schema": "longhorizon.liquid_tool_smoke.v1",
+      "status": "PASS",
+      "tool_arguments_sha256": "f47301202856b410e237e1849a26ac2c5022ea5b8f42989611b5bdb327483591",
+      "tool_call_count": 1,
+      "tool_executed": false,
+      "tool_name": "request_network_search"
+    },
+    "validation_status": "PASS"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

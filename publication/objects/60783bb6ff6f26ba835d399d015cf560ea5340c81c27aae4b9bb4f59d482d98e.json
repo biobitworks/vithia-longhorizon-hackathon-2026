@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:60783bb6ff6f26ba835d399d015cf560ea5340c81c27aae4b9bb4f59d482d98e",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1502,
+    "path": "evidence/sponsors/BFL_DASHBOARD_PROMPT_API_REPLAY_RECEIPT.json",
+    "sha256": "9918f0db45165c999e162163447fa2466ee0bf47e11c5260a99a3e5521ad2122"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

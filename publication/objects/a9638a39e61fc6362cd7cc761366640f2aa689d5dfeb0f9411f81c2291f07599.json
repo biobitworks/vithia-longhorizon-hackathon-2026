@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:a9638a39e61fc6362cd7cc761366640f2aa689d5dfeb0f9411f81c2291f07599",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 643,
+    "path": "LICENSES.md",
+    "sha256": "d10100b0c739f83b6c857429b8584c6f9c780addf46a3b8cad27a407d16d4c99"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

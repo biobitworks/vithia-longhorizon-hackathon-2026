@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:be700326bc178634a85bcf2346a9efc8f21463b6cee7830ebd255636b83bb4c1",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 467,
+    "path": "evidence/sponsors/publication_validation/NIMBLE_SEARCH.json",
+    "sha256": "92d259e575e37cd9a9dd1ee6303345d3dca5699051cccb07411967085166de46"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

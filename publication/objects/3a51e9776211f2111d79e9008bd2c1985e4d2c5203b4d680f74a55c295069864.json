@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:3a51e9776211f2111d79e9008bd2c1985e4d2c5203b4d680f74a55c295069864",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 5518,
+    "path": "evidence/golden_route/breakpoints/GR10_LIQUID_26B_DOWNLOAD.json",
+    "sha256": "455ed96d1d9b73b049682fb82a82e4a44e6179444274ba4c7103c90ccedeb63b"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

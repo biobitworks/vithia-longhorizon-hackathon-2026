@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:8cc3ed495760c9a9106124bf75e2a8ff6e25d6b553541ed25c325909eef4c2aa",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 3810,
+    "path": "evidence/golden_route/breakpoints/GR4_RAWTREE_FAIL.json",
+    "sha256": "ed2279c2f91a17300c55b43c9f551090e7304d6d1974701c1094640b2977ae9b"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

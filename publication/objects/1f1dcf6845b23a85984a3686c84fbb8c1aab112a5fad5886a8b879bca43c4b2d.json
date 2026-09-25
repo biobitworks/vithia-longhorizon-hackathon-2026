@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:1f1dcf6845b23a85984a3686c84fbb8c1aab112a5fad5886a8b879bca43c4b2d",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 143626,
+    "path": "assets/vithia-hackathon-live.png",
+    "sha256": "cc3c5f0485c88e701b1c3d84c72fb8d3040d98113f4593f2c755faeadb2bb8a2"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

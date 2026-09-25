@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:273800afb773f21a7a254ff48ffe02bec121a1dd43d90a09df7710eda9e7bd28",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1394,
+    "path": "evidence/sponsors/BFL_FLUX3_VIDEO_AUDIO_ROUNDTRIP.json",
+    "sha256": "340943f5e576a974549f2b5d98220608e220b2a53d71bee53e08d99eb8a40f58"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

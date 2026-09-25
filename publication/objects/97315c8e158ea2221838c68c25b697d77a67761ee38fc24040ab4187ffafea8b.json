@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:97315c8e158ea2221838c68c25b697d77a67761ee38fc24040ab4187ffafea8b",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1844,
+    "path": "README.md",
+    "sha256": "11d459da642a8ef0d7a5ec56d27bb54a558acfc3ac8c82de335d0f36787f1c4c"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

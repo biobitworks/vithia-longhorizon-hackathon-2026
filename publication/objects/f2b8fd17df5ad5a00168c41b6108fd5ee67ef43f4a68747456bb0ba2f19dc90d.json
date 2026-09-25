@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:f2b8fd17df5ad5a00168c41b6108fd5ee67ef43f4a68747456bb0ba2f19dc90d",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 7392,
+    "path": "evidence/golden_route/breakpoints/GR12_BFL_VIDEO_AUDIO_ROUNDTRIP.json",
+    "sha256": "e82011288a483f3e462ae0afbd1edc7e9bcdecefbf81366579db34661de7ab22"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

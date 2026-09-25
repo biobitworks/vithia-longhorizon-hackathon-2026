@@ -1,0 +1,22 @@
+{
+  "endpoint": "http://127.0.0.1:11435",
+  "eval_count": 128,
+  "eval_duration_ns": 1240290000,
+  "field_results": {
+    "confirmation_required": false,
+    "data_class": false,
+    "destination_class": false,
+    "mutation_class": false,
+    "requested_capability": false,
+    "risk_class": false
+  },
+  "latency_s": 3.226,
+  "model": "longhorizon-liquid-26b:latest",
+  "parsed": null,
+  "prompt_sha256": "9f0a75a6ed90f931996a0086758bde09060b9d0c433e9116312e78458191c9bf",
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "schema": "vithia.liquid_bounded_classifier.v1",
+  "score": 0,
+  "status": "PARTIAL",
+  "total": 6
+}

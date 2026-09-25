@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:70b307883d04a8ffb853cc1b7a2816b6acdd6ce94a973002d0887ce2a6fd68fd",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 4414,
+    "path": "evidence/golden_route/breakpoints/GR7_NIMBLE_PASS.json",
+    "sha256": "67f8ce6200bdb4eb56d4c7ae0294e9b0d11327d43cafaa5a938efd5e98960be9"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:832f22568473ce71eb239f34be6c2bfe33a7bfef52d6f9264d33b8fef8b99464",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 9036,
+    "path": "evidence/golden_route/breakpoints/GR13_BFL_DASHBOARD_PROMPT_API_REPLAY.json",
+    "sha256": "a5a87ca79d578f1868ddbce37501d4c38f44ecf71844bb7afa07d2ee01988e34"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:85058692080c705d8ddc061b565be8cc5812566943fd1acd49cd8c5631cde0bf",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1961,
+    "path": "docs/BREAKPOINT_PROTOCOL.md",
+    "sha256": "97f7837a07871b933d1f185d606f78909f1b25196302fc5027e7195e169dccd1"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

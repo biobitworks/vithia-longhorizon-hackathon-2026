@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:21bd9d8f6ddc761a95610e9270afbb7c7d8e703f0f4f372d1e8f0a7c47ca51fe",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 1038,
+    "path": "evidence/sponsors/LIQUID_EXACT_BP4_CALL.json",
+    "sha256": "87b43535352570462b7c59084bcd7a7c1554d5f62cb42cd397c3fb55e1b4e44d"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:c08a8ddfd4eb7d5fa260d46f7b7e9b89d583df3e919dea7c365f58e7892be2df",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 2993,
+    "path": "evidence/golden_route/breakpoints/GR2_USAGE_AUDIT.json",
+    "sha256": "e21c703b81e5b7a247895f2b5f73982391f858863a79c3183338179ff6ff10ca"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}
