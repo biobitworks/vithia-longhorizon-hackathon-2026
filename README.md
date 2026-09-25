@@ -1,5 +1,8 @@
 # Vithia — Verifiable Long-Horizon Agents
 
+> [!IMPORTANT]
+> **Post-submission video notice — September 25, 2026.** The Tokens& submission page is now frozen and its **“Demo video”** button still opens the earlier YouTube playlist. The canonical final walkthrough is the sealed **2:56.8 presenter-overlay video** at https://vithia-longhorizon-hackathon.vercel.app/demo.mp4. Its SHA-256 is `f88c29331642a26d8233d865a5ebba52c1c1c6bdaa19ee16455499d75521cecc`, matching the production Vercel bytes and the repository final seal. The historical submission page has not been rewritten after the deadline.
+
 Vithia is a hackathon MVP for agents that need to work across long histories without hiding all prior state inside one giant prompt.
 
 ## Read this first
