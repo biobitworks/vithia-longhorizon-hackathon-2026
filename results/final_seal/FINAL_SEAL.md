@@ -22,3 +22,7 @@ System integrity PASS means the declared artifacts and transitions recompute und
 - Claim boundary: this records the supplied playlist URL and its stated purpose. Exact playlist contents/authorship were **NOT_INDEPENDENTLY_VERIFIED** in this session, and this carrier does **not** upgrade runtime or submission state.
 
 This post-seal carrier is intentionally outside the payload scope of `PUBLIC_MANIFEST.json`; no historical Merkle/MMR root is rewritten by this addition.
+
+### Current walkthrough successor
+
+The backup receipt above predates the completed edited walkthrough. The current permanent demo is https://vithia-longhorizon-hackathon.vercel.app/demo.mp4, 178.825456 seconds, SHA-256 b5d1226a5cd92bd4219f5358877b125d4b65618b6df1845d4c1281e1b576c634. Its presentation lineage is recorded by GR16; the latest seal-tooling successor is GR17.
