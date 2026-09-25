@@ -1,6 +1,6 @@
 {
-  "bundle_fco_id": "fco:81be91e6263fad68faaf5a985b1fde11afdef3e2cb5c05d6a21639acfb0bdb16",
-  "bundle_fco_path": "publication/objects/81be91e6263fad68faaf5a985b1fde11afdef3e2cb5c05d6a21639acfb0bdb16.json",
+  "bundle_fco_id": "fco:e9a3e371ede67af02b3afa5563d37641afb42a2d6ff248cedec924c1159c7a33",
+  "bundle_fco_path": "publication/objects/e9a3e371ede67af02b3afa5563d37641afb42a2d6ff248cedec924c1159c7a33.json",
   "files": [
     {
       "bytes": 71,
@@ -11,6 +11,11 @@
       "bytes": 643,
       "path": "LICENSES.md",
       "sha256": "d10100b0c739f83b6c857429b8584c6f9c780addf46a3b8cad27a407d16d4c99"
+    },
+    {
+      "bytes": 761,
+      "path": "PUBLICATION_CORRECTION.md",
+      "sha256": "ad2b3f72deeea3a631859df81bb811e9f3a3968c516471ee5f1bc713f39b2a2b"
     },
     {
       "bytes": 1844,
@@ -388,34 +393,14 @@
       "sha256": "976537848ab0bed291cd15a9baca64797a0ae88255c5cc684b36e58fb4c631a9"
     },
     {
-      "bytes": 1575,
+      "bytes": 1635,
       "path": "scripts/verify_public_repo.py",
-      "sha256": "088fa713080588e0f2d5dbc5c6da706412a0d2ee00be533617bc73040a45f9ef"
+      "sha256": "3c2b4cb5142f7a7079ced30d4df497197fb33dc11460b3a3b71d3f9f75ed819c"
     },
     {
       "bytes": 0,
       "path": "vithia/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "bytes": 188,
-      "path": "vithia/__pycache__/__init__.cpython-314.pyc",
-      "sha256": "a206e50c37090918f3224832411b40c0619da50f7db11068fa5058bedf99d232"
-    },
-    {
-      "bytes": 1538,
-      "path": "vithia/__pycache__/canonical.cpython-314.pyc",
-      "sha256": "e20ad587e1b34c4e778d1e0efffb6f4e66b50808d6237c0a8b2b10bf9e34b31f"
-    },
-    {
-      "bytes": 2222,
-      "path": "vithia/__pycache__/fco.cpython-314.pyc",
-      "sha256": "229723a5c6512924a97d4cb4a8e96091599175027b835bd8c0879e5f4e0b3fbb"
-    },
-    {
-      "bytes": 10231,
-      "path": "vithia/__pycache__/integrity.cpython-314.pyc",
-      "sha256": "f82a5e7bb01da288c8b672dbb3b14a8d23bb92bd1a36dc90462acf5881075694"
     },
     {
       "bytes": 475,
@@ -433,12 +418,15 @@
       "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
     }
   ],
-  "manifest_sha256": "93965e27f41a6357404619b5c0d4db61fd86a8d3b5fc267f6d506960cc7be71c",
-  "payload_scope": "all repository files present at sealing except publication/*, PUBLIC_MANIFEST.json, and .git/*",
+  "manifest_sha256": "0f614d4477be8bbc9eabfbda4cad83f29479d113e8cf2d6caea3b4bff737e04b",
+  "manifest_version": 2,
+  "payload_scope": "all repository files present at sealing except publication/*, PUBLIC_MANIFEST.json, .git/*, __pycache__/*, and *.pyc",
+  "predecessor_public_commit": "969f8975ac54d16236241bd0950005eb9f3d6f62",
   "project_golden_route_manifest_sha256": "ce71b6cfbc903f49e397109b04f3381aa523a1e717682d2ef9894056aef9420a",
   "project_golden_route_mmr_root": "3a86b49ea3a148ed9abd66009179f17ad4d63457e4dca74463e82ebe2ae05287",
-  "publication_breakpoint_id": "fco:61facb012cc1368a66a284ebf8acf7e38d21f97d5c726a489fdb79bbc5ee585c",
-  "publication_merkle_root": "f7534e650bb0fe3c20b99dd78517fa54e90b95d9a2731d38cdb04669c77bb1b8",
+  "publication_breakpoint_id": "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6",
+  "publication_breakpoint_path": "publication/PUB1_PUBLIC_REPO_PREP_SUCCESSOR.json",
+  "publication_merkle_root": "ff81d03f94ad7271e3c867cffc19f58ffcfc0f7e0bf86fc59f13ffb9a91cc32d",
   "repository": "https://github.com/biobitworks/vithia-longhorizon-agents-hackathon-2026",
   "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
   "schema": "vithia.public_manifest.v1"
