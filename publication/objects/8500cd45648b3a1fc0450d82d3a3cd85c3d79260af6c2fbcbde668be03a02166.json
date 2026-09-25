@@ -1,0 +1,12 @@
+{
+  "object_id": "fco:8500cd45648b3a1fc0450d82d3a3cd85c3d79260af6c2fbcbde668be03a02166",
+  "object_type": "PublicFileFCO",
+  "payload": {
+    "bytes": 3616,
+    "path": "evidence/dashboard/LME_V2_DASHBOARD_SUCCESSOR.json",
+    "sha256": "f964224ab5900fc6447f3c727a157de2292341d8b7b50e3842fafede35f29e07"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

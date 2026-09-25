@@ -1,0 +1,83 @@
+{
+  "breakpoints": [
+    {
+      "index": 0,
+      "merkle_root": "e3ae66f50bcc7901e4ba3b4a2df3829a2cbc68b875c3094e4351c1e01292ae95",
+      "mmr_root": "398e0bb90d66efb0ec5eb324de816d57a9106aae3e9642f2708c8c3520e65a69",
+      "stage": "BP0_INGEST_CUSTODY",
+      "verified": true
+    },
+    {
+      "index": 1,
+      "merkle_root": "068cac2e25db066f4194fda52fadbbc53e81071f1e33c96e4659ec5c45b1e0b8",
+      "mmr_root": "c6c0d02b17c7400bbc5bdf5d3fc1843069171e09841ce26490263640c4bb9b38",
+      "stage": "BP1_FCG_CONSTRUCTION",
+      "verified": true
+    },
+    {
+      "index": 2,
+      "merkle_root": "95e617b6b9f40f30be37ec2a0711d5228488080dcc08d098eb0ce46da78e35a9",
+      "mmr_root": "19a20fba10b89b3e242866587d6f9efbd7a348788472ac66c569f6107ebdf3a8",
+      "stage": "BP2_SIMULATION_FIELD",
+      "verified": true
+    },
+    {
+      "index": 3,
+      "merkle_root": "d317585cafd51d392ccd39e64cf5f063a0f750a0169c60c4f2514044bf9b80a3",
+      "mmr_root": "766774b88efb5bfc0889816340340650fb793220c78878fff9d688fa73eb9d2f",
+      "stage": "BP3_PATH_DECISION",
+      "verified": true
+    },
+    {
+      "index": 4,
+      "merkle_root": "fcc23a495e1edb76025855b621ab7322345c879f256dd81e888a3e92e3db6d21",
+      "mmr_root": "1ee8bdfaee5827e8847a73531cb7231b2f96ea949455e4cd8d35a857f4cfd621",
+      "stage": "BP4_CONTEXT_PROJECTION",
+      "verified": true
+    },
+    {
+      "index": 5,
+      "merkle_root": "f85de1ff336860aad1fa85ee550b56bc1bbeca1c6c8f02f4a1d3fb2b0d238ad1",
+      "mmr_root": "68d2b57d0c094a90453d0959e67ff8d511ebfa6a9e7ecc468d2152aa0a21dfb6",
+      "stage": "BP5_SUCCESSOR_TRANSITION",
+      "verified": true
+    }
+  ],
+  "claim_boundary": "Text-only fixed hackathon smoke subset only. Live answer execution is not an official LongMemEval-V2 score and is not leaderboard-comparable. Full multimodal Small remains not admitted while required question screenshots are missing.",
+  "dashboard_fixed_text_smoke_count": 20,
+  "dataset": "LongMemEval-V2",
+  "derived_cache": {
+    "cache_bytes": 171037057,
+    "cache_sha256": "6025b5e50f18b577ad8ff885f9a534ecdb82eba96b7ce100c0f3b2dc1c5e0c04",
+    "cached_trajectory_count": 200,
+    "complete": true,
+    "required_trajectory_count": 200
+  },
+  "final_mmr_root": "68d2b57d0c094a90453d0959e67ff8d511ebfa6a9e7ecc468d2152aa0a21dfb6",
+  "independent_recompute": "PASS",
+  "live_case": {
+    "benchmark_scoring_state": "NOT_COMPUTED_LIVE_DASHBOARD",
+    "claim_ceiling": "HACKATHON_ENGINEERING_SMOKE_ONLY",
+    "context_budget_bytes": 24576,
+    "context_bytes": 8213,
+    "context_sha256": "5b02ba673b0bbfc7fe92584ca286a8f819f7203fd1aefcaec78fd921f9aa83b3",
+    "leaderboard_comparable": false,
+    "question_id": "07ab3723",
+    "reader_model": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m",
+    "reader_provider": "openai_compatible",
+    "reader_status": "PASS"
+  },
+  "official_small_validator": "FAIL_MISSING_QUESTION_SCREENSHOTS",
+  "official_validator_failure": "Missing question image question_screenshots/18b91103.png",
+  "questions_text_only": 422,
+  "questions_total": 451,
+  "questions_with_image": 29,
+  "receipt_sha256": "3260629789a22dfd9697c40acae393475c2996cdb34d7bbe2d994451817957bb",
+  "schema": "vithia.lme_v2_dashboard_successor.v1",
+  "smoke_manifest_sha256": "c2b01aa2b8b69c94da334651a920f2edce1dad9dfdcbe14aa9738e17bf808152",
+  "source_checksums": {
+    "haystacks/lme_v2_small.json": "9b5301defb23a088a5f06e45ff8d5f35e569d78305a66d492046a9fff9b46593",
+    "questions.jsonl": "0a3ae5ebea938c24d7800e1e0b0828e08ae1646f939a53853b2b8cdc08e292b7",
+    "trajectories.jsonl": "363cec9a8e87aa8d9101ce4e600aadbf7031d674056ebe4f969e8424abc5f3c6"
+  }
+}

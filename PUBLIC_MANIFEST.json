@@ -1,6 +1,6 @@
 {
-  "bundle_fco_id": "fco:89ee608fb9e8e98f7cb059cc102323c4d85b96db9bd122aec890e8c7a65d4788",
-  "bundle_fco_path": "publication/objects/89ee608fb9e8e98f7cb059cc102323c4d85b96db9bd122aec890e8c7a65d4788.json",
+  "bundle_fco_id": "fco:6bba04e4f509c7f2bbeb5293c5ca84734f27d24175400c221dc277194e809c93",
+  "bundle_fco_path": "publication/objects/6bba04e4f509c7f2bbeb5293c5ca84734f27d24175400c221dc277194e809c93.json",
   "files": [
     {
       "bytes": 71,
@@ -18,9 +18,9 @@
       "sha256": "ad2b3f72deeea3a631859df81bb811e9f3a3968c516471ee5f1bc713f39b2a2b"
     },
     {
-      "bytes": 1837,
+      "bytes": 4146,
       "path": "README.md",
-      "sha256": "4d95beb9e24825c6cd0daddd5dd68b9bfb8b9f6851219eb2b2501989567c69ec"
+      "sha256": "c537bb7cfa75966f7bf3c6deea3e47f9ef4cc52aa62728d6e68d23e3b1e954cc"
     },
     {
       "bytes": 506,
@@ -38,9 +38,9 @@
       "sha256": "15fa68a498ae4f5080f4df44f4ba8be86d576517a4f0a5f657456870f10175ef"
     },
     {
-      "bytes": 2718,
+      "bytes": 4231,
       "path": "SUBMISSION.md",
-      "sha256": "13b00230138bb3eaa4c8815eb95717bde59db88d62e1eb79c27fcadab29318a8"
+      "sha256": "4c92f7fe08f2d8732536000665b75bbeffa7c991956901ad794f8519f3b1d511"
     },
     {
       "bytes": 195461,
@@ -56,6 +56,11 @@
       "bytes": 1961,
       "path": "docs/BREAKPOINT_PROTOCOL.md",
       "sha256": "97f7837a07871b933d1f185d606f78909f1b25196302fc5027e7195e169dccd1"
+    },
+    {
+      "bytes": 3616,
+      "path": "evidence/dashboard/LME_V2_DASHBOARD_SUCCESSOR.json",
+      "sha256": "f964224ab5900fc6447f3c727a157de2292341d8b7b50e3842fafede35f29e07"
     },
     {
       "bytes": 7978,
@@ -418,19 +423,19 @@
       "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
     }
   ],
-  "manifest_sha256": "7e019be763ee0a39f20c312e8bcb2ddd909fd59fa027a54754a940169f5b992d",
-  "manifest_version": 3,
+  "manifest_sha256": "043dd0017bf6de58b81691a521eab783db7f62a51be44b73b3de21084b9a3856",
+  "manifest_version": 4,
   "payload_scope": "all repository files present at sealing except publication/*, PUBLIC_MANIFEST.json, .git/*, __pycache__/*, and *.pyc",
-  "predecessor_public_manifest_sha256": "0f614d4477be8bbc9eabfbda4cad83f29479d113e8cf2d6caea3b4bff737e04b",
-  "predecessor_publication_breakpoint_id": "fco:162f5cec88a77780360cdfea577a87d60bb404a21c66a17095aa86fa728d12a6",
-  "predecessor_publication_merkle_root": "ff81d03f94ad7271e3c867cffc19f58ffcfc0f7e0bf86fc59f13ffb9a91cc32d",
+  "predecessor_public_manifest_sha256": "7e019be763ee0a39f20c312e8bcb2ddd909fd59fa027a54754a940169f5b992d",
+  "predecessor_publication_breakpoint_id": "fco:a5bb6772a50796a32fd73d46a43af9e9276ff0e408d33df2f92f3565cf76d004",
+  "predecessor_publication_merkle_root": "82c77db196eebe8c5a4ea39c435324b32d335c10ffe2e6dd3df18c1ca72f7fd6",
   "project_golden_route_manifest_sha256": "ce71b6cfbc903f49e397109b04f3381aa523a1e717682d2ef9894056aef9420a",
   "project_golden_route_mmr_root": "3a86b49ea3a148ed9abd66009179f17ad4d63457e4dca74463e82ebe2ae05287",
-  "publication_breakpoint_id": "fco:a5bb6772a50796a32fd73d46a43af9e9276ff0e408d33df2f92f3565cf76d004",
-  "publication_breakpoint_path": "publication/PUB2_PUBLIC_REPO_CANONICAL_URL_SUCCESSOR.json",
-  "publication_merkle_root": "82c77db196eebe8c5a4ea39c435324b32d335c10ffe2e6dd3df18c1ca72f7fd6",
+  "publication_breakpoint_id": "fco:ab5b063cd772e55ff37def957d28ccdf441f1e643ecbecc67b379033e49e4ac2",
+  "publication_breakpoint_path": "publication/PUB3_HUMAN_READABLE_LME_DASHBOARD_SUCCESSOR.json",
+  "publication_merkle_root": "0e2dae21aac33eba9398938d0629112236e2919642ebcc131a00ed06f0534e81",
   "repository": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
   "root_kind": "PUBLICATION_MERKLE_NOT_PROJECT_MMR",
   "schema": "vithia.public_manifest.v1",
-  "transition": "CANONICAL_REPOSITORY_URL_RENAME"
+  "transition": "HUMAN_READABLE_PRESENTATION_AND_LME_DASHBOARD_SUCCESSOR"
 }

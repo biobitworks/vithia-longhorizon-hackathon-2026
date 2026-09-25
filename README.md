@@ -1,33 +1,72 @@
 # Vithia — Verifiable Long-Horizon Agents
 
-Vithia is a hackathon MVP for long-running agents whose persistent evidence, active context, decisions, failures, and restart state remain independently inspectable.
+Vithia is a hackathon MVP for agents that need to work across long histories without hiding all prior state inside one giant prompt.
 
-Long Horizon Agents Hack 2026
+## Read this first
+
+For a person using the demo, the idea is simple: **the conversation stays readable, while the evidence used by the AI stays inspectable**.
+
+The live dashboard separates two views:
+
+- **Human view:** choose a question, read the answer, and see which model actually answered.
+- **AI custody view:** inspect the evidence path, exact bounded context, retained alternatives, and cryptographic breakpoints created during the run.
+
+The selector now exposes both **Project evidence** questions and a fixed **20-case LongMemEval-V2 text-only smoke set**. A live LongMemEval-V2 case was executed with LiquidAI/LFM2.5-1.2B and all six BP0–BP5 breakpoints independently recomputed successfully. This live run is an engineering smoke test, **not an official LongMemEval-V2 score and not leaderboard-comparable**.
+
+The full multimodal LongMemEval-V2 Small set is still gated because required question screenshot assets are incomplete. That failure is preserved rather than promoted to PASS.
+
+## Try it
 
 - Tokens& project: https://tokensand.com/p/vithia-verifiable-long-horizon-agents?mode=developer
-- Working demo: https://vithia-longhorizon-hackathon.vercel.app/
+- Public project page: https://vithia-longhorizon-hackathon.vercel.app/
 - Demo video: https://vithia-longhorizon-hackathon.vercel.app/demo.mp4
 - Public repository: https://github.com/biobitworks/vithia-longhorizon-hackathon-2026
+## What the technical terms mean
 
-## What was built
+- **FCO:** one independently addressable evidence or state object.
+- **FCG:** the graph connecting those objects through provenance and time.
+- **Golden path:** the context route selected for the current answer.
+- **Dark paths:** competing routes retained instead of erased.
+- **Breakpoint:** a recomputable commitment to a declared state.
+- **MMR:** the cumulative append-only commitment across breakpoints.
 
 The runtime separates a growing evidence graph from the bounded context actually shown to the model:
 
 source → FCO atoms → FCG → Anticube/ΔG* metadata → Golden/Dark paths → exact ContextProjectionFCO → output/observation → successor FCG → Merkle/MMR breakpoint
 
-The exported Golden Route contains **15 independently recomputable breakpoints (GR0–GR14)**. Latest cumulative MMR: `3a86b49ea3a148ed9abd66009179f17ad4d63457e4dca74463e82ebe2ae05287`.
+Anticube/ΔG* fields in this hackathon runtime are simulation/governance metadata unless a receipt explicitly states otherwise.
 
-Manifest identity: `ce71b6cfbc903f49e397109b04f3381aa523a1e717682d2ef9894056aef9420a`.
+## Current verified state
 
-Hashes and Merkle/MMR inclusion establish exact-byte identity/inclusion, not truth, causality, scientific validity, or model quality.
+The exported Golden Route contains **15 independently recomputable breakpoints (GR0–GR14)**.
 
-## Fresh publication validation
+- Golden Route cumulative MMR: `3a86b49ea3a148ed9abd66009179f17ad4d63457e4dca74463e82ebe2ae05287`
+- Golden Route manifest: `ce71b6cfbc903f49e397109b04f3381aa523a1e717682d2ef9894056aef9420a`
+- LongMemEval-V2 dashboard successor receipt: `evidence/dashboard/LME_V2_DASHBOARD_SUCCESSOR.json`
+- LME live-case MMR: `68d2b57d0c094a90453d0959e67ff8d511ebfa6a9e7ecc468d2152aa0a21dfb6`
+Hashes and Merkle/MMR inclusion establish exact-byte identity and inclusion. They do **not** establish truth, causality, scientific validity, or general model quality.
 
-Nimble live search: PASS (3 results / 3 URLs). RawTree telemetry: PASS (200/200 + exact readback). Liquid AI 1.2B tool-selection health: PASS. Liquid AI 2.6B bounded classifier: PARTIAL, 0/6 on the fresh validation run. BFL prior image/video evidence remains sealed; finetuning remains BLOCKED_NO_CHECKPOINT. Direct Tinybird ingest remains NOT_TESTED/PARTIAL.
+### Sponsor/runtime status
 
-## Verify
+Nimble live search: **PASS** (3 results / 3 URLs). RawTree telemetry: **PASS** (200/200 + exact readback). Liquid AI 1.2B tool-selection health: **PASS**. Liquid AI 2.6B bounded classifier: **PARTIAL, 0/6** on the fresh validation run. BFL prior image/video evidence remains sealed; finetuning remains **BLOCKED_NO_CHECKPOINT**. Direct Tinybird ingest remains **NOT_TESTED/PARTIAL**.
 
-`python3 scripts/verify_golden_route.py`
-`python3 scripts/verify_public_repo.py`
+These labels describe observed execution state; they are not product rankings.
 
-See SETUP.md, SUBMISSION.md, SPONSOR_STATUS.md, and docs/BREAKPOINT_PROTOCOL.md.
+## Machine-readable verification
+
+For exact state rather than presentation copy:
+
+- `evidence/golden_route/` — Golden Route objects and GR0–GR14 receipts
+- `evidence/dashboard/LME_V2_DASHBOARD_SUCCESSOR.json` — bounded LME dashboard successor
+- `SPONSOR_STATUS.md` — literal sponsor-lane execution states
+- `docs/BREAKPOINT_PROTOCOL.md` — breakpoint construction
+- `PUBLIC_MANIFEST.json` — sealed public repository payload
+
+Run:
+
+```bash
+python3 scripts/verify_golden_route.py
+python3 scripts/verify_public_repo.py
+```
+
+See `SUBMISSION.md`, `SETUP.md`, and `SECURITY.md` for the remaining public handoff.
