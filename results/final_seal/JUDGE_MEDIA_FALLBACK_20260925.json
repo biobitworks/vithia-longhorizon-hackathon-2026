@@ -1,0 +1,39 @@
+{
+  "schema": "vithia.judge_media_fallback.v1",
+  "project": "Vithia — Verifiable Long-Horizon Agents",
+  "state": "POST_SUBMISSION_REVIEW_AID",
+  "canonical_final_video": {
+    "path": "demo.mp4",
+    "primary_url": "https://vithia-longhorizon-hackathon.vercel.app/demo.mp4",
+    "repository_url": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026/blob/main/demo.mp4",
+    "direct_download_url": "https://raw.githubusercontent.com/biobitworks/vithia-longhorizon-hackathon-2026/main/demo.mp4",
+    "sha256": "f88c29331642a26d8233d865a5ebba52c1c1c6bdaa19ee16455499d75521cecc",
+    "duration_seconds": 176.821354,
+    "bytes": 40565868,
+    "backup_state": "COMMITTED_IN_PUBLIC_REPOSITORY"
+  },
+  "supporting_video": {
+    "path": "assets/vithia-cinematic-bfl.mp4",
+    "repository_url": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026/blob/main/assets/vithia-cinematic-bfl.mp4",
+    "direct_download_url": "https://raw.githubusercontent.com/biobitworks/vithia-longhorizon-hackathon-2026/main/assets/vithia-cinematic-bfl.mp4",
+    "sha256": "60c2564ca1c2442b1abd0506a90467c1422b07ffadc09b3e758868d70ddab87c",
+    "backup_state": "COMMITTED_IN_PUBLIC_REPOSITORY"
+  },
+  "review_timeline": [
+    {"start": "00:00", "end": "00:05", "segment": "BFL opening"},
+    {"start": "00:05", "end": "00:21", "segment": "iPhone introduction"},
+    {"start": "00:21", "end": "01:31", "segment": "Live walkthrough with presenter overlay"},
+    {"start": "01:31", "end": "01:43", "segment": "Cold restart"},
+    {"start": "01:43", "end": "01:51", "segment": "LongMemEval-V2 card"},
+    {"start": "01:51", "end": "02:24", "segment": "Nimble"},
+    {"start": "02:24", "end": "02:44", "segment": "RawTree"},
+    {"start": "02:44", "end": "02:52", "segment": "Final seal"},
+    {"start": "02:52", "end": "02:56.8", "segment": "BFL close"}
+  ],
+  "edit_receipt": "evidence/media/FINAL_VIDEO_EDIT_RECEIPT.json",
+  "historical_tokensand_demo_url": "https://www.youtube.com/playlist?list=PLQK0PH971TIo",
+  "historical_tokensand_demo_state": "FROZEN_EARLIER_PLAYLIST_NOT_CANONICAL_FINAL_VIDEO",
+  "raw_source_bytes_public_repo_state": "NOT_COMMITTED_AS_SEPARATE_JUDGE_BACKUPS",
+  "raw_source_identity_state": "RECORDED_IN_FINAL_VIDEO_EDIT_RECEIPT",
+  "claim_boundary": "This fallback manifest identifies review media and byte identity. It does not rewrite the frozen submission or expand scientific claims."
+}
