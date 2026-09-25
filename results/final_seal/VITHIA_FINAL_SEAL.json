@@ -1,9 +1,9 @@
 {
   "app_build_identity": {
-    "created_at": "2026-09-25T22:59:11.427Z",
-    "deployment_id": "dpl_7v59vJvXzbhFgVSNmEm2sfNvEL2J",
-    "deployment_url": "https://vithia-longhorizon-hackathon-2h6ezdxb3-biobitworks.vercel.app",
-    "source_commit": "ebccb05d95880d71738abad164fa18b9cb0711df"
+    "created_at": "2026-09-25T23:35:28.134Z",
+    "deployment_id": "dpl_EXzNRp8qWorWjdiwhQ71cAZksTof",
+    "deployment_url": "vithia-longhorizon-hackathon-jumuacc2l-biobitworks.vercel.app",
+    "source_commit": "c7d84876266f8cd5a1e6a1ea882e58cdb53fcefc"
   },
   "app_smoke_status": "PASS",
   "app_url": "https://vithia-longhorizon-hackathon.vercel.app/",
@@ -54,7 +54,7 @@
   "lme_m0_correct": 0,
   "lme_observed_delta": 0.06666666666666667,
   "lme_vithia_correct": 1,
-  "local_commit_sha": "ebccb05d95880d71738abad164fa18b9cb0711df",
+  "local_commit_sha": "c7d84876266f8cd5a1e6a1ea882e58cdb53fcefc",
   "local_repo": "vithia-longhorizon-hackathon-2026",
   "media_provenance_receipt_sha256": "2115d66ecf01841533403427c311c25c91a13eed1db6d2b3c3c3030f2b7c9848",
   "media_sha256": {
@@ -79,30 +79,30 @@
   "project": "VITHIA_LONGHORIZON_HACKATHON",
   "project_golden_route_manifest_sha256": "b46c910cd761bf507985f0079e78159d8ad7f0b266b196064c49827534332e9b",
   "project_mmr_root": "71ff5170d4f94b6f6bd33d7327d19e5c5f063739c08edec2cc35abac08b5d67b",
-  "public_commit_sha": "ebccb05d95880d71738abad164fa18b9cb0711df",
+  "public_commit_sha": "c7d84876266f8cd5a1e6a1ea882e58cdb53fcefc",
   "public_key_fingerprint": "NOT_RECOVERED",
-  "public_manifest_sha256": "947e0df6fccf9a2907349d95a8451082114f6ecfd508eda99ffafd3d37f28f39",
+  "public_manifest_sha256": "cdf48cf894b452ba9c26454e66b8bc8e259fba65c534d6608151f8ab445a0b7d",
   "public_repo": "https://github.com/biobitworks/vithia-longhorizon-hackathon-2026",
-  "publication_breakpoint_id": "fco:c0a43308c802ef2fd231a3a46cbcbcbf9e1c9b1e0c81d1b41d506bd98d548c02",
-  "publication_merkle_root": "a6177ab2ee21765587cbeed785933cf90cd866d08c2eac7627a89b051f6eaf45",
+  "publication_breakpoint_id": "fco:99f64920fb9bd2fade3c5b02ef5c52ee15bdaabb1d8148c51b32086b29d5c005",
+  "publication_merkle_root": "9cbd8acfeb8bd856bd41fed9051ed185a4906aa2e0b9fdd57f10ccc2848ea82a",
   "rawtree_state": "PASS_200_200_READBACK_MATCH",
   "reader_capacity_eval_state": "PARTIAL_SINGLE_CASE_DIVERGENCE_NOT_EQUIVALENCE",
   "rights_scope_state": "PASS_SCOPE_AWARE_POLICY_PRESENT_UNSIGNED",
   "schema": "vithia.final_seal.v1",
   "scientific_performance_state": "ENGINEERING_SMOKE_EXECUTED_GENERALIZATION_NOT_ESTABLISHED",
   "seal_carrier_binding_tag": "vithia-final-seal-20260925",
-  "seal_object_id": "fco:988d165d2fbc7cada9793b1c466efee6f829b7a9f91be6ffe0b5f0465a2247d8",
-  "seal_sha256": "988d165d2fbc7cada9793b1c466efee6f829b7a9f91be6ffe0b5f0465a2247d8",
-  "sealed_content_commit_sha": "ebccb05d95880d71738abad164fa18b9cb0711df",
+  "seal_object_id": "fco:51e5756a2df558c7d0030708360768d5c4863b1b9c041691558756c2feabeffe",
+  "seal_sha256": "51e5756a2df558c7d0030708360768d5c4863b1b9c041691558756c2feabeffe",
+  "sealed_content_commit_sha": "c7d84876266f8cd5a1e6a1ea882e58cdb53fcefc",
   "secret_scan_status": "PASS",
   "sigkill_restart_status": "PASS",
   "signature_state": "NOT_SIGNED",
   "system_seal_state": "PASS",
-  "timestamp_utc": "2026-09-25T23:00:56.849575Z",
+  "timestamp_utc": "2026-09-25T23:36:11.826909Z",
   "tinybird_state": "NOT_TESTED_PARTIAL_DIRECT_INGEST",
   "unknown": [
     "Exact generation-job binding for assets/vithia-cinematic-bfl.mp4",
     "Public-key fingerprint"
   ],
-  "video_sha256": "92da0e0a89f4e50cbcc64148a0f937b17e9e43e22aa9e751d328f44b2f4069db"
+  "video_sha256": "f88c29331642a26d8233d865a5ebba52c1c1c6bdaa19ee16455499d75521cecc"
 }
