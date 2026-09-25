@@ -12,3 +12,13 @@
 - Public key fingerprint: `NOT_RECOVERED`
 
 System integrity PASS means the declared artifacts and transitions recompute under the stated protocol. It does not establish semantic truth, biological validity, benchmark superiority, or reader-model equivalence.
+
+## Walkthrough backup — post-seal carrier
+
+- YouTube playlist: https://www.youtube.com/playlist?list=PLQK0PH971TIo
+- Receipt: `results/final_seal/WALKTHROUGH_PLAYLIST_BACKUP_20260925.json`
+- Recorded: `2026-09-25T16:28:00-07:00`
+- Purpose: preserve the project author's user-supplied backup evidence that walkthrough content was created for the final presentation when the in-chat implementation did not fully complete.
+- Claim boundary: this records the supplied playlist URL and its stated purpose. Exact playlist contents/authorship were **NOT_INDEPENDENTLY_VERIFIED** in this session, and this carrier does **not** upgrade runtime or submission state.
+
+This post-seal carrier is intentionally outside the payload scope of `PUBLIC_MANIFEST.json`; no historical Merkle/MMR root is rewritten by this addition.
