@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vithia Bio — Verifiable AI for Biological R&D</title>
+<meta name="description" content="Vithia Bio pitch deck — verifiable scientific memory and context for AI-native biology.">
+<style>
+:root{--bg:#061019;--panel:#0b1723;--line:#214156;--text:#f4f7fb;--mut:#9fb1bf;--cyan:#62d9e9;--gold:#f2b85d;--green:#65df9a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#061019,#08131e 45%,#060b12);color:var(--text);font:16px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}
+a{color:var(--cyan)}.nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:rgba(6,16,25,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.brand{font-weight:850;letter-spacing:-.02em}.navlinks{display:flex;gap:8px;flex-wrap:wrap}.pill{border:1px solid var(--line);border-radius:999px;padding:6px 10px;font-size:12px;text-decoration:none;color:var(--text)}
+.deck{max-width:1180px;margin:auto;padding:24px}.slide{min-height:78vh;margin:18px 0 34px;padding:48px;border:1px solid var(--line);border-radius:22px;background:radial-gradient(circle at 80% 15%,rgba(98,217,233,.09),transparent 32%),linear-gradient(135deg,#0b1723,#09111b);box-shadow:0 24px 80px rgba(0,0,0,.28);display:flex;flex-direction:column;justify-content:center}
+.kicker{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--cyan);font-weight:800}.num{float:right;color:#587084}.hero h1,.slide h2{font-size:clamp(2.3rem,6vw,5.4rem);line-height:.95;letter-spacing:-.05em;margin:.2em 0}.hero h1{font-size:clamp(3rem,8vw,7.2rem)}.lede{font-size:clamp(1.15rem,2.2vw,1.65rem);max-width:850px;color:#d7e1ea}.tag{display:inline-block;padding:7px 10px;border:1px solid #5a4b2a;background:#16120a;color:#f4cd87;border-radius:8px;font-size:12px;margin-top:14px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}.card{border:1px solid var(--line);background:rgba(5,12,18,.65);border-radius:14px;padding:18px}.card b{color:white}.big{font-size:1.4rem;font-weight:850}.flow{margin-top:22px;padding:18px;border:1px solid var(--line);border-radius:14px;background:#07101a;font:15px/1.8 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap}.em{color:var(--gold);font-weight:850}.ok{color:var(--green)}.small{color:var(--mut);font-size:13px}.ask{font-size:clamp(1.6rem,4vw,3.4rem);font-weight:850;line-height:1.05;max-width:900px}.footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
+@media(max-width:800px){.slide{padding:28px;min-height:auto}.grid,.grid3{grid-template-columns:1fr}.navlinks{display:none}.deck{padding:12px}}
+@media print{.nav{display:none}.deck{max-width:none;padding:0}.slide{page-break-after:always;min-height:100vh;margin:0;border-radius:0;box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="nav"><div class="brand">Vithia Bio · Biobitworks</div><div class="navlinks">
+<a class="pill" href="https://vithia-longhorizon-hackathon.vercel.app/">Live demo</a>
+<a class="pill" href="https://vithia-longhorizon-hackathon.vercel.app/demo.mp4">Video</a>
+<a class="pill" href="https://github.com/biobitworks/vithia-verifiable-long-horizon-agents">Evidence repo</a>
+</div></div>
+<main class="deck">
+<section class="slide hero"><div class="kicker">AI × Bio Pitch Contest · 2026 <span class="num">01</span></div>
+<h1>Vithia Bio</h1>
+<p class="lede"><b>Verifiable AI for biological R&D.</b><br>Scientific agents that can preserve evidence, failed paths, exact context, and successor state across long-running research programs.</p>
+<div class="tag">Biobitworks · Byron P. Lee</div></section>
+
+<section class="slide"><div class="kicker">The problem <span class="num">02</span></div>
+<h2>AI forgets how science got here.</h2>
+<p class="lede">Biology programs span papers, assays, omics, structures, model outputs, failed experiments, lab notes, and multiple AI sessions. The answer may survive. The scientific lineage often does not.</p>
+<div class="grid3"><div class="card"><div class="big">What evidence?</div><p>Which exact observations and sources produced the recommendation?</p></div><div class="card"><div class="big">What changed?</div><p>Did new data change the bytes, the interpretation, or only the context?</p></div><div class="card"><div class="big">Can we continue?</div><p>Can another scientist or agent recover the state without reconstructing it from chat?</p></div></div>
+</section>
+
+<section class="slide"><div class="kicker">The product <span class="num">03</span></div>
+<h2>Persistent scientific state. Bounded model context.</h2>
+<div class="flow">evidence
+  ↓
+FCO atoms  →  typed FCG scientific state
+  ↓
+Vithia selects the minimum relevant context
+  ↓
+AI model / agent
+  ↓
+experiment or decision
+  ↓
+new observation
+  ↓
+immutable successor state</div>
+<p class="lede">Vithia separates a growing evidence graph from the small context a model actually needs for the decision in front of it.</p>
+</section>
+
+<section class="slide"><div class="kicker">Biology wedge <span class="num">04</span></div>
+<h2>Start where biological meaning changes faster than the underlying sequence.</h2>
+<p class="lede">Protein disorder, aggregation risk, target prioritization, and assay interpretation are natural first workflows: the same sequence can acquire a different experimental meaning as structure, disease context, or assay evidence changes.</p>
+<div class="flow">sequence + structure + disorder + assay evidence
+  ↓
+Vithia scientific state
+  ↓
+AI proposes interpretation / experiment
+  ↓
+wet-lab result
+  ↓
+successor state — predecessor preserved</div>
+<p class="small">The pitch is for a verifiable research infrastructure layer; current public Vithia evidence is engineering validation, not a claim of wet-lab biological validation.</p>
+</section>
+
+<section class="slide"><div class="kicker">Differentiation <span class="num">05</span></div>
+<h2>Provenance becomes an active input to the agent.</h2>
+<div class="grid"><div class="card"><div class="big">RAG</div><p>Retrieves documents.</p></div><div class="card"><div class="big">Prompt compression</div><p>Removes tokens.</p></div><div class="card"><div class="big">Provenance systems</div><p>Record where evidence came from.</p></div><div class="card"><div class="big em">Vithia</div><p>Uses provenance + scientific state to decide what evidence the model needs next.</p></div></div>
+<p class="lede">The integration couples immutable evidence, contextual successors, explicit uncertainty/challenge, bounded context, and replayable execution.</p>
+</section>
+
+<section class="slide"><div class="kicker">What exists today <span class="num">06</span></div>
+<h2>Core system is running.</h2>
+<div class="grid"><div class="card"><div class="big ok">✓ Public Vithia demo</div><p>Human-facing agent + inspectable evidence state.</p></div><div class="card"><div class="big ok">✓ FCO / FCG + Merkle / MMR</div><p>Independently recomputable state boundaries.</p></div><div class="card"><div class="big ok">✓ Long-horizon recovery</div><p>Successor state can be recovered without relying on conversation memory.</p></div><div class="card"><div class="big ok">✓ Local + cloud model integrations</div><p>Model-visible context is independently bounded and inspectable.</p></div><div class="card"><div class="big ok">✓ Public preprints / DOI record</div><p>Reproducible evidence packages and publication lineage.</p></div><div class="card"><div class="big em">NEXT</div><p>Instrument a real biological workflow end-to-end.</p></div></div>
+</section>
+
+<section class="slide"><div class="kicker">Why now <span class="num">07</span></div>
+<h2>Turn a real bench workflow into a verifiable agent loop.</h2>
+<div class="flow">Bonneville bench access
+  ↓
+real assay / experimental workflow
+
+AWS compute
+  ↓
+model + evidence-graph execution
+
+Biobitworks / Vithia
+  ↓
+persistent governed scientific-agent layer
+
+OUTPUT
+  ↓
+bench → agent → bench pilot with preserved scientific lineage</div>
+</section>
+
+<section class="slide"><div class="kicker">The ask <span class="num">08</span></div>
+<div class="ask">We want a <span class="em">design partner and real biological workflow</span> — not another benchmark.</div>
+<div class="grid" style="margin-top:30px"><div class="card"><b>1 wet-lab / translational design partner</b></div><div class="card"><b>Bonneville bench access</b></div><div class="card"><b>AWS compute credits</b></div><div class="card"><b>Computational-biology collaborators</b></div><div class="card"><b>Pre-seed / strategic conversations</b></div><div class="card"><b>Goal:</b> first bench-to-agent-to-bench Vithia pilot</div></div>
+<p class="lede" style="margin-top:32px"><b>Vithia is the verifiable scientific memory and context layer for AI-native biology.</b></p>
+</section>
+
+<div class="footer">Vithia Bio · Biobitworks · Public engineering evidence: vithia-longhorizon-hackathon.vercel.app · Scientific claims remain bounded to governed receipts.</div>
+</main>
+</body></html>
