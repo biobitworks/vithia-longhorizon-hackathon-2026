@@ -102,3 +102,5 @@ The reader-capacity question is now explicit: **given the same cryptographically
 The public evidence app exposes five views: Live Agent, Evaluation, Alignment + Security, Evidence + Sponsors, and Final Seal. OpenAI Codex is attributed as orchestration/tooling; Liquid AI is the demonstrated local inference reader.
 
 > **Post-submission documentation boundary:** `JUDGE_REVIEW.md`, the README alert, and the judge-media fallback manifest were added after the submission deadline to improve review resilience. They do not claim to have been part of the frozen submission or the earlier sealed content commit.
+
+**License:** Unless otherwise explicitly licensed, original Biobitworks material in this repository is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/); third-party components remain under their respective licenses.
